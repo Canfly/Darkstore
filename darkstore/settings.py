@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'packaging.apps.PackagingConfig',
-    'channels'
+    'celery'
 ]
 
 MIDDLEWARE = [

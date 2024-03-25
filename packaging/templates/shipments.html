@@ -1,0 +1,32 @@
+{% extends 'main/base.html' %}
+{% block title %} {{ user }} {% endblock %}
+{% load static %}
+{% block content %}
+    <div class="container">
+        <h1>Shipments</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Product</th>
+                    <th>Seller</th>
+                    <th>Shipment Date</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for shipment in shipments %}
+                <tr>
+                    <td>{{ shipment.id }}</td>
+                    <td>{{ shipment.name }}</td>
+                    <td>{{ shipment.product.name }}</td>
+                    <td>{{ shipment.seller.name }}</td>
+                    <td>{{ shipment.shipment_date }}</td>
+                    <td>{{ shipment.status }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
