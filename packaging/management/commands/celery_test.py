@@ -11,7 +11,7 @@ class Command(BaseCommand):
         print(shedule[0])
         task = PeriodicTask.objects.create(
             name='celery_test',
-            task='update_shipments',
+            task='taskone',
             interval=shedule[0],
             start_time=timezone.now(),
         )

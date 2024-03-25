@@ -1,26 +1,25 @@
-from __future__ import absolute_import
+from __future__ import absolute_import,unicode_literals
 import os
 from celery import Celery
-from tasks import taskone
 
 # Настройка брокера сообщений
-CELERY_BROKER_URL = os.environ.get('CELERY_BROKER_URL', 'redis://localhost:6379')
 
-# Настройка задач
-CELERY_TASK_SERIALIZER = 'json'
-CELERY_ACCEPT_CONTENT = ['json']
-CELERY_RESULT_SERIALIZER = 'json'
+# Настройка очереди задач
+"""
+All info about setting up is here 
+https://episyche.com/blog/how-to-run-periodic-tasks-in-django-using-celery
+"""
 
-app = Celery('darkstore', broker='redis://localhost:6379')
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE","darkstore.settings")
+
+
+app = Celery('celery_app', broker = 'redis://localhost:6379/0',
+    backend = 'redis://localhost:6379/0')
+
+
+app.config_from_object('django.conf:settings', namespace='CELERY')
 
 # Optional: Автоматическое обнаружение задач
 app.autodiscover_tasks()
 
-from celery.schedules import crontab
-
-app.conf.beat_schedule = {
-       'taskone': {
-          'task': 'tasks.taskone',
-          'schedule': crontab(minute='*/10'), # Каждые 10 секунд
-          'args': (),
-       }}

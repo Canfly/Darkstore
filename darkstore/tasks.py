@@ -1,6 +1,5 @@
-from celery import Celery
+from celery import shared_task
 
-app = Celery('darkstore', broker='redis://localhost:6379')
 
 @app.task
 def taskone():
