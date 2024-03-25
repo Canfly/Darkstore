@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'packaging.apps.PackagingConfig',
-    'django_celery_beat'
+    'channels'
 ]
 
 MIDDLEWARE = [
@@ -68,6 +68,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'darkstore.wsgi.application'
+ASGI_APPLICATION = 'darkstore.asgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
