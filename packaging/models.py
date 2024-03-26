@@ -3,7 +3,6 @@ from django.db import models
 from django.contrib.auth.models import AbstractUser, Group, Permission
 
 
-
 class CustomUser(AbstractUser):
     INN = models.CharField(max_length=12, unique=True)
     checking_account = models.CharField(max_length=20)
@@ -39,7 +38,6 @@ class CustomUser(AbstractUser):
     )
 
 
-
 # Model "Shipments"
 class Shipment(models.Model):
     product = models.ForeignKey('Product', on_delete=models.CASCADE)
@@ -58,12 +56,12 @@ class Product(models.Model):
     sku = models.CharField(max_length=255, unique=True)
     quantity_in_stock = models.IntegerField(blank=True, null=True)
     quantity_at_fbo = models.IntegerField(blank=True, null=True)
-    code128 = models.CharField(max_length=255)
+    code128 = models.CharField(max_length=255, blank=True, null=True)
     price = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=True)
     category = models.CharField(max_length=255)
-    description = models.TextField()
-    article = models.CharField(max_length=255)
-    moysklad_id = models.CharField(max_length=255)
+    description = models.TextField(blank=True, null=True)
+    article = models.CharField(max_length=255, blank=True, null=True)
+    moysklad_id = models.CharField(max_length=255, blank=True, null=True)
     owner = models.ManyToManyField(CustomUser)
 
     def __str__(self):
@@ -86,6 +84,3 @@ class SalesChannel(models.Model):
 class ShipmentChannel(models.Model):
     shipment = models.ForeignKey(Shipment, on_delete=models.CASCADE)
     sales_channel = models.ForeignKey(SalesChannel, on_delete=models.CASCADE)
-
-
-

@@ -12,6 +12,7 @@
                     <th>SKU</th>
                     <th>Quantity in stock</th>
                     <th>Quantity at fbo</th>
+                    <th>Owner</th>>
                 </tr>
             </thead>
             <tbody>
@@ -22,6 +23,7 @@
                     <td>{{ product.sku}}</td>
                     <td>{{ product.quantity_in_stock }}</td>
                     <td>{{ product.quantity_at_fbo }}</td>
+                    <td>{{product.owner}}</td>
                 </tr>
                 {% endfor %}
             </tbody>
