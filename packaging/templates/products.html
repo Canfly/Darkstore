@@ -4,6 +4,8 @@
 {% block content %}
     <div class="container">
         <h1>Products</h1>
+        {% for owner in owners %}
+        <h2>{{ owner }}</h2>
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -16,17 +18,18 @@
                 </tr>
             </thead>
             <tbody>
-                {% for product in products %}
+                {% for product in owner.product_set.all %}
                 <tr>
                     <td>{{ product.id }}</td>
                     <td>{{ product.name }}</td>
                     <td>{{ product.sku}}</td>
                     <td>{{ product.quantity_in_stock }}</td>
                     <td>{{ product.quantity_at_fbo }}</td>
-                    <td>{{product.owner}}</td>
+                    <td>{{product.owner.0}}</td>
                 </tr>
                 {% endfor %}
             </tbody>
         </table>
+        {% endfor %}
     </div>
 {% endblock %}

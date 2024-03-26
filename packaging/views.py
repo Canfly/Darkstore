@@ -2,7 +2,7 @@ from django.contrib.auth import authenticate
 from django.shortcuts import render, redirect
 from django.http import HttpResponse, JsonResponse
 import requests
-from .models import Shipment, Product
+from .models import Shipment, Product,CustomUser
 from .utils import update_product_from_api, update_stocks_from_api
 import json
 
@@ -97,5 +97,7 @@ def shipments(request):
 
 
 def products(request):
-    products = Product.objects.all()
-    return render(request, 'products.html', {'products': products})
+    owners = CustomUser.objects.all()
+    for owner in owners:
+        print(owner.product_set.all())
+    return render(request, 'products.html', {'owners': owners})
