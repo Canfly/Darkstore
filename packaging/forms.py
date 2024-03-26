@@ -3,6 +3,10 @@ from django.contrib.auth.forms import UserCreationForm
 from .models import CustomUser
 
 
+class LoginForm(forms.Form):
+    username = forms.CharField(max_length=65)
+    password = forms.CharField(max_length=65, widget=forms.PasswordInput)
+
 class CustomUserCreationForm(UserCreationForm):
     class Meta(UserCreationForm.Meta):
         model = CustomUser
