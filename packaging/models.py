@@ -19,12 +19,17 @@ class Product(models.Model):
     # id = models.CharField(max_length=255)
     name = models.CharField(max_length=255)
     sku = models.CharField(max_length=255, unique=True)
-    quantity_in_stock = models.IntegerField()
-    quantity_at_fbo = models.IntegerField()
+    quantity_in_stock = models.IntegerField(blank=True, null=True)
+    quantity_at_fbo = models.IntegerField(blank=True, null=True)
     code128 = models.CharField(max_length=255)
-    price = models.DecimalField(max_digits=10, decimal_places=2)
+    price = models.DecimalField(max_digits=10, decimal_places=2, blank=True,null=True)
     category = models.CharField(max_length=255)
     description = models.TextField()
+    article = models.CharField(max_length=255)
+    moysklad_id = models.CharField(max_length=255)
+
+    def __str__(self):
+        return self.name
 
 
 # Model "Sellers"

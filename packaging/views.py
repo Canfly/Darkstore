@@ -3,7 +3,8 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse, JsonResponse
 import requests
 from .models import Shipment, Product
-from .utils import update_product_from_api
+from .utils import update_product_from_api, update_stocks_from_api
+import json
 
 import base64
 
@@ -64,7 +65,30 @@ def sync_products(request):
         else:
             return HttpResponse(status=500)
 
-    return render(request, "sync.html")
+    return render(request, "sync_products.html")
+
+
+def sync_stocks(request):
+    """Syncs products from MoySklad."""
+    LOGIN = "sklad@fillrufill"
+    PASSWORD = "FillRu2024Password"
+    URL_API = "https://api.moysklad.ru/api/remap/1.2/report/stock/all"
+    headers = {"Authorization": get_access_token()}
+    response = requests.get(URL_API, headers=headers)
+
+    if request.method == "POST":
+        response = requests.get(URL_API, headers=headers)
+        # print(response.json())
+        if response.status_code == 200:
+            products = []
+            for product in response.json()["rows"]:
+                product_id = update_stocks_from_api(product["article"], product["quantity"])
+                products.append({"sku": product_id, "name": product["name"]})
+            return JsonResponse(products, safe=False)
+        else:
+            return HttpResponse(status=500)
+
+    return render(request, "sync_stocks.html")
 
 
 def shipments(request):
