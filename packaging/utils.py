@@ -10,7 +10,8 @@ def parse_product_data(response):
     return {
         "name": data["name"],
         "sku": data["code"],
-        "quantity": 0,
+        "quantity_at_fbo": 0,
+        "quantity_in_stock": 0,
         "category": data["pathName"],
         "description": data["description"] if "description" in list(data.keys()) else "",
         "article": data["article"],

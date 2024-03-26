@@ -1,0 +1,30 @@
+{% extends 'adminlte/base.html' %}
+{% block title %} {{ user }} {% endblock %}
+{% load static %}
+{% block content %}
+    <div class="container">
+        <h1>Products</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Quantity in stock</th>
+                    <th>Quantity at fbo</th>
+                    <th>SKU</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for product in products %}
+                <tr>
+                    <td>{{ product.id }}</td>
+                    <td>{{ product.name }}</td>
+                    <td>{{ product.quantity_in_stock }}</td>
+                    <td>{{ product.quantity_at_fbo }}</td>
+                    <td>{{ product.sku}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

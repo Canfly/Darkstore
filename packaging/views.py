@@ -94,3 +94,8 @@ def sync_stocks(request):
 def shipments(request):
     shipments = Shipment.objects.all()
     return render(request, 'shipments.html', {'shipments': shipments})
+
+
+def products(request):
+    products = Product.objects.all()
+    return render(request, 'products.html', {'products': products})
