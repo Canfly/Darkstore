@@ -19,7 +19,7 @@ def update_product_from_api(product_id, response):
     # измените "id" на правильный ключ для идентификатора продукта из API
     #product_id = product["code"]  
 
-    product = Product.objects.get(pk=product_id)
+    product = Product.objects.get_or_create(pk=product_id)
     data = parse_product_data(response)
     for field, value in data.items():
         setattr(product, field, value)
