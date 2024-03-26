@@ -44,24 +44,3 @@ class User(models.Model):
     ozon_client_id = models.CharField(max_length=255)
     wildberries_api_key = models.CharField(max_length=255)
     yandex_market_api_key = models.CharField(max_length=255)
-
-
-class CustomUser(AbstractUser):
-    INN = models.CharField(max_length=12)
-    checking_account = models.CharField(max_length=20)
-    BIK = models.CharField(max_length=9)
-    ozon_client_id = models.CharField(max_length=100, blank=True, null=True)
-    ozon_client_key = models.CharField(max_length=100, blank=True, null=True)
-    wildberries_api_key = models.CharField(max_length=100, blank=True, null=True)
-    yandex_market_api_key = models.CharField(max_length=100, blank=True, null=True)
-
-    # Поле для определения типа пользователя
-    USER_TYPES = (
-        ('seller', 'Продавец'),
-        ('warehouse_worker', 'Работник склада'),
-        ('warehouse_manager', 'Менеджер склада'),
-    )
-    user_type = models.CharField(max_length=20, choices=USER_TYPES)
-    # Установка пользовательских имен для обратных отношений
-    groups.related_name = 'customuser_groups'
-    user_permissions.related_name = 'customuser_permissions'

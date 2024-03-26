@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Shipment, Product, Seller, User, SalesChannel, ShipmentChannel, CustomUser
+from .models import Shipment, Product, Seller, User, SalesChannel, ShipmentChannel
 
 admin.site.register(Shipment)
 admin.site.register(Product)
@@ -8,7 +8,6 @@ admin.site.register(Seller)
 admin.site.register(User)
 admin.site.register(SalesChannel)
 admin.site.register(ShipmentChannel)
-admin.site.register(CustomUser)
 
 
 

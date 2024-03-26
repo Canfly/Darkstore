@@ -7,17 +7,7 @@ from .utils import update_product_from_api
 import base64
 
 from django.contrib.auth.forms import UserCreationForm
-from .forms import CustomUserCreationForm
 
-def register(request):
-    if request.method == 'POST':
-        form = CustomUserCreationForm(request.POST)
-        if form.is_valid():
-            user = form.save()
-            return redirect('login')
-    else:
-        form = CustomUserCreationForm()
-    return render(request, 'registration/register.html', {'form': form})
 
 def get_access_token():
     LOGIN = "sklad@fillrufill"
