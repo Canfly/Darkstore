@@ -3,52 +3,6 @@ from django.db import models
 from django.contrib.auth.models import AbstractUser, Group, Permission
 
 
-# Model "Shipments"
-class Shipment(models.Model):
-    product = models.ForeignKey('Product', on_delete=models.CASCADE)
-    seller = models.ForeignKey('Seller', on_delete=models.CASCADE)
-    shipment_date = models.DateField()
-    status = models.CharField(max_length=255,
-                              choices=[('New', 'New'), ('In progress', 'In progress'), ('Shipped', 'Shipped')])
-    channels = models.ManyToManyField('SalesChannel',
-                                      through='ShipmentChannel')  # ManyToMany relationship with SalesChannel
-
-
-# Model "Products"
-class Product(models.Model):
-    # id = models.CharField(max_length=255)
-    name = models.CharField(max_length=255)
-    sku = models.CharField(max_length=255, unique=True)
-    quantity_in_stock = models.IntegerField(blank=True, null=True)
-    quantity_at_fbo = models.IntegerField(blank=True, null=True)
-    code128 = models.CharField(max_length=255)
-    price = models.DecimalField(max_digits=10, decimal_places=2, blank=True,null=True)
-    category = models.CharField(max_length=255)
-    description = models.TextField()
-    article = models.CharField(max_length=255)
-    moysklad_id = models.CharField(max_length=255)
-
-    def __str__(self):
-        return self.name
-
-
-# Model "Sellers"
-class Seller(models.Model):
-    name = models.CharField(max_length=255)
-    tax_id = models.CharField(max_length=255)
-    email = models.EmailField()
-
-
-# Model "SalesChannel" (formerly CANALS PRODAZH)
-class SalesChannel(models.Model):
-    name = models.CharField(max_length=255)  # Channel name (e.g., Ozon, Wildberries, Yandex Market)
-
-
-# Model "ShipmentChannel" (Many-to-Many Relationship Helper)
-class ShipmentChannel(models.Model):
-    shipment = models.ForeignKey(Shipment, on_delete=models.CASCADE)
-    sales_channel = models.ForeignKey(SalesChannel, on_delete=models.CASCADE)
-
 
 class CustomUser(AbstractUser):
     INN = models.CharField(max_length=12, unique=True)
@@ -58,6 +12,7 @@ class CustomUser(AbstractUser):
     ozon_client_key = models.CharField(max_length=100, blank=True, null=True)
     wildberries_api_key = models.CharField(max_length=100, blank=True, null=True)
     yandex_market_api_key = models.CharField(max_length=100, blank=True, null=True)
+    moysklad_id = models.CharField(max_length=100, blank=True, null=True)
 
     # Поле для определения типа пользователя
     USER_TYPES = (
@@ -82,3 +37,55 @@ class CustomUser(AbstractUser):
         help_text="Specific permissions for this user.",
         verbose_name="user permissions",
     )
+
+
+
+# Model "Shipments"
+class Shipment(models.Model):
+    product = models.ForeignKey('Product', on_delete=models.CASCADE)
+    seller = models.ForeignKey('Seller', on_delete=models.CASCADE)
+    shipment_date = models.DateField()
+    status = models.CharField(max_length=255,
+                              choices=[('New', 'New'), ('In progress', 'In progress'), ('Shipped', 'Shipped')])
+    channels = models.ManyToManyField('SalesChannel',
+                                      through='ShipmentChannel')  # ManyToMany relationship with SalesChannel
+
+
+# Model "Products"
+class Product(models.Model):
+    # id = models.CharField(max_length=255)
+    name = models.CharField(max_length=255)
+    sku = models.CharField(max_length=255, unique=True)
+    quantity_in_stock = models.IntegerField(blank=True, null=True)
+    quantity_at_fbo = models.IntegerField(blank=True, null=True)
+    code128 = models.CharField(max_length=255)
+    price = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=True)
+    category = models.CharField(max_length=255)
+    description = models.TextField()
+    article = models.CharField(max_length=255)
+    moysklad_id = models.CharField(max_length=255)
+    owner = models.ManyToManyField(CustomUser)
+
+    def __str__(self):
+        return self.name
+
+
+# Model "Sellers"
+class Seller(models.Model):
+    name = models.CharField(max_length=255)
+    tax_id = models.CharField(max_length=255)
+    email = models.EmailField()
+
+
+# Model "SalesChannel" (formerly CANALS PRODAZH)
+class SalesChannel(models.Model):
+    name = models.CharField(max_length=255)  # Channel name (e.g., Ozon, Wildberries, Yandex Market)
+
+
+# Model "ShipmentChannel" (Many-to-Many Relationship Helper)
+class ShipmentChannel(models.Model):
+    shipment = models.ForeignKey(Shipment, on_delete=models.CASCADE)
+    sales_channel = models.ForeignKey(SalesChannel, on_delete=models.CASCADE)
+
+
+
