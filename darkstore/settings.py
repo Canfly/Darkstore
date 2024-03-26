@@ -39,10 +39,16 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'packaging',
+    'crispy_forms',
+    'crispy_bootstrap5', 
     'celery',
     'django_celery_beat',
     'adminlte3',
 ]
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+
+CRISPY_TEMPLATE_PACK = "bootstrap5"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -140,3 +146,6 @@ CELERY_BEAT_SCHEDULE = {
     'schedule':1
     }
 }
+
+LOGIN_REDIRECT_URL = "/shipments"
+LOGOUT_REDIRECT_URL = "/login"

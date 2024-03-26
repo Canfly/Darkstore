@@ -1,4 +1,4 @@
-from django.contrib.auth import authenticate
+from django.contrib.auth import login, logout, authenticate
 from django.shortcuts import render, redirect
 from django.http import HttpResponse, JsonResponse
 import requests
@@ -9,34 +9,23 @@ import json
 import base64
 
 from django.contrib.auth.forms import UserCreationForm
-from .forms import CustomUserCreationForm, LoginForm
+from .forms import CustomUserCreationForm, RegisterForm
 
+def home(request):
+    pass
 
 def register(request):
     if request.method == 'POST':
-        form = CustomUserCreationForm(request.POST)
+        form = RegisterForm(request.POST)
         if form.is_valid():
             user = form.save()
-            return redirect('login')
+            login(request, user)
+            return redirect('/home')
     else:
-        form = CustomUserCreationForm()
-    return render(request, 'registration/register.html', {'form': form})
+        form = RegisterForm()
 
+    return render(request, 'registration/register.html', {"form": form})
 
-def login(request):
-    if request.method == 'POST':
-        form = LoginForm(request.POST)
-        if form.is_valid():
-            username = form.cleaned_data['username']
-            password = form.cleaned_data['password']
-            user = authenticate(request, username=username, password=password)
-            print(user)
-            if user:
-                login(request, user)
-                redirect('sync_products')
-    else:
-        form = LoginForm()
-    return render(request, 'registration/login.html', {'form': form})
 
 
 def get_access_token():
