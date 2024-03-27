@@ -46,6 +46,8 @@ class CustomUser(AbstractUser):
 
 # Model "Shipments"
 class Shipment(models.Model):
+    marketplace_id = models.CharField(max_length=255, blank=True, null=True)
+    moysklad_id = models.CharField(max_length=255, blank=True, null=True)
     product = models.ForeignKey('Product', on_delete=models.CASCADE)
     seller = models.ForeignKey('Seller', on_delete=models.CASCADE)
     shipment_date = models.DateField()
@@ -53,7 +55,7 @@ class Shipment(models.Model):
                               choices=[('New', 'New'), ('In progress', 'In progress'), ('Shipped', 'Shipped')])
     channels = models.ManyToManyField('SalesChannel',
                                       through='ShipmentChannel')  # ManyToMany relationship with SalesChannel
-    files = models.FileField(upload_to='uploads/% Y/% m/% d/', blank=True, null=True)
+    files = models.CharField(max_length=255, blank=True, null=True)
 
 
 # Model MarketPlaceArticle
@@ -88,7 +90,7 @@ class Product(models.Model):
     marketplaces_articles = models.ManyToManyField(MarketPlaceArticle)
 
     def __str__(self):
-        return self.name
+        return str(self.name)
 
 
 # Model "Sellers"
@@ -97,10 +99,16 @@ class Seller(models.Model):
     tax_id = models.CharField(max_length=255)
     email = models.EmailField()
 
+    def __str__(self):
+        return str(self.name)
+
 
 # Model "SalesChannel" (formerly CANALS PRODAZH)
 class SalesChannel(models.Model):
     name = models.CharField(max_length=255)  # Channel name (e.g., Ozon, Wildberries, Yandex Market)
+
+    def __str__(self):
+        return str(self.name)
 
 
 # Model "ShipmentChannel" (Many-to-Many Relationship Helper)
