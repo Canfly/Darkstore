@@ -2,7 +2,7 @@ from django.contrib.auth import login, logout, authenticate
 from django.shortcuts import render, redirect
 from django.http import HttpResponse, JsonResponse
 import requests
-from .models import Shipment, Product,CustomUser
+from .models import Shipment, Product, CustomUser
 from .utils import update_product_from_api, update_stocks_from_api
 import json
 
@@ -11,8 +11,12 @@ import base64
 from django.contrib.auth.forms import UserCreationForm
 from .forms import CustomUserCreationForm, RegisterForm
 
+
 def home(request):
-    pass
+    # добавить проверку на авторизацию
+    owners = CustomUser.objects.filter(user=request.user)
+    return render(request, 'products.html', {'owners': owners})
+
 
 def register(request):
     if request.method == 'POST':
@@ -25,7 +29,6 @@ def register(request):
         form = RegisterForm()
 
     return render(request, 'registration/register.html', {"form": form})
-
 
 
 def get_access_token():
@@ -45,10 +48,12 @@ def sync_products(request):
     if request.method == "POST":
         response = requests.get(URL_API, headers=headers)
         # print(response.json())
+        with open('products.json', 'w') as file:
+            json.dump(response.json(), file, indent=2)
         if response.status_code == 200:
             products = []
             for product in response.json()["rows"]:
-                product_id = update_product_from_api(product["code"], product)
+                product_id = update_product_from_api(product["article"], product)
                 products.append({"sku": product_id, "name": product["name"]})
             return JsonResponse(products, safe=False)
         else:

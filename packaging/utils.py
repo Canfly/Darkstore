@@ -1,5 +1,5 @@
 import requests
-from .models import Product
+from .models import Product, CustomUser
 from django.shortcuts import get_object_or_404
 
 URL_API = "https://api.moysklad.ru/api/remap/1.2/entity/product"
@@ -25,12 +25,18 @@ def update_product_from_api(product_id, response):
     # product_id = product["code"]
     product = Product.objects.filter(article=product_id).first()
     data = parse_product_data(response)
+    q = product.quantity_in_stock
     if product:
-        product['quantity'] = product.quantity_in_stock
+        product.quantity_in_stock = product.quantity_in_stock
     else:
         product = Product()
     for field, value in data.items():
         setattr(product, field, value)
+    product.quantity_in_stock = q
+    owners = CustomUser.objects.filter(INN=product.article.split(":")[0])
+    if owners:
+        product.owner.add(owners[0])
+    print(product['barcodes'])
     product.save()
 
 

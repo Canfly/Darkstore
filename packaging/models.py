@@ -1,9 +1,10 @@
 # models.py
 from django.db import models
-from django.contrib.auth.models import AbstractUser, Group, Permission
+from django.contrib.auth.models import AbstractUser, Group, Permission, User
 
 
 class CustomUser(AbstractUser):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
     INN = models.CharField(max_length=12, unique=True)
     checking_account = models.CharField(max_length=20)
     BIK = models.CharField(max_length=9)
@@ -12,6 +13,8 @@ class CustomUser(AbstractUser):
     wildberries_api_key = models.CharField(max_length=100, blank=True, null=True)
     yandex_market_api_key = models.CharField(max_length=100, blank=True, null=True)
     moysklad_id = models.CharField(max_length=100, blank=True, null=True)
+    moysklad_user = models.CharField(max_length=100, blank=True, null=True)
+    moysklad_pass = models.CharField(max_length=100, blank=True, null=True)
 
     # Поле для определения типа пользователя
     USER_TYPES = (
@@ -37,6 +40,9 @@ class CustomUser(AbstractUser):
         verbose_name="user permissions",
     )
 
+    # def __str__(self):
+    #     return self.user.
+
 
 # Model "Shipments"
 class Shipment(models.Model):
@@ -47,6 +53,17 @@ class Shipment(models.Model):
                               choices=[('New', 'New'), ('In progress', 'In progress'), ('Shipped', 'Shipped')])
     channels = models.ManyToManyField('SalesChannel',
                                       through='ShipmentChannel')  # ManyToMany relationship with SalesChannel
+
+
+# Model MarketPlaceArticle
+class MarketPlaceArticle(models.Model):
+    MARKETPLACES_TYPES = (
+        ('OZON', 'OZON'),
+        ('Wildeberries', 'Wildberries'),
+        ('YandexMarket', 'Yandex Market'),
+    )
+    marketplace_type = models.CharField(max_length=100, choices=MARKETPLACES_TYPES)
+    code = models.CharField(max_length=255)
 
 
 # Model "Products"
@@ -63,6 +80,7 @@ class Product(models.Model):
     article = models.CharField(max_length=255, blank=True, null=True)
     moysklad_id = models.CharField(max_length=255, blank=True, null=True)
     owner = models.ManyToManyField(CustomUser)
+    marketplaces_articles = models.ManyToManyField(MarketPlaceArticle)
 
     def __str__(self):
         return self.name

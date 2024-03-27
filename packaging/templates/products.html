@@ -1,31 +1,27 @@
-{% extends 'adminlte/base.html' %}
+{% extends 'main/base.html' %}
 {% block title %} {{ user }} {% endblock %}
 {% load static %}
 {% block content %}
     <div class="container">
         <h1>Products</h1>
         {% for owner in owners %}
-        <h2>{{ owner }}</h2>
+        <h2>{{ owner.user.first_name }} {{owner.user.last_name}} {{owner.moysklad_id}}</h2>
         <table class="table table-striped">
             <thead>
                 <tr>
-                    <th>ID</th>
                     <th>Name</th>
                     <th>SKU</th>
                     <th>Quantity in stock</th>
                     <th>Quantity at fbo</th>
-                    <th>Owner</th>>
                 </tr>
             </thead>
             <tbody>
                 {% for product in owner.product_set.all %}
                 <tr>
-                    <td>{{ product.id }}</td>
                     <td>{{ product.name }}</td>
                     <td>{{ product.sku}}</td>
                     <td>{{ product.quantity_in_stock }}</td>
                     <td>{{ product.quantity_at_fbo }}</td>
-                    <td>{{product.owner.0}}</td>
                 </tr>
                 {% endfor %}
             </tbody>
