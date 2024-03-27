@@ -62,8 +62,12 @@ class MarketPlaceArticle(models.Model):
         ('Wildeberries', 'Wildberries'),
         ('YandexMarket', 'Yandex Market'),
     )
-    marketplace_type = models.CharField(max_length=100, choices=MARKETPLACES_TYPES)
+    marketplace_type = models.CharField(max_length=100, choices=MARKETPLACES_TYPES, blank=True, null=True)
     code = models.CharField(max_length=255)
+
+    def __str__(self):
+        return str(self.marketplace_type) + ' ' + str(self.code) if self.marketplace_type else \
+            str(self.code)
 
 
 # Model "Products"
