@@ -53,6 +53,7 @@ class Shipment(models.Model):
                               choices=[('New', 'New'), ('In progress', 'In progress'), ('Shipped', 'Shipped')])
     channels = models.ManyToManyField('SalesChannel',
                                       through='ShipmentChannel')  # ManyToMany relationship with SalesChannel
+    files = models.FileField(upload_to='uploads/% Y/% m/% d/', blank=True, null=True)
 
 
 # Model MarketPlaceArticle
