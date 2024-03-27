@@ -38,14 +38,14 @@ def get_access_token():
     return f"Basic: {base64.b64encode(f'{LOGIN}:{PASSWORD}'.encode('ascii')).decode('ascii')}"
 
 
-def sync_products(request):
+def sync_products(request=None, celery=False):
     """Syncs products from MoySklad."""
     LOGIN = "sklad@fillrufill"
     PASSWORD = "FillRu2024Password"
     URL_API = "https://api.moysklad.ru/api/remap/1.2/entity/product"
     headers = {"Authorization": get_access_token()}
 
-    if request.method == "POST":
+    if request.method == "POST" or celery==True:
         response = requests.get(URL_API, headers=headers)
         # print(response.json())
         with open('products.json', 'w') as file:
@@ -62,7 +62,7 @@ def sync_products(request):
     return render(request, "sync_products.html")
 
 
-def sync_stocks(request):
+def sync_stocks(request=None, celery=False):
     """Syncs products from MoySklad."""
     LOGIN = "sklad@fillrufill"
     PASSWORD = "FillRu2024Password"
@@ -70,7 +70,7 @@ def sync_stocks(request):
     headers = {"Authorization": get_access_token()}
     response = requests.get(URL_API, headers=headers)
 
-    if request.method == "POST":
+    if request.method == "POST" or celery==True:
         response = requests.get(URL_API, headers=headers)
         # print(response.json())
         if response.status_code == 200:

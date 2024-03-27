@@ -10,8 +10,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
-
-
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -40,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'packaging',
     'crispy_forms',
-    'crispy_bootstrap5', 
+    'crispy_bootstrap5',
     'celery',
     'django_celery_beat',
     'adminlte3',
@@ -61,7 +59,6 @@ MIDDLEWARE = [
 ]
 
 CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
-
 
 ROOT_URLCONF = 'darkstore.urls'
 
@@ -116,7 +113,6 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
 
-
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
@@ -131,20 +127,23 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
-
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
 from celery.schedules import crontab
 from datetime import datetime
+
 CELERY_BEAT_SCHEDULE = {
-    'taskone_shedule':{
-    'task':'packaging.tasks.taskone',
-    'schedule':1
-    }
+    'sync_products_shedule': {
+        'task': 'packaging.tasks.sync_products',
+        'schedule': 3600
+    },
+    'sync_stocks_shedule': {
+        'task': 'packaging.tasks.update_stocks',
+        'schedule': 3600
+    },
 }
 
 LOGIN_REDIRECT_URL = "/shipments"
