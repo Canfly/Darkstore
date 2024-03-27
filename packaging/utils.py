@@ -1,5 +1,5 @@
 import requests
-from .models import Product, CustomUser,MarketPlaceArticle
+from .models import Product, CustomUser, MarketPlaceArticle, Shipment
 from django.shortcuts import get_object_or_404
 
 URL_API = "https://api.moysklad.ru/api/remap/1.2/entity/product"
@@ -50,3 +50,24 @@ def update_stocks_from_api(article, quantity):
     if product:
         product.quantity_in_stock = quantity
     product.save()
+
+
+def add_shipment_from_api(user, data):
+    shipment = Shipment()
+    for field, value in list(data.items())[:-1]:
+        setattr(shipment, field, value)
+    products = Product.objects.filter(owner=user)
+    shipment.seller = user
+    shipment.save()
+    for shipment_product in data['products']:
+        for db_product in products:
+            for article in list(db_product.marketplaces_articles.all()):
+                if shipment_product['offer_id'] == article.code:
+                    shipment.products.add(db_product)
+                    print(db_product)
+                    break
+
+    shipment.save()
+
+
+

@@ -48,14 +48,19 @@ class CustomUser(AbstractUser):
 class Shipment(models.Model):
     marketplace_id = models.CharField(max_length=255, blank=True, null=True)
     moysklad_id = models.CharField(max_length=255, blank=True, null=True)
-    product = models.ForeignKey('Product', on_delete=models.CASCADE)
-    seller = models.ForeignKey('Seller', on_delete=models.CASCADE)
-    shipment_date = models.DateField()
+    products = models.ManyToManyField('Product')
+    seller = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
+    shipment_date = models.DateTimeField()
     status = models.CharField(max_length=255,
                               choices=[('New', 'New'), ('In progress', 'In progress'), ('Shipped', 'Shipped')])
     channels = models.ManyToManyField('SalesChannel',
                                       through='ShipmentChannel')  # ManyToMany relationship with SalesChannel
-    files = models.CharField(max_length=255, blank=True, null=True)
+    pdf = models.CharField(max_length=255, blank=True, null=True)
+    minipdf = models.CharField(max_length=255, blank=True, null=True)
+    comment = models.TextField(blank=True, null=True)
+
+    def __str__(self):
+        return str(self.seller.user.first_name) + ' ' + str(self.seller.user.last_name)
 
 
 # Model MarketPlaceArticle
@@ -88,16 +93,6 @@ class Product(models.Model):
     moysklad_id = models.CharField(max_length=255, blank=True, null=True)
     owner = models.ManyToManyField(CustomUser)
     marketplaces_articles = models.ManyToManyField(MarketPlaceArticle)
-
-    def __str__(self):
-        return str(self.name)
-
-
-# Model "Sellers"
-class Seller(models.Model):
-    name = models.CharField(max_length=255)
-    tax_id = models.CharField(max_length=255)
-    email = models.EmailField()
 
     def __str__(self):
         return str(self.name)

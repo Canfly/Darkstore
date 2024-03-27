@@ -19,9 +19,12 @@
                 {% for shipment in shipments %}
                 <tr>
                     <td>{{ shipment.id }}</td>
-                    <td>{{ shipment.name }}</td>
-                    <td>{{ shipment.product.name }}</td>
-                    <td>{{ shipment.seller.name }}</td>
+                    <td>{{ shipment.marketplace_id }}</td>
+                    <td>{% for product in shipment.products.all %}
+                        {{product.name}}
+                    </td>
+                    {% endfor %}
+                    <td>{{ shipment.seller.user.first_name }} {{shipment.seller.user.last_name}}</td>
                     <td>{{ shipment.shipment_date }}</td>
                     <td>{{ shipment.status }}</td>
                 </tr>

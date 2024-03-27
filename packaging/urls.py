@@ -11,7 +11,8 @@ urlpatterns = [
     path("sync/", views.sync_products, name="sync_products"),
     path('stocks/', views.sync_stocks, name="sync_stocks"),
     path('register/', views.register, name='register'),
-    #path('login/', views.login, name='login'),
+    path('shipments/update/', views.update_shipments, name='update_shipments')
+    # path('login/', views.login, name='login'),
 
     #    path('home', views.home, name='home'),
     #    path('sklad', views.sklad, name='sklad'),

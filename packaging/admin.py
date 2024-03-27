@@ -1,10 +1,9 @@
 from django.contrib import admin
 
-from .models import Shipment, Product, Seller, SalesChannel, ShipmentChannel, CustomUser
+from .models import Shipment, Product, SalesChannel, ShipmentChannel, CustomUser
 
 admin.site.register(Shipment)
 admin.site.register(Product)
-admin.site.register(Seller)
 admin.site.register(SalesChannel)
 admin.site.register(ShipmentChannel)
 admin.site.register(CustomUser)

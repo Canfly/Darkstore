@@ -1,0 +1,40 @@
+{% extends "main/base.html" %}
+
+{% block content %}
+<h1>Перенести отгрузки</h1>
+<form action="{% url 'update_shipments' %}" method="post">
+    {% csrf_token %}
+    <button type="submit">Перенести</button>
+</form>
+<pre>
+
+</pre>
+<div id="results"></div>
+
+<script>
+function updateResults(data) {
+    const resultsElement = document.getElementById("results");
+    resultsElement.innerHTML = "";
+
+    for (const product of data) {
+        const message = `<p>Остатки товара ${product.name} успешно обновлены</p>`;
+        resultsElement.insertAdjacentHTML("beforeend", message);
+    }
+}
+
+document.querySelector("form").addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    fetch("{% url 'update_shipments' %}", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "X-CSRFToken": "{{ csrf_token }}",
+        },
+    })
+    .then((response) => response.json())
+    .then((data) => updateResults(data));
+});
+</script>
+
+{% endblock %}

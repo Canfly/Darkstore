@@ -1,9 +1,11 @@
+from datetime import datetime, timedelta
+
 from django.contrib.auth import login, logout, authenticate
 from django.shortcuts import render, redirect
 from django.http import HttpResponse, JsonResponse
 import requests
 from .models import Shipment, Product, CustomUser
-from .utils import update_product_from_api, update_stocks_from_api
+from .utils import update_product_from_api, update_stocks_from_api, add_shipment_from_api
 import json
 
 import base64
@@ -45,7 +47,7 @@ def sync_products(request=None, celery=False):
     URL_API = "https://api.moysklad.ru/api/remap/1.2/entity/product"
     headers = {"Authorization": get_access_token()}
 
-    if request.method == "POST" or celery==True:
+    if request.method == "POST" or celery == True:
         response = requests.get(URL_API, headers=headers)
         # print(response.json())
         with open('products.json', 'w') as file:
@@ -70,7 +72,7 @@ def sync_stocks(request=None, celery=False):
     headers = {"Authorization": get_access_token()}
     response = requests.get(URL_API, headers=headers)
 
-    if request.method == "POST" or celery==True:
+    if request.method == "POST" or celery == True:
         response = requests.get(URL_API, headers=headers)
         # print(response.json())
         if response.status_code == 200:
@@ -83,6 +85,92 @@ def sync_stocks(request=None, celery=False):
             return HttpResponse(status=500)
 
     return render(request, "sync_stocks.html")
+
+
+def update_shipments(request):
+    def get_pdf(posting_number):
+        url = "https://api-seller.ozon.ru/v2/posting/fbs/package-label"
+
+        try:
+            headers = {
+                "Client-Id": user.ozon_client_id,
+                "Api-Key": user.ozon_client_key
+            }
+
+            payload = {
+                "posting_number": posting_number
+            }
+
+            response = requests.post(url, headers=headers, json=payload)
+            response.raise_for_status()
+
+            with open("output_.pdf", "wb") as f:
+                f.write(response.content)
+        except requests.exceptions.RequestException as e:
+            return None
+
+    if request.method == "POST":
+
+        user = CustomUser.objects.filter(user=request.user)
+        if user:
+            user = user[0]
+            if user.ozon_client_id and user.ozon_client_key:
+                url = "https://api-seller.ozon.ru/v3/posting/fbs/unfulfilled/list"
+
+                try:
+                    # Загрузка переменных из файла .env
+
+                    headers = {
+                        "Client-Id": user.ozon_client_id,
+                        "Api-Key": user.ozon_client_key
+                    }
+
+                    date_from = datetime.utcnow()
+                    date_to = datetime.utcnow() + timedelta(hours=48)
+
+                    payload = {
+                        "dir": "ASC",
+                        "filter": {
+                            "cutoff_from": date_from.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                            "cutoff_to": date_to.strftime("%Y-%m-%dT%H:%M:%SZ")
+                        },
+                        "limit": 15,
+                        "offset": 0,
+                        "with": {
+                            "analytics_data": False,
+                            "barcodes": False,
+                            "financial_data": False,
+                            "translit": True
+                        }
+                    }
+
+                    response = requests.post(url, headers=headers, json=payload)
+
+                    # Проверяем успешность запроса
+                    response.raise_for_status()
+
+                    result = response.json()['result']
+                    with open('ozon_shipments', 'w') as f:
+                        json.dump(result, f, indent=2)
+                    simplified_response = []
+                    posting_numbers = []
+                    for posting in result["postings"]:
+                        simplified_response.append(
+                            {
+                                "marketplace_id": posting["posting_number"],
+                                "status": posting["status"],
+                                "shipment_date": posting["shipment_date"],
+                                "products": posting["products"]
+                            }
+                        )
+                        posting_numbers.append(posting['posting_number'])
+
+                    for posting in simplified_response:
+                        add_shipment_from_api(user, posting)
+
+                except requests.exceptions.RequestException as e:
+                    return None
+    return render(request, 'sync_shipments.html')
 
 
 def shipments(request):
