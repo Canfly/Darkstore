@@ -9,6 +9,7 @@
                 <tr>
                     <th>Номер отгрузки</th>
                     <th>Товары</th>
+                    <th>Артикулы</th>
                     <th>Продавец</th>
                     <th>Дата отгрузки</th>
                     <th>Статус</th>
@@ -19,11 +20,11 @@
                 {% for shipment in shipments %}
                 <tr>
                     <td>{{ shipment.marketplace_id }}</td>
-
                     <td>{% for product in shipment.products.all %}
                         {{product.name}}
                     </td>
                     {% endfor %}
+                    <td>{{shipment.products_codes128}}</td>
                     <td>{{ shipment.seller.user.first_name }} {{shipment.seller.user.last_name}}</td>
                     <td>{{ shipment.shipment_date }}</td>
                     {% if shipment.status == "awaiting_deliver" %}

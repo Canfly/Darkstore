@@ -58,6 +58,7 @@ class Shipment(models.Model):
     pdf = models.CharField(max_length=255, blank=True, null=True)
     minipdf = models.CharField(max_length=255, blank=True, null=True)
     comment = models.TextField(blank=True, null=True)
+    products_codes128 = models.TextField()
 
     def __str__(self):
         return str(self.seller.user.first_name) + ' ' + str(self.seller.user.last_name)
