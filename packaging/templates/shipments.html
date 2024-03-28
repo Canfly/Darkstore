@@ -3,31 +3,34 @@
 {% load static %}
 {% block content %}
     <div class="container">
-        <h1>Shipments</h1>
+        <h1>Отгрузки</h1>
         <table class="table table-striped">
             <thead>
                 <tr>
-                    <th>ID</th>
-                    <th>Name</th>
-                    <th>Product</th>
-                    <th>Seller</th>
-                    <th>Shipment Date</th>
-                    <th>Status</th>
+                    <th>Номер отгрузки</th>
+                    <th>Товары</th>
+                    <th>Продавец</th>
+                    <th>Дата отгрузки</th>
+                    <th>Статус</th>
                     <th>PDFs</th>
                 </tr>
             </thead>
             <tbody>
                 {% for shipment in shipments %}
                 <tr>
-                    <td>{{ shipment.id }}</td>
                     <td>{{ shipment.marketplace_id }}</td>
+
                     <td>{% for product in shipment.products.all %}
                         {{product.name}}
                     </td>
                     {% endfor %}
                     <td>{{ shipment.seller.user.first_name }} {{shipment.seller.user.last_name}}</td>
                     <td>{{ shipment.shipment_date }}</td>
-                    <td>{{ shipment.status }}</td>
+                    {% if shipment.status == "awaiting_deliver" %}
+                    <td>Ожидает отгрузки</td>
+                    {%elif shipment.status == "awaiting_packaging" %}
+                    <td>Ожидает упаковки</td>
+                    {% endif %}
                     {% if shipment.pdf != null %}
                     <td><a href="{{shipment.pdf}}">Package label</a></td>
                     {%else%}
