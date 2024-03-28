@@ -13,6 +13,7 @@
                     <th>Seller</th>
                     <th>Shipment Date</th>
                     <th>Status</th>
+                    <th>PDFs</th>
                 </tr>
             </thead>
             <tbody>
@@ -27,6 +28,11 @@
                     <td>{{ shipment.seller.user.first_name }} {{shipment.seller.user.last_name}}</td>
                     <td>{{ shipment.shipment_date }}</td>
                     <td>{{ shipment.status }}</td>
+                    {% if shipment.pdf != null %}
+                    <td><a href="{{shipment.pdf}}">Package label</a></td>
+                    {%else%}
+                    <td></td>
+                    {% endif %}
                 </tr>
                 {% endfor %}
             </tbody>

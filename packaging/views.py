@@ -98,13 +98,14 @@ def update_shipments(request):
             }
 
             payload = {
-                "posting_number": posting_number
+                "posting_number": [posting_number]
             }
 
             response = requests.post(url, headers=headers, json=payload)
+
             response.raise_for_status()
 
-            with open("output_.pdf", "wb") as f:
+            with open(f"package-labels/output_{posting_number}.pdf", "wb") as f:
                 f.write(response.content)
         except requests.exceptions.RequestException as e:
             return None
@@ -150,7 +151,7 @@ def update_shipments(request):
                     response.raise_for_status()
 
                     result = response.json()['result']
-                    with open('ozon_shipments', 'w') as f:
+                    with open('ozon_shipments.json', 'w') as f:
                         json.dump(result, f, indent=2)
                     simplified_response = []
                     posting_numbers = []
@@ -166,6 +167,8 @@ def update_shipments(request):
                         posting_numbers.append(posting['posting_number'])
 
                     for posting in simplified_response:
+                        if posting['status'] == 'awaiting_deliver':
+                            get_pdf(posting['marketplace_id'])
                         add_shipment_from_api(user, posting)
 
                 except requests.exceptions.RequestException as e:
