@@ -31,6 +31,8 @@
                     <td>Ожидает отгрузки</td>
                     {%elif shipment.status == "awaiting_packaging" %}
                     <td>Ожидает упаковки</td>
+                    {%elif shipment.status == "delivering" %}
+                    <td>Доставляется</td>
                     {% endif %}
                     {% if shipment.pdf != null %}
                     <td><a href="{{shipment.pdf}}">Package label</a></td>

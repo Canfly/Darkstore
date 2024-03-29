@@ -15,6 +15,29 @@ from django.contrib.auth.forms import UserCreationForm
 from .forms import CustomUserCreationForm, RegisterForm
 
 
+def get_pdf(posting_number, user):
+    url = "https://api-seller.ozon.ru/v2/posting/fbs/package-label"
+
+    try:
+        headers = {
+            "Client-Id": user.ozon_client_id,
+            "Api-Key": user.ozon_client_key
+        }
+
+        payload = {
+            "posting_number": [posting_number]
+        }
+
+        response = requests.post(url, headers=headers, json=payload)
+
+        response.raise_for_status()
+
+        with open(f"package-labels/output_{posting_number}.pdf", "wb") as f:
+            f.write(response.content)
+    except requests.exceptions.RequestException as e:
+        return None
+
+
 def home(request):
     # добавить проверку на авторизацию
     owners = CustomUser.objects.filter(user=request.user)
@@ -96,28 +119,6 @@ def sync_stocks(request=None, celery=False):
 
 
 def update_shipments(request):
-    def get_pdf(posting_number):
-        url = "https://api-seller.ozon.ru/v2/posting/fbs/package-label"
-
-        try:
-            headers = {
-                "Client-Id": user.ozon_client_id,
-                "Api-Key": user.ozon_client_key
-            }
-
-            payload = {
-                "posting_number": [posting_number]
-            }
-
-            response = requests.post(url, headers=headers, json=payload)
-
-            response.raise_for_status()
-
-            with open(f"package-labels/output_{posting_number}.pdf", "wb") as f:
-                f.write(response.content)
-        except requests.exceptions.RequestException as e:
-            return None
-
     if request.method == "POST":
 
         user = CustomUser.objects.filter(user=request.user)
@@ -194,6 +195,39 @@ def products(request):
     for owner in owners:
         print(owner.product_set.all())
     return render(request, 'products.html', {'owners': owners})
+
+
+def change_status(request, posting_number):
+    user = CustomUser.objects.filter(user=request.user)
+    if user:
+        user = user[0]
+        if user.ozon_client_id and user.ozon_client_key:
+            url = "https://api-seller.ozon.ru/v2/posting/fbs/awaiting-delivery"
+
+            try:
+                # Загрузка переменных из файла .env
+
+                headers = {
+                    "Client-Id": user.ozon_client_id,
+                    "Api-Key": user.ozon_client_key
+                }
+                payload = {"posting_number": [posting_number]}
+
+                response = requests.post(url, headers=headers, json=payload)
+
+                # Проверяем успешность запроса
+                response.raise_for_status()
+
+                result = response.json()['result']
+                if result:
+                    shipment = Shipment.objects.get(marketplace_id=posting_number)
+                    shipment.status = 'awaiting_deliver'
+                    shipment.save()
+                    get_pdf(shipment.posting_number, user)
+            except requests.exceptions.RequestException as e:
+                return None
+
+
 
 
 def send_shipments(request):
