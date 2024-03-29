@@ -27,13 +27,7 @@
                     <td>{{shipment.products_codes128}}</td>
                     <td>{{ shipment.seller.user.first_name }} {{shipment.seller.user.last_name}}</td>
                     <td>{{ shipment.shipment_date }}</td>
-                    {% if shipment.status == "awaiting_deliver" %}
-                    <td>Ожидает отгрузки</td>
-                    {%elif shipment.status == "awaiting_packaging" %}
-                    <td>Ожидает упаковки</td>
-                    {%elif shipment.status == "delivering" %}
-                    <td>Доставляется</td>
-                    {% endif %}
+                    <td> {{shipment.status}}</td>
                     {% if shipment.pdf != null %}
                     <td><a href="{{shipment.pdf}}">Package label</a></td>
                     {%else%}

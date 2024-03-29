@@ -51,8 +51,7 @@ class Shipment(models.Model):
     products = models.ManyToManyField('Product')
     seller = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
     shipment_date = models.DateTimeField()
-    status = models.CharField(max_length=255,
-                              choices=[('New', 'New'), ('In progress', 'In progress'), ('Shipped', 'Shipped')])
+    status = models.CharField(max_length=255)
     channels = models.ManyToManyField('SalesChannel',
                                       through='ShipmentChannel')  # ManyToMany relationship with SalesChannel
     pdf = models.CharField(max_length=255, blank=True, null=True)

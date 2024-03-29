@@ -104,6 +104,7 @@ def add_shipment_from_api(user, data):
                         break
     else:
         shipment = exists[0]
+        shipment.status = data["status"]
     if data['status'] == 'awaiting_deliver':
         shipment.pdf = f'package-labels/output_{data["marketplace_id"]}.pdf'
     shipment.save()

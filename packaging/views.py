@@ -135,7 +135,7 @@ def update_shipments(request):
                         "Api-Key": user.ozon_client_key
                     }
 
-                    date_from = datetime.utcnow()
+                    date_from = datetime.utcnow() - + timedelta(hours=48)
                     date_to = datetime.utcnow() + timedelta(hours=48)
 
                     payload = {
@@ -144,7 +144,7 @@ def update_shipments(request):
                             "cutoff_from": date_from.strftime("%Y-%m-%dT%H:%M:%SZ"),
                             "cutoff_to": date_to.strftime("%Y-%m-%dT%H:%M:%SZ")
                         },
-                        "limit": 15,
+                        "limit": 100,
                         "offset": 0,
                         "with": {
                             "analytics_data": False,
@@ -176,8 +176,7 @@ def update_shipments(request):
                         posting_numbers.append(posting['posting_number'])
 
                     for posting in simplified_response:
-                        if posting['status'] == 'awaiting_deliver':
-                            get_pdf(posting['marketplace_id'])
+                        get_pdf(posting['marketplace_id'], user)
                         add_shipment_from_api(user, posting)
 
                 except requests.exceptions.RequestException as e:
@@ -186,7 +185,7 @@ def update_shipments(request):
 
 
 def shipments(request):
-    shipments = Shipment.objects.all()
+    shipments = Shipment.objects.all().order_by('shipment_date')
     return render(request, 'shipments.html', {'shipments': shipments})
 
 
@@ -228,8 +227,6 @@ def change_status(request, posting_number):
                 return None
 
 
-
-
 def send_shipments(request):
     if request.method == "POST":
 
@@ -237,12 +234,11 @@ def send_shipments(request):
         if user:
             user = user[0]
             headers = {
-                "Authorization": get_adiom_access_token()
+                "Authorization": get_access_token()
             }
             # Данные о магазине, агенте и организации
-            store_id = "66ac3e10-5e01-11ee-0a80-00150026e1c1"
-            agent_id = "66ac6971-5e01-11ee-0a80-00150026e1c2"
-            organization_id = "66aac5b8-5e01-11ee-0a80-00150026e1bf"
+            store_id = "a38602a8-df68-11ed-0a80-0c78000cbb45"
+            organization_id = "a384b0a8-df68-11ed-0a80-0c78000cbb43"
 
             payload = {
                 "store": {
@@ -256,11 +252,11 @@ def send_shipments(request):
                 },
                 "agent": {
                     "meta": {
-                        "href": f"https://api.moysklad.ru/api/remap/1.2/entity/counterparty/{agent_id}",
+                        "href": f"https://api.moysklad.ru/api/remap/1.2/entity/counterparty/{user.moysklad_id}",
                         "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/counterparty/metadata",
                         "type": "counterparty",
                         "mediaType": "application/json",
-                        "uuidHref": f"https://online.moysklad.ru/app/#company/edit?id={agent_id}"
+                        "uuidHref": f"https://online.moysklad.ru/app/#company/edit?id={user.moysklad_id}"
                     }
                 },
                 "organization": {
@@ -277,22 +273,21 @@ def send_shipments(request):
             }
 
             shipments = Shipment.objects.filter(seller=user, moysklad_id__isnull=True).order_by('shipment_date')
-
             cur_date = shipments[0].shipment_date
-
             for shipment in shipments:
                 if shipment.shipment_date == cur_date:
                     add_shipment_to_payload(payload, shipment)
                 else:
                     try:
-                        print(payload)
                         response = requests.post("https://api.moysklad.ru/api/remap/1.2/entity/demand", headers=headers,
                                                  json=payload)
-                        print(response)
+                        with open(f'payload.json', 'w') as f:
+                            json.dump(payload, f, indent=2)
                         response.raise_for_status()
                         shipment_id = response.json()["id"]
-                        for date_shipment in shipments.objects.filter(shipment_date=cur_date):
+                        for date_shipment in shipments.filter(shipment_date=cur_date):
                             date_shipment.moysklad_id = shipment_id
+                            date_shipment.save()
                         cur_date = shipment.shipment_date
                         payload["positions"] = []
                         payload["files"] = []
@@ -304,8 +299,9 @@ def send_shipments(request):
                                          json=payload)
                 response.raise_for_status()
                 shipment_id = response.json()["id"]
-                for date_shipment in shipments.objects.filter(shipment_date=cur_date):
+                for date_shipment in shipments.filter(shipment_date=cur_date):
                     date_shipment.moysklad_id = shipment_id
+                    date_shipment.save()
             except requests.exceptions.RequestException as e:
                 return None
     return render(request, 'send_shipments.html')
