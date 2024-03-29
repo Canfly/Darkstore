@@ -60,7 +60,7 @@ class Shipment(models.Model):
     products_codes128 = models.TextField()
 
     def __str__(self):
-        return str(self.marketplace_id) + ' '+ str(self.seller.user.first_name) + ' ' + str(self.seller.user.last_name)
+        return str(self.marketplace_id) + ' ' + str(self.seller.user.first_name) + ' ' + str(self.seller.user.last_name)
 
 
 # Model MarketPlaceArticle
@@ -93,6 +93,8 @@ class Product(models.Model):
     moysklad_id = models.CharField(max_length=255, blank=True, null=True)
     owner = models.ManyToManyField(CustomUser)
     marketplaces_articles = models.ManyToManyField(MarketPlaceArticle)
+    place = models.CharField(max_length=20, blank=True, null=True)
+    marketplace_href = models.CharField(max_length=255, blank=True, null=True)
 
     def __str__(self):
         return str(self.name)
