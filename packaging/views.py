@@ -5,7 +5,8 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse, JsonResponse
 import requests
 from .models import Shipment, Product, CustomUser
-from .utils import update_product_from_api, update_stocks_from_api, add_shipment_from_api
+from .utils import update_product_from_api, update_stocks_from_api, add_shipment_from_api, \
+    add_shipment_to_payload
 import json
 
 import base64
@@ -36,6 +37,13 @@ def register(request):
 def get_access_token():
     LOGIN = "sklad@fillrufill"
     PASSWORD = "FillRu2024Password"
+
+    return f"Basic: {base64.b64encode(f'{LOGIN}:{PASSWORD}'.encode('ascii')).decode('ascii')}"
+
+
+def get_adiom_access_token():
+    LOGIN = "admin@adiom1"
+    PASSWORD = "e13188947b"
 
     return f"Basic: {base64.b64encode(f'{LOGIN}:{PASSWORD}'.encode('ascii')).decode('ascii')}"
 
@@ -186,3 +194,84 @@ def products(request):
     for owner in owners:
         print(owner.product_set.all())
     return render(request, 'products.html', {'owners': owners})
+
+
+def send_shipments(request):
+    if request.method == "POST":
+
+        user = CustomUser.objects.filter(user=request.user)
+        if user:
+            user = user[0]
+            headers = {
+                "Authorization": get_adiom_access_token()
+            }
+            # Данные о магазине, агенте и организации
+            store_id = "66ac3e10-5e01-11ee-0a80-00150026e1c1"
+            agent_id = "66ac6971-5e01-11ee-0a80-00150026e1c2"
+            organization_id = "66aac5b8-5e01-11ee-0a80-00150026e1bf"
+
+            payload = {
+                "store": {
+                    "meta": {
+                        "href": f"https://api.moysklad.ru/api/remap/1.2/entity/store/{store_id}",
+                        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/store/metadata",
+                        "type": "store",
+                        "mediaType": "application/json",
+                        "uuidHref": f"https://online.moysklad.ru/app/#warehouse/edit?id={store_id}"
+                    }
+                },
+                "agent": {
+                    "meta": {
+                        "href": f"https://api.moysklad.ru/api/remap/1.2/entity/counterparty/{agent_id}",
+                        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/counterparty/metadata",
+                        "type": "counterparty",
+                        "mediaType": "application/json",
+                        "uuidHref": f"https://online.moysklad.ru/app/#company/edit?id={agent_id}"
+                    }
+                },
+                "organization": {
+                    "meta": {
+                        "href": f"https://api.moysklad.ru/api/remap/1.2/entity/organization/{organization_id}",
+                        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/organization/metadata",
+                        "type": "organization",
+                        "mediaType": "application/json",
+                        "uuidHref": f"https://online.moysklad.ru/app/#mycompany/edit?id={organization_id}"
+                    }
+                },
+                "positions": [],
+                "files": []
+            }
+
+            shipments = Shipment.objects.filter(seller=user, moysklad_id__isnull=True).order_by('shipment_date')
+
+            cur_date = shipments[0].shipment_date
+
+            for shipment in shipments:
+                if shipment.shipment_date == cur_date:
+                    add_shipment_to_payload(payload, shipment)
+                else:
+                    try:
+                        print(payload)
+                        response = requests.post("https://api.moysklad.ru/api/remap/1.2/entity/demand", headers=headers,
+                                                 json=payload)
+                        print(response)
+                        response.raise_for_status()
+                        shipment_id = response.json()["id"]
+                        for date_shipment in shipments.objects.filter(shipment_date=cur_date):
+                            date_shipment.moysklad_id = shipment_id
+                        cur_date = shipment.shipment_date
+                        payload["positions"] = []
+                        payload["files"] = []
+                        add_shipment_to_payload(payload, shipment)
+                    except requests.exceptions.RequestException as e:
+                        return None
+            try:
+                response = requests.post("https://api.moysklad.ru/api/remap/1.2/entity/demand", headers=headers,
+                                         json=payload)
+                response.raise_for_status()
+                shipment_id = response.json()["id"]
+                for date_shipment in shipments.objects.filter(shipment_date=cur_date):
+                    date_shipment.moysklad_id = shipment_id
+            except requests.exceptions.RequestException as e:
+                return None
+    return render(request, 'send_shipments.html')

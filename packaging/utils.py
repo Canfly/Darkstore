@@ -1,8 +1,35 @@
 import requests
 from .models import Product, CustomUser, MarketPlaceArticle, Shipment
 from django.shortcuts import get_object_or_404
+import base64
+
 
 URL_API = "https://api.moysklad.ru/api/remap/1.2/entity/product"
+
+
+def add_shipment_to_payload(payload, shipment):
+    payload["moment"] = str(shipment.shipment_date.replace(tzinfo=None))
+    for product in shipment.products.all():
+        payload["positions"].append({
+            "quantity": 1,
+            "price": 0,
+            "assortment": {
+                "meta": {
+                    "href": f"https://api.moysklad.ru/api/remap/1.2/entity/product/{product.moysklad_id}",
+                    "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+                    "type": "product",
+                    "mediaType": "application/json",
+                    "uuidHref": f"https://online.moysklad.ru/app/#product/edit?id={product.moysklad_id}"}}})
+    if shipment.pdf:
+        with open(shipment.pdf, "rb") as pdf_file:
+            pdf_content = pdf_file.read()
+        # Кодируем содержимое PDF-файла в формат Base64
+        pdf_base64 = base64.b64encode(pdf_content).decode()
+
+        # Готовим JSON-полезную нагрузку
+        payload['files'].append(
+            {"filename": 'big_pdf.pdf',  # Извлекаем имя файла из пути
+             "content": pdf_base64})
 
 
 def parse_product_data(response):
@@ -78,5 +105,5 @@ def add_shipment_from_api(user, data):
     else:
         shipment = exists[0]
     if data['status'] == 'awaiting_deliver':
-        shipment.pdf = f'package-labels/output_{data["marketplace_id"]}'
+        shipment.pdf = f'package-labels/output_{data["marketplace_id"]}.pdf'
     shipment.save()

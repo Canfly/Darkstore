@@ -61,7 +61,7 @@ class Shipment(models.Model):
     products_codes128 = models.TextField()
 
     def __str__(self):
-        return str(self.seller.user.first_name) + ' ' + str(self.seller.user.last_name)
+        return str(self.marketplace_id) + ' '+ str(self.seller.user.first_name) + ' ' + str(self.seller.user.last_name)
 
 
 # Model MarketPlaceArticle
