@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'celery',
     'django_celery_beat',
     'adminlte3',
+    'returns',
 ]
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"

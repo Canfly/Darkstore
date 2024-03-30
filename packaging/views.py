@@ -6,7 +6,7 @@ from django.http import HttpResponse, JsonResponse
 import requests
 from .models import Shipment, Product, CustomUser
 from .utils import update_product_from_api, update_stocks_from_api, add_shipment_from_api, \
-    add_shipment_to_payload
+    add_shipment_to_payload, attach_pdfs_to_shipment
 import json
 
 import base64
@@ -32,7 +32,7 @@ def get_pdf(posting_number, user):
 
         response.raise_for_status()
 
-        with open(f"package-labels/output_{posting_number}.pdf", "wb") as f:
+        with open(f"package-labels/pdf_{posting_number}.pdf", "wb") as f:
             f.write(response.content)
     except requests.exceptions.RequestException as e:
         return None
@@ -283,12 +283,15 @@ def send_shipments(request):
                     add_shipment_to_payload(payload, shipment)
                 else:
                     try:
+                        files = payload["files"]
+                        payload["files"] = []
                         response = requests.post("https://api.moysklad.ru/api/remap/1.2/entity/demand", headers=headers,
                                                  json=payload)
                         with open(f'payload.json', 'w') as f:
                             json.dump(payload, f, indent=2)
                         response.raise_for_status()
                         shipment_id = response.json()["id"]
+                        attach_pdfs_to_shipment(shipment_id, )
                         for date_shipment in shipments.filter(shipment_date=cur_date):
                             date_shipment.moysklad_id = shipment_id
                             date_shipment.save()
@@ -299,6 +302,8 @@ def send_shipments(request):
                     except requests.exceptions.RequestException as e:
                         return None
             try:
+                files = payload["files"]
+                payload["files"] = []
                 response = requests.post("https://api.moysklad.ru/api/remap/1.2/entity/demand", headers=headers,
                                          json=payload)
                 with open(f'payload.json', 'w') as f:
@@ -306,6 +311,7 @@ def send_shipments(request):
                 print(response.json())
                 response.raise_for_status()
                 shipment_id = response.json()["id"]
+                attach_pdfs_to_shipment(shipment_id, files)
                 for date_shipment in shipments.filter(shipment_date=cur_date):
                     date_shipment.moysklad_id = shipment_id
                     date_shipment.save()
