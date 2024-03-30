@@ -1,0 +1,3111 @@
+{
+  "context": {
+    "employee": {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/context/employee",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/employee/metadata",
+        "type": "employee",
+        "mediaType": "application/json"
+      }
+    }
+  },
+  "meta": {
+    "href": "https://api.moysklad.ru/api/remap/1.2/report/stock/all",
+    "type": "stock",
+    "mediaType": "application/json",
+    "size": 56,
+    "limit": 1000,
+    "offset": 0
+  },
+  "rows": [
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/6fba66f3-5d43-11ee-0a80-07d100138988?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=6fba59f5-5d43-11ee-0a80-07d100138984"
+      },
+      "stock": 10.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 10.0,
+      "name": "Воздушно-пузырьковая плёнка 295 мм (3й сорт)",
+      "code": "8809820692788",
+      "article": "773373892306:8809820692788",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "externalCode": "NjhB-eSIgNA5vlSjW8P012",
+      "stockDays": 181.13
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/b4989085-5e09-11ee-0a80-041800295a10?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=b49886a6-5e09-11ee-0a80-041800295a0d"
+      },
+      "stock": 2.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 2.0,
+      "name": "Стрейч пленка 500 мм (3й сорт)",
+      "code": "8809820692789",
+      "article": "773373892306:8809820692789",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "externalCode": "FKiljeaeg46gw91Q6wqN72",
+      "stockDays": 181.13
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/fa53e1b8-6520-11ee-0a80-118a00776a30?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=fa53d829-6520-11ee-0a80-118a00776a2d"
+      },
+      "stock": 26.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 26.0,
+      "name": "Книга - Е.Стерхова - Приключения в розовом королевстве",
+      "code": "2000000002880",
+      "article": "773373892306:2000000002880",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {},
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/7a247c5e-7746-11ee-0a80-062700004c06",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=7a247c5e-7746-11ee-0a80-062700004c06"
+        },
+        "name": "Книги",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/1d344d2f-45ec-46a7-8a46-ac68a458e528",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231007_175103",
+        "filename": "IMG_20231007_175103.jpg",
+        "size": 941804,
+        "updated": "2023-10-07 17:51:19.369",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/1d344d2f-45ec-46a7-8a46-ac68a458e528?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/041142b6-7109-4fbe-9f90-f96287ed9cbf"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/d9658bd8-70b0-424b-850e-8c87aefa7370/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "tmsIFmOljzai1zYsAAad-0",
+      "stockDays": 147.82
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/f75402e5-e083-11ee-0a80-07430028e4c8?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=f753f4f0-e083-11ee-0a80-07430028e4c5"
+      },
+      "stock": 102.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 102.0,
+      "name": "Elizavecca aqua Hyaluronic Cream -крем для лица гиалуровоный",
+      "code": "8809418750505",
+      "article": "622400183009:8809418750505",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {},
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/15c92fe1-6c95-42ec-9817-8687362b7169",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "31F8A72D-821F-4903-8946-4DA6BFEA025F",
+        "filename": "31F8A72D-821F-4903-8946-4DA6BFEA025F.jpg",
+        "size": 3645059,
+        "updated": "2024-03-12 18:19:47.483",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/15c92fe1-6c95-42ec-9817-8687362b7169?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/abb71450-27fa-4c7f-b655-521a8fe48329"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/cff8e20d-e656-478d-9afb-fb65b3eac07b/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "GtOx3xlmi8ilOXrz0Y5YA2",
+      "stockDays": 14.12
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/27bceaa0-d657-11ee-0a80-0fb4002eba59?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=27bce40a-d657-11ee-0a80-0fb4002eba56"
+      },
+      "stock": 100.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 100.0,
+      "name": "Elizavecca Witch Piggy Hell-Pore Blemish Spor Patch - Патчи для лица от АКНЭ (44 шт)",
+      "code": "8806035110200",
+      "article": "622400183009:8806035110200",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {},
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/6da09df0-3d59-409a-83bf-f05a872115b9",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "D595DD56-BCDB-41E5-ADE1-355EC0CD7F50",
+        "filename": "D595DD56-BCDB-41E5-ADE1-355EC0CD7F50.jpg",
+        "size": 2894690,
+        "updated": "2024-02-28 19:33:49.675",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/6da09df0-3d59-409a-83bf-f05a872115b9?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/df375418-47b7-4c2c-9be5-f1422e6c55f8"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/1d5cd9ab-af1e-4567-9554-823dffb5c5c5/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "M7Qb7JX2gR86IsvDDijZf0",
+      "stockDays": 27.1
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/ff24dd93-df6d-11ed-0a80-06f8001107fa?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff24d5a1-df6d-11ed-0a80-06f8001107f8"
+      },
+      "stock": 81.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 81.0,
+      "name": "ELIZAVECCA - МАСКА ДЛЯ ЛИЦА ГЛИНЯНО - ПУЗЫРЬКОВАЯ MILKY PIGGY CARBONATED BUBBLE CLAY MASK, 100 ML",
+      "code": "8809071369427",
+      "article": "622400183009:8809071369427",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/1edc944a-9eef-4668-a204-1c227e80f45c",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "WhatsApp Image 2023-06-29 at 16.38.57",
+        "filename": "WhatsApp Image 2023-06-29 at 16.38.57.jpeg",
+        "size": 81265,
+        "updated": "2023-06-29 17:47:20.400",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/1edc944a-9eef-4668-a204-1c227e80f45c?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/42809765-4dbf-43b2-884d-f3e0915a6ec3"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/f98f4901-a236-41b3-85b8-c09e95ed87f6/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "fF8E7s-NjjlkqxmKOR0aJ2",
+      "stockDays": 27.1
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/ff2ed90c-df6d-11ed-0a80-06f800110802?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff2ed119-df6d-11ed-0a80-06f800110800"
+      },
+      "stock": 597.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 597.0,
+      "name": "Elizavecca - Пилинг Тонер Для Лица с Фруктовыми Кислотами HELL-PORE CLEAN UP AHA FRUIT TONER, 200 ml/мл",
+      "code": "8809339907910",
+      "article": "622400183009:8809339907910",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/072241e3-7cd5-4e85-936d-4287f800b3c4",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "WhatsApp Image 2023-06-29 at 16.38.56",
+        "filename": "WhatsApp Image 2023-06-29 at 16.38.56.jpeg",
+        "size": 76120,
+        "updated": "2023-06-29 17:38:45.246",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/072241e3-7cd5-4e85-936d-4287f800b3c4?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/071af014-0fa2-4064-8321-3a419727328e"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/f01c3634-8e5b-4481-8069-5117d446b384/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "PqqS6mawjHqcW7kw0KHYh0",
+      "stockDays": 14.12
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/85bdd894-9c29-11ee-0a80-0df80022ea0f?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=85bdd187-9c29-11ee-0a80-0df80022ea0c"
+      },
+      "stock": 83.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 83.0,
+      "name": "Enough - Collagen Hydro (13 + 13 гр) #13- Коллагеновая пудра со сменным блоком, тон 13",
+      "code": "8809347960303",
+      "article": "622400183009:8809347960303",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/887638af-985e-4c74-8376-6662588deab4",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231216_183250",
+        "filename": "IMG_20231216_183250.jpg",
+        "size": 533947,
+        "updated": "2023-12-16 18:41:02.940",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/887638af-985e-4c74-8376-6662588deab4?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/c9da6b4a-d7cc-4534-84df-f905fd24f42b"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/5cfbad35-73ad-4bf1-be6e-27e29af39052/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "CuPbipWUh9LsYkAfaJTJW2",
+      "stockDays": 27.1
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/00c21217-9c2a-11ee-0a80-11f700235a35?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=00c20bcb-9c2a-11ee-0a80-11f700235a32"
+      },
+      "stock": 62.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 62.0,
+      "name": "Enough - Collagen Hydro (13 + 13 гр) #21- Коллагеновая пудра со сменным блоком, тон 21",
+      "code": "8809347960310",
+      "article": "622400183009:8809347960310",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/04411206-670f-456f-a877-cc89e08168b3",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231216_183220",
+        "filename": "IMG_20231216_183220.jpg",
+        "size": 596874,
+        "updated": "2023-12-16 18:44:29.330",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/04411206-670f-456f-a877-cc89e08168b3?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/71d25508-dcce-4663-ac93-4ab858bd0d5e"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/8f7164ef-56d6-46e0-bf5e-44c7fd4289bb/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "Q9jCcmqfh5PD-YnMzaBsg0",
+      "stockDays": 26.75
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/ee566b48-9c1e-11ee-0a80-018c002088ed?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ee56634a-9c1e-11ee-0a80-018c002088ea"
+      },
+      "stock": 1.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 1.0,
+      "name": "Enough - Collagen Hydro Moisture 300 ml - Очищающий омолаживающий тональный крем для лица и тела 300 мл",
+      "code": "8809107531125",
+      "article": "622400183009:8809107531125",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/97bc29c7-3bd4-4b78-bdd5-ec8d64097999",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231216_172129",
+        "filename": "IMG_20231216_172129.jpg",
+        "size": 443333,
+        "updated": "2023-12-16 17:25:13.658",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/97bc29c7-3bd4-4b78-bdd5-ec8d64097999?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/1749bef5-810e-461e-98a6-46737ef1c2bc"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/b8fc6943-4a35-426e-9786-d5e0423e4b05/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "lt8XTIOchwGyOhKwt24fX1",
+      "stockDays": 27.1
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/ff63d5e4-df6d-11ed-0a80-06f80011082a?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff63ce4e-df6d-11ed-0a80-06f800110828"
+      },
+      "stock": 6.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 6.0,
+      "name": "ENOUGH -ТОНАЛЬНАЯ ОСНОВА ДЛЯ ЛИЦА 21 тон С КОЛЛАГЕНОМ 3 В 1 ДЛЯ СИЯНИЯ КОЖИ COLLAGEN WHITENING MOISTURE FOUNDATION SPF 15 №21, 100 МЛ",
+      "code": "8809474497079",
+      "article": "622400183009:8809474497079",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/098f47b2-29e1-4c13-af05-2b1e585bc21b",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "WhatsApp Image 2023-07-04 at 11.56.17",
+        "filename": "WhatsApp Image 2023-07-04 at 11.56.17.jpeg",
+        "size": 63913,
+        "updated": "2023-07-05 15:45:57.875",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/098f47b2-29e1-4c13-af05-2b1e585bc21b?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/bd3d6fe7-f651-4625-add3-b7d01f9ce24b"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/92886da4-3553-44bb-abb6-45b413ede3c3/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "AvUPtnUigFwNCh2x39ozi2",
+      "stockDays": 55.88
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/ff43955c-df6d-11ed-0a80-06f800110812?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff438c6b-df6d-11ed-0a80-06f800110810"
+      },
+      "stock": 167.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 167.0,
+      "name": "ENOUGH - ТОНАЛЬНАЯ ОСНОВА ДЛЯ ЛИЦА SPF15 №21 COLLAGEN MOISTURE FOUNDATION , 100 МЛ",
+      "code": "8809280062379",
+      "article": "622400183009:8809280062379",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/a6e1ff79-4b85-444c-a2bf-8bcde45ce8dc",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20230718_183421",
+        "filename": "IMG_20230718_183421.jpg",
+        "size": 822628,
+        "updated": "2023-07-18 18:34:38.941",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/a6e1ff79-4b85-444c-a2bf-8bcde45ce8dc?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/9e5ad3a2-a491-4359-9358-e24bcc207da0"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/d97d50df-7480-4669-aff1-4ebfa24ecef9/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "ZqRsNQ3yg2gCmPJ01Duds1",
+      "stockDays": 14.12
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/ff4e627b-df6d-11ed-0a80-06f80011081a?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff4e5a01-df6d-11ed-0a80-06f800110818"
+      },
+      "stock": 152.0,
+      "inTransit": 0.0,
+      "reserve": 3.0,
+      "quantity": 149.0,
+      "name": "ENOUGH - ТОНАЛЬНАЯ ОСНОВА ДЛЯ ЛИЦА (СВЕТЛЫЙ БЕЖЕВЫЙ) COLLAGEN MOISTURE FOUNDATION SPF15 №13, 100 ML",
+      "code": "8809280062362",
+      "article": "622400183009:8809280062362",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/f75e1aa6-1ec9-4172-ba10-179c31b48af7",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "Изображение WhatsApp 2023-06-23 в 17.14.13",
+        "filename": "Изображение WhatsApp 2023-06-23 в 17.14.13.jpg",
+        "size": 119143,
+        "updated": "2023-06-24 00:19:01.755",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/f75e1aa6-1ec9-4172-ba10-179c31b48af7?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/e21bedeb-9a26-4e06-9606-b6055ee1ce9c"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/b16d7b80-996f-4512-905d-fca2aa94ef63/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "DgqFfTjdizeqQZKbP6HhO0",
+      "stockDays": 14.09
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/ff5863cd-df6d-11ed-0a80-06f800110822?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff58597b-df6d-11ed-0a80-06f800110820"
+      },
+      "stock": 2.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 2.0,
+      "name": "ENOUGH -ТОНАЛЬНАЯ ОСНОВА ДЛЯ ЛИЦА С КОЛЛАГЕНОМ WHITENING SPF 15 №13 ДЛЯ СИЯНИЯ КОЖИ  3 В 1 COLLAGEN MOISTURE FOUNDATION , 100 МЛ",
+      "code": "8809474497062",
+      "article": "622400183009:8809474497062",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/58cb3393-a2d7-4466-89d9-619260fd53ad",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20230718_182640",
+        "filename": "IMG_20230718_182640.jpg",
+        "size": 848424,
+        "updated": "2023-07-18 18:27:02.793",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/58cb3393-a2d7-4466-89d9-619260fd53ad?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/5554d98b-7688-4874-b64c-33ad95014078"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/3c605131-6b26-4beb-8cbb-78b17e333471/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "eHCeNolhiD2CLHrW55HpX0",
+      "stockDays": 4.76
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/4e1894ab-7f21-11ee-0a80-0f7d003009dd?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=4e188c21-7f21-11ee-0a80-0f7d003009da"
+      },
+      "stock": 15.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 15.0,
+      "name": "Enough - Увлажняющий крем с коллагеном - 50 ml - Collagen Moisture Essential Cream",
+      "code": "8809755463335",
+      "article": "622400183009:8809755463335",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/88753332-8293-4567-aa1b-00174ce6bb1d",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231109_195542",
+        "filename": "IMG_20231109_195542.jpg",
+        "size": 767155,
+        "updated": "2023-11-09 19:59:09.639",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/88753332-8293-4567-aa1b-00174ce6bb1d?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/a729209a-93ce-40ef-b272-64aa76014416"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/0f375329-94fe-4866-9135-ba98d9a29a78/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "TNn7bZsNhfl8C0vxqN4GY0",
+      "stockDays": 138.09
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/1a2e566f-ff94-11ed-0a80-10b20017d3e4?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=1a2e4fb8-ff94-11ed-0a80-10b20017d3e2"
+      },
+      "stock": 4.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 4.0,
+      "name": "Etude Crunch Pore Scrub - Baking Powder 200g - Blue",
+      "code": "8809820683118",
+      "article": "622400183009:8809820683118",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/10e0226b-208c-4aad-bd55-c71278acbb9e",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "3118",
+        "filename": "3118.jpg",
+        "size": 543948,
+        "updated": "2023-12-06 01:02:13.607",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/10e0226b-208c-4aad-bd55-c71278acbb9e?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/391cbd94-286c-40e5-8a51-3da1a46cbffb"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/dc8b45ff-b027-4661-a8e4-e560e5207e39/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "-USjZdxsgjJ7wS2rD8u1b1",
+      "stockDays": 6.51
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/3c25aa2e-938f-11ee-0a80-071e00188b67?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=3c25a17c-938f-11ee-0a80-071e00188b64"
+      },
+      "stock": 10.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 10.0,
+      "name": "Etude House Корейская пенка для умывания и глубокого очищения с содой Baking Powder BB Deep Cleansing Foam, средство для снятия макияжа, 160 мл",
+      "code": "8809668028089",
+      "article": "622400183009:8809668028089",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/b20c8f2d-88bc-40c6-9298-2e7c7dca431f",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "8089",
+        "filename": "8089.jpg",
+        "size": 604684,
+        "updated": "2023-12-06 01:03:39.179",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/b20c8f2d-88bc-40c6-9298-2e7c7dca431f?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/4ea7abdc-0a55-4424-89a9-7239911c7b9d"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/c0d07e17-ddbf-4c02-91b7-0c2c41269623/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "Zl1mKNFIjy9jA3wCTyJyR0",
+      "stockDays": 101.25
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/40f514c3-37be-11ee-0a80-0321000419c9?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=40f505d8-37be-11ee-0a80-0321000419c6"
+      },
+      "stock": -1.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": -1.0,
+      "name": "Etude - Скраб для лица с содой - Baking Powder Crunch pore Scrub (24 шт.)",
+      "code": "8809820692707",
+      "article": "622400183009:8809820692707",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/b8ce8e99-7a3b-444d-98ec-1adc27b8610f",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20230810_234040",
+        "filename": "IMG_20230810_234040.jpg",
+        "size": 90972,
+        "updated": "2023-08-10 23:41:16.528",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/b8ce8e99-7a3b-444d-98ec-1adc27b8610f?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/e1a7956e-c034-4963-9373-a5365aa6f5f7"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/db3ca352-8732-44b9-94f0-f78b93b30d5d/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "3bvtTBQUi0C49A5QDvtJI1",
+      "stockDays": 0.0
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/a0c45d63-1fdf-11ee-0a80-0f3a001a7ab7?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=a0c45314-1fdf-11ee-0a80-0f3a001a7ab4"
+      },
+      "stock": 174.0,
+      "inTransit": 0.0,
+      "reserve": 6.0,
+      "quantity": 168.0,
+      "name": "FarmStay Collagen & Hyaluronic Acid All-In-One Ampoule, 250 ml",
+      "code": "8809469770002",
+      "article": "622400183009:8809469770002",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/96197f74-ac71-49df-8888-325107874299",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20230711_143855",
+        "filename": "IMG_20230711_143855.jpg",
+        "size": 702848,
+        "updated": "2023-07-11 14:39:41.686",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/96197f74-ac71-49df-8888-325107874299?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/c2e2bc40-8189-4dbe-b3bb-8d534c84a2bd"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/1e171704-bb3d-4a43-8dd8-d262f21c3e52/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "NqbmLiZRghgg2UUxL3ZCt2",
+      "stockDays": 20.19
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/b2111929-dbb8-11ee-0a80-02040027943e?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=b2110f78-dbb8-11ee-0a80-02040027943b"
+      },
+      "stock": 60.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 60.0,
+      "name": "FarmStay - Сыворотка для лица с мусцимолом улитки -  Escargot Voblesse Intensive Ampole 250 ml.",
+      "code": "8809469772778",
+      "article": "622400183009:8809469772778",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {},
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/d7393025-cfb5-4e72-a523-71eb053de6bd",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "7B850161-DD37-4953-956B-404C827E1F61",
+        "filename": "7B850161-DD37-4953-956B-404C827E1F61.jpg",
+        "size": 3335059,
+        "updated": "2024-03-06 15:54:38.377",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/d7393025-cfb5-4e72-a523-71eb053de6bd?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/19cc5ac7-58dc-475e-95bd-7b8167295e20"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/7e12a8e5-c441-422a-ade2-ff2bb129672c/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "08Wd95Pdi-FyRg8GIjVxE1",
+      "stockDays": 20.19
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/5efa6382-7f1a-11ee-0a80-053f002ea6b3?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=5efa56db-7f1a-11ee-0a80-053f002ea6b0"
+      },
+      "stock": 30.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 30.0,
+      "name": "JMsolution - Collectiin Moisture N.M.F Mask N0.1",
+      "code": "8809852545026",
+      "article": "622400183009:8809852545026",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {},
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/7602c476-6fb5-4176-a0c6-31c2f0741a34",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231109_190515",
+        "filename": "IMG_20231109_190515.jpg",
+        "size": 506495,
+        "updated": "2023-11-09 19:09:31.467",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/7602c476-6fb5-4176-a0c6-31c2f0741a34?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/0312ffe9-94c6-4332-87c9-4871674ab488"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/d1cc94ec-7e53-4aad-b2bf-c5226086879a/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "PKqX2WDojntAWWb0lagaJ0",
+      "stockDays": 138.09
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/a29eae57-7f19-11ee-0a80-11da002f521b?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=a29ea55e-7f19-11ee-0a80-11da002f5218"
+      },
+      "stock": 30.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 30.0,
+      "name": "JMsolution - Collection Moisture Hyaluronic Acid Mask Care N0.1",
+      "code": "8809852545088",
+      "article": "622400183009:8809852545088",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {},
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/87dd7fa0-f5a8-4e3c-b86d-97f498f6f9ae",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231109_190104",
+        "filename": "IMG_20231109_190104.jpg",
+        "size": 673782,
+        "updated": "2023-11-09 19:04:16.100",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/87dd7fa0-f5a8-4e3c-b86d-97f498f6f9ae?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/ff68d279-5f38-40f7-ae9d-34cfc137614c"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/b8b30bdf-931f-416b-b0e1-835e13712533/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "5yxUCcNNhbVYoS5sFMq2o3",
+      "stockDays": 138.09
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/e69356ee-7f9d-11ee-0a80-012800479cbf?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=e6934b8f-7f9d-11ee-0a80-012800479cbb"
+      },
+      "stock": 30.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 30.0,
+      "name": "JMsolution - Water Luminous Avocado Oil Ampoule Mask",
+      "code": "8809505543485",
+      "article": "622400183009:8809505543485",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {},
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/d0a50778-6b41-4d0c-a8d4-96fae1eae91e",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231110_104643",
+        "filename": "IMG_20231110_104643.jpg",
+        "size": 1036315,
+        "updated": "2023-11-10 10:51:02.892",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/d0a50778-6b41-4d0c-a8d4-96fae1eae91e?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/c80d33c2-53d3-4cb4-bd20-3e839c6b54f8"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/a1973205-47e5-41bc-b93b-8b40f1ddf3e4/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "FZ41pWCCjQ-ZZdgr0ZTIq3",
+      "stockDays": 138.09
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/737d63c2-7f1c-11ee-0a80-053f002f2a15?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=737d591d-7f1c-11ee-0a80-053f002f2a12"
+      },
+      "stock": 30.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 30.0,
+      "name": "JMsolution - Water Luminous - Black - Маска тканевая для лица с аминокислотами - Riger Aminomask",
+      "code": "8809505544079",
+      "article": "622400183009:8809505544079",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {},
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/f7f02a87-1819-418f-8177-e0eee5bc568c",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231109_192040",
+        "filename": "IMG_20231109_192040.jpg",
+        "size": 423255,
+        "updated": "2023-11-09 19:24:25.067",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/f7f02a87-1819-418f-8177-e0eee5bc568c?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/80398308-f521-45c3-8ea6-23a5fc060de4"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/c4146e3b-cafe-4a7d-905e-fd3472bf21f2/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "-XUQ9CbHhnFbtiR5yBXZi2",
+      "stockDays": 138.09
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/e6dde622-7f9c-11ee-0a80-08dd0047658f?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=e6ddda4a-7f9c-11ee-0a80-08dd0047658c"
+      },
+      "stock": 10.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 10.0,
+      "name": "JMsolution - Water Luminous Golden Cocoon Mask Plus - Black -",
+      "code": "8809711715171",
+      "article": "622400183009:8809711715171",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {},
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/492804cf-63dd-43a3-bd42-e8c9a901fae1",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231110_104006",
+        "filename": "IMG_20231110_104006.jpg",
+        "size": 806413,
+        "updated": "2023-11-10 10:43:54.014",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/492804cf-63dd-43a3-bd42-e8c9a901fae1?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/aecbb2c9-0c71-495c-8c8f-6cbf14af5c82"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/eb4a435c-4e9a-4f5e-bbb0-645ff4e1c3bb/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "pfk1NprajGhju83C-OPZx3",
+      "stockDays": 138.09
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/ef9490a3-7fa3-11ee-0a80-009a00197813?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ef948532-7fa3-11ee-0a80-009a00197810"
+      },
+      "stock": 30.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 30.0,
+      "name": "JMsolution - Water Luminous Silky Cocoon Mask - Маска для упругости кожи с протеинами шелка",
+      "code": "8809505543096",
+      "article": "622400183009:8809505543096",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/11a63176-f98c-4bb7-ab27-74142e7f0489",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231220_192142",
+        "filename": "IMG_20231220_192142.jpg",
+        "size": 1033327,
+        "updated": "2023-12-20 19:22:08.432",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/11a63176-f98c-4bb7-ab27-74142e7f0489?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/59ce512d-41ea-4295-887f-9fd707b439b5"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/e53b9eba-52f4-4a8b-8ee2-0f917c6cfa40/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "aoseWWgCjJXwD4DHpKoBH0",
+      "stockDays": 138.09
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/076c823a-7f18-11ee-0a80-0981002d5507?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=076c77df-7f18-11ee-0a80-0981002d5504"
+      },
+      "stock": 30.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 30.0,
+      "name": "JMsolution - Water Luminous S.O.S Rigner Mask Black",
+      "code": "8809505542136",
+      "article": "622400183009:8809505542136",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {},
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/cc948d67-072f-4257-b649-29aeefe6391e",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231109_185010",
+        "filename": "IMG_20231109_185010.jpg",
+        "size": 974149,
+        "updated": "2023-11-09 18:52:45.829",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/cc948d67-072f-4257-b649-29aeefe6391e?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/4b17abc6-af6a-4a67-ad6c-9f19a1fdc516"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/7307ed12-9f98-4c26-97ad-f0b9b99bf60f/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "EEMcXWOBhEb9QbQs8HMZk3",
+      "stockDays": 138.09
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/62ac2317-9529-11ee-0a80-11fb0000d5d7?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=62ac10a8-9529-11ee-0a80-11fb0000d5d4"
+      },
+      "stock": 7.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 7.0,
+      "name": "Masil 10 - Premium Repair HairMask - 12 мл x 10 шт - Маска для волос восстанавливающая Premium",
+      "code": "8809744062396",
+      "article": "622400183009:8809744062396",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/ddbcc9ec-5b58-435f-9cd2-90427c83b808",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231220_193436",
+        "filename": "IMG_20231220_193436.jpg",
+        "size": 591524,
+        "updated": "2023-12-20 19:35:04.829",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/ddbcc9ec-5b58-435f-9cd2-90427c83b808?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/089909c3-509f-4789-b65b-7e160bbd33f0"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/58085761-1787-4907-a265-73edd0f8ea5b/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "YOS2XKX9i8a-ImFdxiku32",
+      "stockDays": 110.02
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/ccb51368-7f2d-11ee-0a80-064c0031f8b0?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ccb50805-7f2d-11ee-0a80-064c0031f8ad"
+      },
+      "stock": 35.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 35.0,
+      "name": "Masil 3 - Salon Hair CMC Shampoo - 8 ml x 20 шт - Шампунь для волос с аминокислотами",
+      "code": "8809744060118",
+      "article": "622400183009:8809744060118",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {},
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/61a4c074-ded2-47a9-8391-99370060fc10",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231109_212541",
+        "filename": "IMG_20231109_212541.jpg",
+        "size": 365229,
+        "updated": "2023-11-09 21:28:36.121",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/61a4c074-ded2-47a9-8391-99370060fc10?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/a88de898-8644-4a55-b9c1-a3e6180e1933"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/504df0bf-7293-4046-8e7f-f7855c9f1f3b/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "36Ph7BdVjNM-4CkBzPsR32",
+      "stockDays": 138.09
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/bfd4cbd5-7f15-11ee-0a80-14e1002cae27?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=bfd4c347-7f15-11ee-0a80-14e1002cae24"
+      },
+      "stock": 67.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 67.0,
+      "name": "Masil 3 - Saloon Hair CMC Shampoo - 300 ml- Шампунь для волос с аминокислотами",
+      "code": "8809744060026",
+      "article": "622400183009:8809744060026",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {},
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/f970d452-d69f-4c87-ba1b-21a21e3ff5b4",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231109_183111",
+        "filename": "IMG_20231109_183111.jpg",
+        "size": 557827,
+        "updated": "2023-11-09 18:36:26.817",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/f970d452-d69f-4c87-ba1b-21a21e3ff5b4?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/9e88e623-0878-4b00-8060-8109dbced2dd"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/0c45caa8-6ab9-4203-9011-0e9d25edfb56/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "Y9GuYke7jQLZ5NvP--lWz1",
+      "stockDays": 138.09
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/4b26f08f-7fae-11ee-0a80-0f790017e38c?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=4b26e2f4-7fae-11ee-0a80-0f790017e389"
+      },
+      "stock": 24.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 24.0,
+      "name": "Masil 5 - (500ml) Шампунь против желтизны волос 5 Salon No Yellow Shampoo 500 мл",
+      "code": "8809744061191",
+      "article": "622400183009:8809744061191",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/b3d52d2f-9504-43b7-92da-47d40e82cf5b",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231220_193718",
+        "filename": "IMG_20231220_193718.jpg",
+        "size": 340264,
+        "updated": "2023-12-20 19:37:37.015",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/b3d52d2f-9504-43b7-92da-47d40e82cf5b?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/8edac6c8-8a88-4224-a457-9ff012740205"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/a5b704cd-c8d7-4c00-82e3-a2f0aa42f57c/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "xjM25DH1jK1pB3ngChxVn3",
+      "stockDays": 101.15
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/96e4adea-9c2b-11ee-0a80-0ee100233daf?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=96e4a6e7-9c2b-11ee-0a80-0ee100233dac"
+      },
+      "stock": 19.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 19.0,
+      "name": "Masil 5 - Probiotics Color Radiance Shampoo  (8мл * 20шт) - Шампунь с пробиотиками доя защиты цвета",
+      "code": "8809744060507",
+      "article": "622400183009:8809744060507",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/04047cc4-71bd-43b5-a58d-7c71620df68d",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231216_185237",
+        "filename": "IMG_20231216_185237.jpg",
+        "size": 382507,
+        "updated": "2023-12-16 18:55:50.376",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/04047cc4-71bd-43b5-a58d-7c71620df68d?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/6cd38db1-2076-4b45-93e5-1d4d1fc710e1"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/9335200b-11d8-41d7-8b04-a8addc3d6a08/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "BCIRuqPNhnROFl0QmaU792",
+      "stockDays": 101.15
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/f88709a8-9c1f-11ee-0a80-018c0020cb05?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=f886ffcd-9c1f-11ee-0a80-018c0020cb02"
+      },
+      "stock": 12.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 12.0,
+      "name": "Masil 5 - Probiotics Perfect Volume Shampoo - Шампунь для объема волос с пробиотиками 8мл * 20 шт",
+      "code": "8809744060484",
+      "article": "622400183009:8809744060484",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/e44e177f-772f-46a3-8e4d-6c0faae7ec48",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231216_172822",
+        "filename": "IMG_20231216_172822.jpg",
+        "size": 317877,
+        "updated": "2023-12-16 17:32:40.330",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/e44e177f-772f-46a3-8e4d-6c0faae7ec48?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/16d7c7e6-193f-4c02-a2b8-fb41ea15c767"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/9c6347ef-ab3e-4198-9d84-d2cdf055f4f6/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "AEwLFgg-gmdPgBi15BsY10",
+      "stockDays": 101.15
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/fa4ccc8e-9c2b-11ee-0a80-007d0023d273?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=fa4cc2e6-9c2b-11ee-0a80-007d0023d270"
+      },
+      "stock": 17.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 17.0,
+      "name": "Masil 5 - Probiotics Scalp Scaling Shampoo (8мл * 20шт) - Шампунь для глубокого очищения кожи головы",
+      "code": "8809744060514",
+      "article": "622400183009:8809744060514",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/253002aa-53bf-4cf9-8c77-284c18880336",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231216_185156",
+        "filename": "IMG_20231216_185156.jpg",
+        "size": 274207,
+        "updated": "2023-12-16 18:58:37.350",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/253002aa-53bf-4cf9-8c77-284c18880336?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/9fd89a93-641c-4589-88cf-a117cd8f865d"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/28e2dd61-730d-4ab2-9661-e3002227a2ca/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "6atV4fe5jV0mHKbrDDOee0",
+      "stockDays": 101.15
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/002d6d30-38d6-11ee-0a80-06a90034dcdc?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=002d6313-38d6-11ee-0a80-06a90034dcd9"
+      },
+      "stock": 44.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 44.0,
+      "name": "Masil 5 - Шампунь против желтизны волос 5 Salon No Yellow Shampoo 300 ml/мл",
+      "code": "8809744060361",
+      "article": "622400183009:8809744060361",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/53418e40-5ec7-4f91-aa68-1fe9b7289518",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20230812_090052",
+        "filename": "IMG_20230812_090052.jpg",
+        "size": 333059,
+        "updated": "2023-08-12 09:03:45.768",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/53418e40-5ec7-4f91-aa68-1fe9b7289518?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/f15cf159-2eab-483e-82fa-c03a7826016e"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/ba922f19-9c9b-471c-88b4-3adaeaf03f32/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "JviBG2duiKFL3vJTJ8oWp0",
+      "stockDays": 101.15
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/b08a63f2-3df3-11ee-0a80-07ba0027a247?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=b08a575b-3df3-11ee-0a80-07ba0027a244"
+      },
+      "stock": 2.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 2.0,
+      "name": "Masil 8 - Маска для волос солонный эффет за 8 сек. 8 second salon hair mask 200мл",
+      "code": "8809744060019",
+      "article": "622400183009:8809744060019",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/52b80e39-3669-473d-988d-826f308bd461",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20230818_211500",
+        "filename": "IMG_20230818_211500.jpg",
+        "size": 385681,
+        "updated": "2023-08-18 21:18:52.966",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/52b80e39-3669-473d-988d-826f308bd461?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/f66235a7-0db1-4c1f-94dc-2fcd9e4d1600"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/d6c52374-710a-4b78-9c70-06ec1ab85734/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "a-qv0YZuiHeKsyTUQbWT42",
+      "stockDays": 7.74
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/4790529c-7275-11ee-0a80-03cf0023eaf6?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=47904b3c-7275-11ee-0a80-03cf0023eaf3"
+      },
+      "stock": 179.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 179.0,
+      "name": "Masil 9 Protein Perfume Silk Balm 20 ml - Бальзам для волос и кожи головы парфюмированный с протеинами",
+      "code": "8809744061481",
+      "article": "622400183009:8809744061481",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/1319ffc6-28f3-43a7-b668-c51241a777b9",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231024_164753",
+        "filename": "IMG_20231024_164753.jpg",
+        "size": 475420,
+        "updated": "2023-10-24 16:57:31.555",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/1319ffc6-28f3-43a7-b668-c51241a777b9?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/e65c44ca-0490-4372-9848-8d9c3c37a9be"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/2675ad90-51fb-42c5-ba02-d2b289a7b63e/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "NtYjdzeWipPts3DsocpL72",
+      "stockDays": 110.02
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/997fc4f1-7271-11ee-0a80-14350023ba23?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=997fb582-7271-11ee-0a80-14350023ba20"
+      },
+      "stock": 1.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 1.0,
+      "name": "Masil 9 Protein Perfume Sweet Love 180 ml - Парфюмированный бальзам для повреждённых волос",
+      "code": "8809744062129",
+      "article": "622400183009:8809744062129",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/eafb4056-438c-4b67-91de-2c4704bdc0ee",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231024_162529",
+        "filename": "IMG_20231024_162529.jpg",
+        "size": 642401,
+        "updated": "2023-10-24 16:31:10.896",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/eafb4056-438c-4b67-91de-2c4704bdc0ee?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/a63fd712-6f42-43e1-b5d3-04fe65915e6a"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/c131b0fc-f349-40ad-8702-ad4f7b86bf7c/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "X2aaZjDViVkcoDgUO022B1",
+      "stockDays": 8.23
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/cc996c58-7273-11ee-0a80-0dd100232eae?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=cc995f0b-7273-11ee-0a80-0dd100232eab"
+      },
+      "stock": 167.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 167.0,
+      "name": "Masil 9 Protein Perfume Sweet Love 20 ml - Протеиновый несмываемый бальзам",
+      "code": "8809744062327",
+      "article": "622400183009:8809744062327",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/d3f16e0d-9959-4176-a19e-01aa61279b28",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231024_163630",
+        "filename": "IMG_20231024_163630.jpg",
+        "size": 511549,
+        "updated": "2023-10-24 16:46:55.676",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/d3f16e0d-9959-4176-a19e-01aa61279b28?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/f428f9a3-4c92-4aca-a67a-3abea6c80f1d"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/65c5ca4b-454d-4da4-93fd-f8dc27af0668/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "yOG3Kb3xi5XCOncjPjxkQ2",
+      "stockDays": 109.21
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/fc10c56c-1ff5-11ee-0a80-062a001fc83c?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=fc10b8d6-1ff5-11ee-0a80-062a001fc839"
+      },
+      "stock": 56.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 56.0,
+      "name": "Masil 9 - Бальзам для волос и кожи головы с протеинами. Protein Perfume Silk Balm 180 ml/мл",
+      "code": "8809744060033",
+      "article": "622400183009:8809744060033",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/89c3e1dd-d21f-410f-8962-644309e4a2e6",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20230711_171518",
+        "filename": "IMG_20230711_171518.jpg",
+        "size": 734942,
+        "updated": "2023-07-11 17:19:43.664",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/89c3e1dd-d21f-410f-8962-644309e4a2e6?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/9d3bff00-231d-482d-ab47-0a73def2afa5"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/11fd48ed-9153-43fa-b420-320ef9113549/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "nsyNnyDGiGpEionY6Lg8N3",
+      "stockDays": 109.91
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/44e2f89d-7f1b-11ee-0a80-0e32002e1147?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=44e2efb7-7f1b-11ee-0a80-0e32002e1144"
+      },
+      "stock": 30.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 30.0,
+      "name": "Ultru - I'm Sorry For My Skin - pH5.5 - Jelly Madi - Moustur3",
+      "code": "8809511987570",
+      "article": "622400183009:8809511987570",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {},
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/08d4cb32-7e0e-4c69-bd26-c3cec98b3ceb",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231109_191049",
+        "filename": "IMG_20231109_191049.jpg",
+        "size": 707687,
+        "updated": "2023-11-09 19:15:57.387",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/08d4cb32-7e0e-4c69-bd26-c3cec98b3ceb?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/c87bd62d-e8d3-4436-8c20-fb112d31734c"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/ed27ccfe-24cf-4140-82ca-d5e946570202/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "-cEnXkeGiGI0xm3iWjEyC3",
+      "stockDays": 138.09
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/e4fa7910-8350-11ee-0a80-03280002469c?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=e4fa6aa0-8350-11ee-0a80-032800024699"
+      },
+      "stock": 10.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 10.0,
+      "name": "ultru - i'm sorry for my skin pH5.5 Jelly Mask - Purifying",
+      "code": "8809511987631",
+      "article": "622400183009:8809511987631",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/761d65e7-fac7-465c-a7be-c89fa92b1fb9",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231220_193919",
+        "filename": "IMG_20231220_193919.jpg",
+        "size": 399010,
+        "updated": "2023-12-20 19:39:55.990",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/761d65e7-fac7-465c-a7be-c89fa92b1fb9?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/8d42535c-9f0e-4e54-b49a-d24110a4f93c"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/6a1e1db6-604e-4374-8d91-effed26371e0/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "qvFTjTRYhMrYezURpVtV73",
+      "stockDays": 138.09
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/d131120e-7f1b-11ee-0a80-11da002fed53?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=d1310afb-7f1b-11ee-0a80-11da002fed50"
+      },
+      "stock": 20.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 20.0,
+      "name": "ultru - I'm Sorry For My Skin - pH5.5 Mask - Brightening",
+      "code": "8809511987549",
+      "article": "622400183009:8809511987549",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {},
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/9f29b8ee-3511-42f4-9637-f5664bcb1c96",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231109_191651",
+        "filename": "IMG_20231109_191651.jpg",
+        "size": 684716,
+        "updated": "2023-11-09 19:19:53.140",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/9f29b8ee-3511-42f4-9637-f5664bcb1c96?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/977fe666-ae5b-4c12-b100-2685e9b57ee6"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/3b5b9daf-db14-4aa9-82b4-86f333af4aa8/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "6Tz0SiNMhdPXcvv90MxAR1",
+      "stockDays": 138.09
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/81944512-7f99-11ee-0a80-0f7d004788bf?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=819435d2-7f99-11ee-0a80-0f7d004788bc"
+      },
+      "stock": 10.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 10.0,
+      "name": "ultru - i'm sorry for my skin - S.O.S Jelly Mask-Soothing - Успокаивающая тканевая маска",
+      "code": "8809511983169",
+      "article": "622400183009:8809511983169",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {},
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/613aaad0-1690-4986-af12-93897d736d6e",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231110_101625",
+        "filename": "IMG_20231110_101625.jpg",
+        "size": 757144,
+        "updated": "2023-11-10 10:19:35.790",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/613aaad0-1690-4986-af12-93897d736d6e?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/b4ee5573-0b22-4705-9301-6a4c8e834ebc"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/97d1024c-268e-47a6-8906-ed2dd5bd8727/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "Qhtu6Hb6gN8V42aGropjn1",
+      "stockDays": 138.09
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/c2c9def4-7f96-11ee-0a80-053f004673e1?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=c2c9d3ad-7f96-11ee-0a80-053f004673de"
+      },
+      "stock": 10.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 10.0,
+      "name": "ultru - u'm sorty for my skun - pH5.5 Jelly Madk - Soothing",
+      "code": "8809511987600",
+      "article": "622400183009:8809511987600",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {},
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/51375bc7-2f2b-4d04-826f-09a26103bdcf",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231110_095803",
+        "filename": "IMG_20231110_095803.jpg",
+        "size": 471242,
+        "updated": "2023-11-10 09:59:56.743",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/51375bc7-2f2b-4d04-826f-09a26103bdcf?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/7da5de74-b78b-4c2f-837e-b5bf5f1decb8"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/05f8b2d9-ed09-405e-b871-11abfb829ea6/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "0J-NZ-9Oj7FW3rF9oTzOz0",
+      "stockDays": 138.09
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/90410f5d-ffb2-11ed-0a80-028c001ebe14?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=90410438-ffb2-11ed-0a80-028c001ebe12"
+      },
+      "stock": 0.0,
+      "inTransit": 0.0,
+      "reserve": 1.0,
+      "quantity": -1.0,
+      "name": "Крем тональный для лица омолаживающий Gold Snail MF SPF 30, N 13,100 ml",
+      "code": "2004999204003",
+      "article": "622400183009:2004999204003",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/05c0ff0e-a7fd-40e0-baf2-2f9cc866e629",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20230531_154914",
+        "filename": "IMG_20230531_154914.jpg",
+        "size": 899515,
+        "updated": "2023-05-31 15:56:28.556",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/05c0ff0e-a7fd-40e0-baf2-2f9cc866e629?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/36451c55-a912-409f-a2b1-5dd6641aa0f2"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/62674565-0202-48f3-9e91-238f0211aefd/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "7XMmvjhogFAGe9BARqIF80",
+      "stockDays": 0.0
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/4ceafa08-9394-11ee-0a80-023d0019aed4?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=4ceae976-9394-11ee-0a80-023d0019aed1"
+      },
+      "stock": 414.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 414.0,
+      "name": "Пенка с содой - Etude House Baking Powder BB Deep Cleansing Foam, 30 ml",
+      "code": "8809668028058",
+      "article": "622400183009:8809668028058",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/9b843fc1-77f1-4377-9605-f8f9ba74e1b7",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "8058",
+        "filename": "8058.jpg",
+        "size": 485392,
+        "updated": "2023-12-06 01:01:38.939",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/9b843fc1-77f1-4377-9605-f8f9ba74e1b7?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/dc308bfa-c909-4f87-832a-2016671b2d54"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/ebf3bc37-ffeb-47ff-b369-ac686a41816d/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "1bTDryAUgnxUDijmlJzC22",
+      "stockDays": 109.82
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/2301cc36-1ffc-11ee-0a80-07d700200346?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=2301c40d-1ffc-11ee-0a80-07d700200343"
+      },
+      "stock": 29.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 29.0,
+      "name": "Промо набор Тканевых масок доя лица 25мл",
+      "code": "2000000024608",
+      "article": "622400183009:2000000024608",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {},
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/ad0b8409-acf8-41ad-b59b-3f9ed1a13fd8",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20230711_175817",
+        "filename": "IMG_20230711_175817.jpg",
+        "size": 632223,
+        "updated": "2023-07-11 18:06:41.815",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/ad0b8409-acf8-41ad-b59b-3f9ed1a13fd8?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/3eefd38f-dfcb-4fef-9431-5d6c5cf2e39e"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/284be6dc-5b52-4640-9ef4-42319e581979/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "BVopMTCFj-5JVjTmy7j8M0",
+      "stockDays": 259.2
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/2748c526-37b9-11ee-0a80-079400034317?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=2748b8ed-37b9-11ee-0a80-079400034314"
+      },
+      "stock": 63.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 63.0,
+      "name": "Тональный крем ENOUGH Gold Snail Moisture Foundation SPF30 тон № 13 100 мл",
+      "code": "8809474498809",
+      "article": "622400183009:8809474498809",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/94df571a-0aea-40a1-90c2-4d54711317b4",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20230810_235311",
+        "filename": "IMG_20230810_235311.jpg",
+        "size": 93955,
+        "updated": "2023-08-10 23:54:12.452",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/94df571a-0aea-40a1-90c2-4d54711317b4?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/cea0a115-2ef0-4561-b84d-33b1fb9b4631"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/c69f5f2b-05f2-47a0-98ee-64d7e4e61242/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "2oz0dqB8gR4d09S4SO5hf2",
+      "stockDays": 107.52
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/30fef907-37bb-11ee-0a80-06a900035724?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=30feef9b-37bb-11ee-0a80-06a900035721"
+      },
+      "stock": 182.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 182.0,
+      "name": "Тональный крем ENOUGH Gold Snail Moisture Foundation SPF30 тон № 21 100мл",
+      "code": "8809474498816",
+      "article": "622400183009:8809474498816",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/caa5b3c4-2839-4510-88b6-b3781ceca947",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20230810_232122",
+        "filename": "IMG_20230810_232122.jpg",
+        "size": 86169,
+        "updated": "2023-08-10 23:23:46.252",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/caa5b3c4-2839-4510-88b6-b3781ceca947?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/d0e20a0f-789b-4c91-b7d7-96f0a9f9f90b"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/ad8c5949-7d1f-43c3-98fd-c53d07961218/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "cNXrbOtDikOS88NHDMnGx1",
+      "stockDays": 112.51
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/6edb4ad7-7fad-11ee-0a80-09800024d567?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=6edb4173-7fad-11ee-0a80-09800024d564"
+      },
+      "stock": 3.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 3.0,
+      "name": "Тональный Крем тон 13 Enough - Rich Gold Double Wear Radiance Foundation SPF50+ тон №13 PA+++",
+      "code": "8809605871938",
+      "article": "622400183009:8809605871938",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/2bbf7fcc-9ccd-43b6-8ba0-2fb39c39a2a8",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231220_191643",
+        "filename": "IMG_20231220_191643.jpg",
+        "size": 517013,
+        "updated": "2023-12-20 19:17:06.119",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/2bbf7fcc-9ccd-43b6-8ba0-2fb39c39a2a8?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/9833d6c0-9f6f-470a-bde8-3102520f4b9f"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/4287ddae-0a06-4860-afe2-7a88a9e7149b/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "fbTukMAzimwQWAB74xTDv3",
+      "stockDays": 23.87
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/07a8b262-9027-11ee-0a80-1563000e628f?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=07a8a390-9027-11ee-0a80-1563000e628c"
+      },
+      "stock": 55.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 55.0,
+      "name": "Тональный крем тон 21 Enough - Rich Gold Double Wear Radiance Foundation SPF50+ тон №21 PA+++",
+      "code": "8809605871945",
+      "article": "622400183009:8809605871945",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/ff1eef8e-df6d-11ed-0a80-06f8001107f7",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=ff1eef8e-df6d-11ed-0a80-06f8001107f7"
+        },
+        "name": "Косметика",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/ce3d9588-2927-474e-a709-e68e41fd9fee",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "IMG_20231220_191250",
+        "filename": "IMG_20231220_191250.jpg",
+        "size": 478335,
+        "updated": "2023-12-20 19:14:20.994",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/ce3d9588-2927-474e-a709-e68e41fd9fee?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/9846a1e3-7d70-4b3f-9317-88a24b59cd9f"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/5c3eca3c-2f6a-459b-8d8d-22b6bda9ad74/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "FPC0tHNXiCp10aj7FmnTI2",
+      "stockDays": 108.26
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/d7dfdd01-2c5a-11ee-0a80-090e00096ba9?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=d7dfd416-2c5a-11ee-0a80-090e00096ba6"
+      },
+      "stock": 3.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 3.0,
+      "name": "Стол Трансформер - Карелия (комплект 2 кор.)",
+      "code": "8809744060203",
+      "article": "7721485354:8809744060203",
+      "price": 0.0,
+      "salePrice": 1370000.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/e6d53c1b-2c5a-11ee-0a80-00740009478a",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=e6d53c1b-2c5a-11ee-0a80-00740009478a"
+        },
+        "name": "Мебель",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/5d0a2918-1a91-4e7f-9fc6-6ea7763be2e9",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "Изображение WhatsApp 2023-07-26 в 17.42.10",
+        "filename": "Изображение WhatsApp 2023-07-26 в 17.42.10.jpg",
+        "size": 17853,
+        "updated": "2023-07-27 11:50:01.819",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/5d0a2918-1a91-4e7f-9fc6-6ea7763be2e9?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/58dc0164-869c-4d7b-ae33-28d4c6629fb0"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/46e946ef-f115-4a14-8261-2253a57f36c3/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "pjV0NVHzh-ZNw4MTBtn200",
+      "stockDays": 124.06
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/f7c9e658-308e-11ee-0a80-0596001617c0?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=f7c9dfc4-308e-11ee-0a80-0596001617bd"
+      },
+      "stock": 2.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 2.0,
+      "name": "Стол трансформер - Санома (комплект 2 кор.)",
+      "code": "8809744060204",
+      "article": "7721485354:8809744060204",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/e6d53c1b-2c5a-11ee-0a80-00740009478a",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=e6d53c1b-2c5a-11ee-0a80-00740009478a"
+        },
+        "name": "Мебель",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/9320ea26-9982-46cf-8b58-d44147a186cc",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "2K_004",
+        "filename": "2K_004.jpg",
+        "size": 450674,
+        "updated": "2023-08-01 20:14:18.176",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/9320ea26-9982-46cf-8b58-d44147a186cc?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/fcabaf3f-6c67-428a-827e-ed3b85d7e883"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/1dc90111-2f75-4502-9176-cc112f76ceb3/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "BBxgprN2iZoefGavvgReq0",
+      "stockDays": 124.06
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/02442537-df6e-11ed-0a80-06f800110a65?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=024416c4-df6e-11ed-0a80-06f800110a63"
+      },
+      "stock": 0.0,
+      "inTransit": 0.0,
+      "reserve": 1.0,
+      "quantity": -1.0,
+      "name": "Снеки Картофельные ТЗ СARAMBA, 100 гр., Сыр Чеддер",
+      "code": "00093",
+      "article": "773373892306:4810283007773",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/feec164f-df6d-11ed-0a80-06f8001107d6",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=feec164f-df6d-11ed-0a80-06f8001107d6"
+        },
+        "name": "Чипсы",
+        "pathName": "ТОВАРЫ"
+      },
+      "externalCode": "ggnNPKa0iClAEeoXpfxdu3",
+      "stockDays": 0.0
+    },
+    {
+      "meta": {
+        "href": "https://api.moysklad.ru/api/remap/1.2/entity/product/08fe160b-110a-11ee-0a80-09950014ba2e?expand=supplier",
+        "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
+        "type": "product",
+        "mediaType": "application/json",
+        "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=08fe0c52-110a-11ee-0a80-09950014ba2b"
+      },
+      "stock": 3.0,
+      "inTransit": 0.0,
+      "reserve": 0.0,
+      "quantity": 3.0,
+      "name": "Энергетический напиток VERSAGE ENERGY DRINK Classic, 250мл",
+      "code": "4424328310089",
+      "article": "771005361380:4424328310089",
+      "price": 0.0,
+      "salePrice": 0.0,
+      "uom": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/uom/19f1edc0-fc42-4001-94cb-c9ec9c62ec10",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/uom/metadata",
+          "type": "uom",
+          "mediaType": "application/json"
+        },
+        "name": "шт"
+      },
+      "folder": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/b31c1268-110a-11ee-0a80-1380001511ed",
+          "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/productfolder/metadata",
+          "type": "productfolder",
+          "mediaType": "application/json",
+          "uuidHref": "https://online.moysklad.ru/app/#good/edit?id=b31c1268-110a-11ee-0a80-1380001511ed"
+        },
+        "name": "Энергетический напиток",
+        "pathName": "ТОВАРЫ"
+      },
+      "image": {
+        "meta": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/c8238869-4e9c-4c5d-a2dc-508539d7abad",
+          "mediaType": "application/octet-stream"
+        },
+        "title": "WhatsApp Image 2023-06-22 at 15.26.39",
+        "filename": "WhatsApp Image 2023-06-22 at 15.26.39.jpeg",
+        "size": 89726,
+        "updated": "2023-06-22 17:34:51.797",
+        "miniature": {
+          "href": "https://api.moysklad.ru/api/remap/1.2/download/c8238869-4e9c-4c5d-a2dc-508539d7abad?miniature=true",
+          "mediaType": "application/octet-stream",
+          "downloadHref": "https://miniature-prod.moysklad.ru/miniature/a3283598-df68-11ed-0a80-06f100005b28/documentminiature/49bec89d-b58c-447c-a739-c6f65270712f"
+        },
+        "tiny": {
+          "href": "https://tinyimage-prod.moysklad.ru/static/tinyimage/a3283598-df68-11ed-0a80-06f100005b28/tinyimage/7cddffcc-0340-43cd-898a-4ef894451f09/t.png",
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "externalCode": "SFZyxfXnjwbc7QsN0FoFM2",
+      "stockDays": 275.06
+    }
+  ]
+}
