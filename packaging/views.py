@@ -135,7 +135,7 @@ def update_shipments(request):
                         "Api-Key": user.ozon_client_key
                     }
 
-                    date_from = datetime.utcnow() - + timedelta(hours=48)
+                    date_from = datetime.utcnow() - timedelta(hours=24)
                     date_to = datetime.utcnow() + timedelta(hours=48)
 
                     payload = {
@@ -185,14 +185,13 @@ def update_shipments(request):
 
 
 def shipments(request):
-    shipments = Shipment.objects.all().order_by('shipment_date')
+    user = CustomUser.objects.filter(user=request.user).first()
+    shipments = Shipment.objects.filter(seller=user).order_by('shipment_date')
     return render(request, 'shipments.html', {'shipments': shipments})
 
 
 def products(request):
-    owners = CustomUser.objects.all()
-    for owner in owners:
-        print(owner.product_set.all())
+    owners = CustomUser.objects.filter(user_type="seller")
     return render(request, 'products.html', {'owners': owners})
 
 
@@ -272,7 +271,12 @@ def send_shipments(request):
                 "files": []
             }
 
-            shipments = Shipment.objects.filter(seller=user, moysklad_id__isnull=True).order_by('shipment_date')
+            today = datetime.now().date()
+            tomorrow = today + timedelta(1)
+            shipments = Shipment.objects.filter(seller=user, moysklad_id__isnull=True,
+                                                shipment_date__lte=today + timedelta(1),
+                                                shipment_date__gte=today).order_by('shipment_date')
+
             cur_date = shipments[0].shipment_date
             for shipment in shipments:
                 if shipment.shipment_date == cur_date:
@@ -297,6 +301,9 @@ def send_shipments(request):
             try:
                 response = requests.post("https://api.moysklad.ru/api/remap/1.2/entity/demand", headers=headers,
                                          json=payload)
+                with open(f'payload.json', 'w') as f:
+                    json.dump(payload, f, indent=2)
+                print(response.json())
                 response.raise_for_status()
                 shipment_id = response.json()["id"]
                 for date_shipment in shipments.filter(shipment_date=cur_date):

@@ -28,7 +28,7 @@ def add_shipment_to_payload(payload, shipment):
 
         # Готовим JSON-полезную нагрузку
         payload['files'].append(
-            {"filename": 'big_pdf.pdf',  # Извлекаем имя файла из пути
+            {"filename": f'big_pdf-{shipment.marketplace_id}.pdf',  # Извлекаем имя файла из пути
              "content": pdf_base64})
 
 
@@ -64,8 +64,13 @@ def update_product_from_api(product_id, response):
         product.quantity_in_stock = q
     product.save()
     owners = CustomUser.objects.filter(INN=product.article.split(":")[0])
+    moiseeva = CustomUser.objects.filter(INN="622400183009").first()
+    alexeeva = CustomUser.objects.filter(INN="622402110214").first()
     if owners:
         product.owner.add(owners[0])
+    if product.article.split(":")[0] in ("622400183009","622402110214"):
+        product.owner.add(alexeeva)
+        product.owner.add(moiseeva)
     if 'barcodes' in list(response.keys()):
         for code in response['barcodes']:
             if 'code128' in list(code.keys()):
