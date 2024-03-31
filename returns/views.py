@@ -46,6 +46,7 @@ def get_ozon_returns(request, filter=default_payload):
 
         # Проверяем успешность запроса
         response.raise_for_status()
+        print(response.json())
 
         logging.info("+ Request to Ozon API successful")
         return response.json()
@@ -119,7 +120,7 @@ def get_barcode(request):
             return None
 
     def createBarCodes(s):
-        generate('code128', s, output='static/images/barcode')
+        generate('code128', s, output='static/returns/images/barcode')
 
     return_status = get_ozon_available_returns()['enabled']
     if return_status:
@@ -135,11 +136,11 @@ def get_barcode(request):
 
 
 def return_list(request):
-    products = get_ozon_returns()  # Замените на вашу модель продукта
+    products = get_ozon_returns(request)  # Замените на вашу модель продукта
 
     return render(request, 'return_list.html', {'products': products})
 
 
 def generate_barcode(request):
-    get_barcode()
+    get_barcode(request)
     return render(request, 'barcode.html')
