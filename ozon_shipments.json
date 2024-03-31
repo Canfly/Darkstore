@@ -1,81 +1,22 @@
 {
   "postings": [
     {
-      "posting_number": "57689290-0079-1",
-      "order_id": 22704501226,
-      "order_number": "57689290-0079",
+      "posting_number": "42557526-0057-4",
+      "order_id": 22710300086,
+      "order_number": "42557526-0057",
       "status": "delivering",
       "delivery_method": {
-        "id": 1020000731811000,
+        "id": 1020000723158000,
         "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
-        "warehouse_id": 1020000731811000,
+        "warehouse_id": 1020000723158000,
         "warehouse": "Fillru",
         "tpl_provider_id": 24,
         "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
       },
       "tracking_number": "",
       "tpl_integration_type": "ozon",
-      "in_process_at": "2024-03-29T09:28:35Z",
-      "shipment_date": "2024-03-30T10:00:00Z",
-      "delivering_date": "2024-03-30T13:58:33Z",
-      "cancellation": {
-        "cancel_reason_id": 0,
-        "cancel_reason": "",
-        "cancellation_type": "",
-        "cancelled_after_ship": false,
-        "affect_cancellation_rating": false,
-        "cancellation_initiator": ""
-      },
-      "customer": null,
-      "products": [
-        {
-          "price": "978.0000",
-          "offer_id": "ColorRadianceShampoo8ml*20pcs",
-          "name": "MASIL \u041f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0448\u0430\u043c\u043f\u0443\u043d\u044c \u0434\u043b\u044f \u0437\u0430\u0449\u0438\u0442\u044b \u0446\u0432\u0435\u0442\u0430 \u0432\u043e\u043b\u043e\u0441 \u0441 \u043f\u0440\u043e\u0431\u0438\u043e\u0442\u0438\u043a\u0430\u043c\u0438 \u043a\u043e\u0440\u0435\u0439\u0441\u043a\u0438\u0439 8 \u043c\u043b 20 \u0448\u0442\u0443\u043a",
-          "sku": 678165380,
-          "quantity": 1,
-          "mandatory_mark": [
-            ""
-          ],
-          "currency_code": "RUB"
-        }
-      ],
-      "addressee": null,
-      "barcodes": null,
-      "analytics_data": null,
-      "financial_data": null,
-      "is_express": false,
-      "requirements": {
-        "products_requiring_gtd": [],
-        "products_requiring_country": [],
-        "products_requiring_mandatory_mark": [],
-        "products_requiring_rnpt": [],
-        "products_requiring_jw_uin": []
-      },
-      "parent_posting_number": "",
-      "available_actions": [],
-      "multi_box_qty": 1,
-      "is_multibox": false,
-      "substatus": "posting_on_way_to_city",
-      "prr_option": ""
-    },
-    {
-      "posting_number": "03378415-0660-1",
-      "order_id": 23367773311,
-      "order_number": "03378415-0660",
-      "status": "delivering",
-      "delivery_method": {
-        "id": 1020000731811000,
-        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
-        "warehouse_id": 1020000731811000,
-        "warehouse": "Fillru",
-        "tpl_provider_id": 24,
-        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
-      },
-      "tracking_number": "",
-      "tpl_integration_type": "ozon",
-      "in_process_at": "2024-03-29T11:47:38Z",
-      "shipment_date": "2024-03-30T10:00:00Z",
+      "in_process_at": "2024-03-29T12:32:01Z",
+      "shipment_date": "2024-03-30T07:00:00Z",
       "delivering_date": "2024-03-30T13:58:54Z",
       "cancellation": {
         "cancel_reason_id": 0,
@@ -88,10 +29,10 @@
       "customer": null,
       "products": [
         {
-          "price": "1140.0000",
-          "offer_id": "1Etud200\u043c\u043b\u0421\u0438\u043d\u0438\u04391Etud200\u043c\u043b\u0421\u0438\u043d\u0438\u0439",
-          "name": "Etude House \u041e\u0447\u0438\u0449\u0430\u044e\u0449\u0438\u0439 \u0441\u043a\u0440\u0430\u0431 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0441 \u0441\u043e\u0434\u043e\u0439 \u0432 \u0442\u0443\u0431\u0435 Baking Powder Crunch Pore Scrub 200 \u043c\u043b / \u043f\u0438\u043b\u0438\u043d\u0433",
-          "sku": 642876378,
+          "price": "1148.0000",
+          "offer_id": "1ELIZAVECCA\u041c\u0430\u0441\u043a\u0430\u0413\u043b\u0438\u043d\u04301ELIZAVECCA\u041c\u0430\u0441\u043a\u0430\u0413\u043b\u0438\u043d\u0430/2",
+          "name": "\u041c\u0430\u0441\u043a\u0430 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u043e\u0447\u0438\u0449\u0430\u044e\u0449\u0430\u044f ELIZAVECCA, \u0433\u043b\u0438\u043d\u044f\u043d\u043e-\u043f\u0443\u0437\u044b\u0440\u044c\u043a\u043e\u0432\u0430\u044f \u043c\u0430\u0441\u043a\u0430 Milky Piggy Carbonated Bubble Clay Mask, 100 \u043c\u043b.",
+          "sku": 910268218,
           "quantity": 1,
           "mandatory_mark": [
             ""
@@ -119,258 +60,22 @@
       "prr_option": ""
     },
     {
-      "posting_number": "0157041630-0002-2",
-      "order_id": 22888550990,
-      "order_number": "0157041630-0002",
+      "posting_number": "43318539-0234-4",
+      "order_id": 22742387435,
+      "order_number": "43318539-0234",
       "status": "delivering",
       "delivery_method": {
-        "id": 1020000731811000,
+        "id": 1020000723158000,
         "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
-        "warehouse_id": 1020000731811000,
+        "warehouse_id": 1020000723158000,
         "warehouse": "Fillru",
         "tpl_provider_id": 24,
         "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
       },
       "tracking_number": "",
       "tpl_integration_type": "ozon",
-      "in_process_at": "2024-03-29T14:17:24Z",
-      "shipment_date": "2024-03-30T10:00:00Z",
-      "delivering_date": "2024-03-30T13:58:47Z",
-      "cancellation": {
-        "cancel_reason_id": 0,
-        "cancel_reason": "",
-        "cancellation_type": "",
-        "cancelled_after_ship": false,
-        "affect_cancellation_rating": false,
-        "cancellation_initiator": ""
-      },
-      "customer": null,
-      "products": [
-        {
-          "price": "1140.0000",
-          "offer_id": "1Etud200\u043c\u043b\u0421\u0438\u043d\u0438\u04391Etud200\u043c\u043b\u0421\u0438\u043d\u0438\u0439",
-          "name": "Etude House \u041e\u0447\u0438\u0449\u0430\u044e\u0449\u0438\u0439 \u0441\u043a\u0440\u0430\u0431 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0441 \u0441\u043e\u0434\u043e\u0439 \u0432 \u0442\u0443\u0431\u0435 Baking Powder Crunch Pore Scrub 200 \u043c\u043b / \u043f\u0438\u043b\u0438\u043d\u0433",
-          "sku": 642876378,
-          "quantity": 1,
-          "mandatory_mark": [
-            ""
-          ],
-          "currency_code": "RUB"
-        }
-      ],
-      "addressee": null,
-      "barcodes": null,
-      "analytics_data": null,
-      "financial_data": null,
-      "is_express": false,
-      "requirements": {
-        "products_requiring_gtd": [],
-        "products_requiring_country": [],
-        "products_requiring_mandatory_mark": [],
-        "products_requiring_rnpt": [],
-        "products_requiring_jw_uin": []
-      },
-      "parent_posting_number": "",
-      "available_actions": [],
-      "multi_box_qty": 1,
-      "is_multibox": false,
-      "substatus": "posting_on_way_to_city",
-      "prr_option": ""
-    },
-    {
-      "posting_number": "37375636-0090-1",
-      "order_id": 23125243732,
-      "order_number": "37375636-0090",
-      "status": "delivering",
-      "delivery_method": {
-        "id": 1020000731811000,
-        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
-        "warehouse_id": 1020000731811000,
-        "warehouse": "Fillru",
-        "tpl_provider_id": 24,
-        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
-      },
-      "tracking_number": "",
-      "tpl_integration_type": "ozon",
-      "in_process_at": "2024-03-29T16:06:40Z",
-      "shipment_date": "2024-03-30T10:00:00Z",
-      "delivering_date": "2024-03-30T13:58:47Z",
-      "cancellation": {
-        "cancel_reason_id": 0,
-        "cancel_reason": "",
-        "cancellation_type": "",
-        "cancelled_after_ship": false,
-        "affect_cancellation_rating": false,
-        "cancellation_initiator": ""
-      },
-      "customer": null,
-      "products": [
-        {
-          "price": "1140.0000",
-          "offer_id": "1Etud200\u043c\u043b\u0421\u0438\u043d\u0438\u04391Etud200\u043c\u043b\u0421\u0438\u043d\u0438\u0439",
-          "name": "Etude House \u041e\u0447\u0438\u0449\u0430\u044e\u0449\u0438\u0439 \u0441\u043a\u0440\u0430\u0431 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0441 \u0441\u043e\u0434\u043e\u0439 \u0432 \u0442\u0443\u0431\u0435 Baking Powder Crunch Pore Scrub 200 \u043c\u043b / \u043f\u0438\u043b\u0438\u043d\u0433",
-          "sku": 642876378,
-          "quantity": 1,
-          "mandatory_mark": [
-            ""
-          ],
-          "currency_code": "RUB"
-        }
-      ],
-      "addressee": null,
-      "barcodes": null,
-      "analytics_data": null,
-      "financial_data": null,
-      "is_express": false,
-      "requirements": {
-        "products_requiring_gtd": [],
-        "products_requiring_country": [],
-        "products_requiring_mandatory_mark": [],
-        "products_requiring_rnpt": [],
-        "products_requiring_jw_uin": []
-      },
-      "parent_posting_number": "",
-      "available_actions": [],
-      "multi_box_qty": 1,
-      "is_multibox": false,
-      "substatus": "posting_on_way_to_city",
-      "prr_option": ""
-    },
-    {
-      "posting_number": "46747117-0169-1",
-      "order_id": 23140173565,
-      "order_number": "46747117-0169",
-      "status": "delivering",
-      "delivery_method": {
-        "id": 1020000731811000,
-        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
-        "warehouse_id": 1020000731811000,
-        "warehouse": "Fillru",
-        "tpl_provider_id": 24,
-        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
-      },
-      "tracking_number": "",
-      "tpl_integration_type": "ozon",
-      "in_process_at": "2024-03-29T16:52:23Z",
-      "shipment_date": "2024-03-30T10:00:00Z",
-      "delivering_date": "2024-03-30T13:59:02Z",
-      "cancellation": {
-        "cancel_reason_id": 0,
-        "cancel_reason": "",
-        "cancellation_type": "",
-        "cancelled_after_ship": false,
-        "affect_cancellation_rating": false,
-        "cancellation_initiator": ""
-      },
-      "customer": null,
-      "products": [
-        {
-          "price": "875.0000",
-          "offer_id": "EnoughRichGoldDoubleWearRadianceFoundatio/n21\u0442\u043e\u043d",
-          "name": "Enough \u0422\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0440\u0435\u043c Rich Gold Double Wear Radiance Foundation, SPF 50, 100 \u043c\u043b/100 \u0433, \u043e\u0442\u0442\u0435\u043d\u043e\u043a: 21",
-          "sku": 1292430157,
-          "quantity": 1,
-          "mandatory_mark": [
-            ""
-          ],
-          "currency_code": "RUB"
-        }
-      ],
-      "addressee": null,
-      "barcodes": null,
-      "analytics_data": null,
-      "financial_data": null,
-      "is_express": false,
-      "requirements": {
-        "products_requiring_gtd": [],
-        "products_requiring_country": [],
-        "products_requiring_mandatory_mark": [],
-        "products_requiring_rnpt": [],
-        "products_requiring_jw_uin": []
-      },
-      "parent_posting_number": "",
-      "available_actions": [],
-      "multi_box_qty": 1,
-      "is_multibox": false,
-      "substatus": "posting_on_way_to_city",
-      "prr_option": ""
-    },
-    {
-      "posting_number": "0101085572-0392-1",
-      "order_id": 23004334484,
-      "order_number": "0101085572-0392",
-      "status": "delivering",
-      "delivery_method": {
-        "id": 1020000731811000,
-        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
-        "warehouse_id": 1020000731811000,
-        "warehouse": "Fillru",
-        "tpl_provider_id": 24,
-        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
-      },
-      "tracking_number": "",
-      "tpl_integration_type": "ozon",
-      "in_process_at": "2024-03-29T17:55:01Z",
-      "shipment_date": "2024-03-30T10:00:00Z",
-      "delivering_date": "2024-03-30T13:59:04Z",
-      "cancellation": {
-        "cancel_reason_id": 0,
-        "cancel_reason": "",
-        "cancellation_type": "",
-        "cancelled_after_ship": false,
-        "affect_cancellation_rating": false,
-        "cancellation_initiator": ""
-      },
-      "customer": null,
-      "products": [
-        {
-          "price": "643.0000",
-          "offer_id": "ENOUGHCollagenmoistureENOUGHCollagenmoisture",
-          "name": "\u0423\u0432\u043b\u0430\u0436\u043d\u044f\u044e\u0449\u0438\u0439 \u043a\u0440\u0435\u043c \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0441 \u043a\u043e\u043b\u043b\u0430\u0433\u0435\u043d\u043e\u043c Enough, \u0430\u043d\u0442\u0438\u0432\u043e\u0437\u0440\u0430\u0441\u0442\u043d\u043e\u0439 \u043a\u0440\u0435\u043c \u043b\u0438\u0444\u0442\u0438\u043d\u0433-\u044d\u0444\u0444\u0435\u043a\u0442 Collagen Moisture Essential Cream, 50 \u0433",
-          "sku": 641865461,
-          "quantity": 1,
-          "mandatory_mark": [
-            ""
-          ],
-          "currency_code": "RUB"
-        }
-      ],
-      "addressee": null,
-      "barcodes": null,
-      "analytics_data": null,
-      "financial_data": null,
-      "is_express": false,
-      "requirements": {
-        "products_requiring_gtd": [],
-        "products_requiring_country": [],
-        "products_requiring_mandatory_mark": [],
-        "products_requiring_rnpt": [],
-        "products_requiring_jw_uin": []
-      },
-      "parent_posting_number": "",
-      "available_actions": [],
-      "multi_box_qty": 1,
-      "is_multibox": false,
-      "substatus": "posting_on_way_to_city",
-      "prr_option": ""
-    },
-    {
-      "posting_number": "76370460-0076-3",
-      "order_id": 23159614636,
-      "order_number": "76370460-0076",
-      "status": "delivering",
-      "delivery_method": {
-        "id": 1020000731811000,
-        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
-        "warehouse_id": 1020000731811000,
-        "warehouse": "Fillru",
-        "tpl_provider_id": 24,
-        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
-      },
-      "tracking_number": "",
-      "tpl_integration_type": "ozon",
-      "in_process_at": "2024-03-29T18:07:44Z",
-      "shipment_date": "2024-03-30T10:00:00Z",
+      "in_process_at": "2024-03-29T13:21:22Z",
+      "shipment_date": "2024-03-30T07:00:00Z",
       "delivering_date": "2024-03-30T13:58:29Z",
       "cancellation": {
         "cancel_reason_id": 0,
@@ -383,10 +88,10 @@
       "customer": null,
       "products": [
         {
-          "price": "790.0000",
-          "offer_id": "1ELIZAVECCA\u041a\u0440\u0435\u043c\u0413\u0438\u0430\u043b\u0443\u044050\u043c\u043b1ELIZAVECCA\u041a\u0440\u0435\u043c\u0413\u0438\u0430\u043b\u0443\u044050\u043c\u043b",
-          "name": "\u0423\u0432\u043b\u0430\u0436\u043d\u044f\u044e\u0449\u0438\u0439 \u043a\u0440\u0435\u043c \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0441 \u0433\u0438\u0430\u043b\u0443\u0440\u043e\u043d\u043e\u0432\u043e\u0439 \u043a\u0438\u0441\u043b\u043e\u0442\u043e\u0439 \u041a\u043e\u0440\u0435\u044f Elizavecca, \u0430\u043d\u0442\u0438\u0432\u043e\u0437\u0440\u0430\u0441\u0442\u043d\u043e\u0439 \u043a\u0440\u0435\u043c-\u0443\u0445\u043e\u0434 Aqua Hyaluronic Acid Water Drop, 50 \u043c\u043b",
-          "sku": 643054106,
+          "price": "1148.0000",
+          "offer_id": "1ELIZAVECCA\u041c\u0430\u0441\u043a\u0430\u0413\u043b\u0438\u043d\u04301ELIZAVECCA\u041c\u0430\u0441\u043a\u0430\u0413\u043b\u0438\u043d\u0430/2",
+          "name": "\u041c\u0430\u0441\u043a\u0430 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u043e\u0447\u0438\u0449\u0430\u044e\u0449\u0430\u044f ELIZAVECCA, \u0433\u043b\u0438\u043d\u044f\u043d\u043e-\u043f\u0443\u0437\u044b\u0440\u044c\u043a\u043e\u0432\u0430\u044f \u043c\u0430\u0441\u043a\u0430 Milky Piggy Carbonated Bubble Clay Mask, 100 \u043c\u043b.",
+          "sku": 910268218,
           "quantity": 1,
           "mandatory_mark": [
             ""
@@ -414,22 +119,376 @@
       "prr_option": ""
     },
     {
-      "posting_number": "12850793-0300-2",
-      "order_id": 23066845737,
-      "order_number": "12850793-0300",
-      "status": "not_accepted",
+      "posting_number": "98468943-0012-1",
+      "order_id": 22873061103,
+      "order_number": "98468943-0012",
+      "status": "delivering",
       "delivery_method": {
-        "id": 1020000731811000,
+        "id": 1020000723158000,
         "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
-        "warehouse_id": 1020000731811000,
+        "warehouse_id": 1020000723158000,
         "warehouse": "Fillru",
         "tpl_provider_id": 24,
         "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
       },
       "tracking_number": "",
       "tpl_integration_type": "ozon",
-      "in_process_at": "2024-03-29T18:19:19Z",
-      "shipment_date": "2024-03-30T10:00:00Z",
+      "in_process_at": "2024-03-29T13:30:16Z",
+      "shipment_date": "2024-03-30T07:00:00Z",
+      "delivering_date": "2024-03-30T13:58:36Z",
+      "cancellation": {
+        "cancel_reason_id": 0,
+        "cancel_reason": "",
+        "cancellation_type": "",
+        "cancelled_after_ship": false,
+        "affect_cancellation_rating": false,
+        "cancellation_initiator": ""
+      },
+      "customer": null,
+      "products": [
+        {
+          "price": "875.0000",
+          "offer_id": "\u0422\u043e\u043d\u043a\u0440\u0435\u043cENOUGH\u0441\u0443\u043b\u0438\u0442\u043a\u043e\u043913\u0442\u043e\u043d",
+          "name": "\u0422\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0440\u0435\u043c \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0423\u0432\u043b\u0430\u0436\u043d\u044f\u044e\u0449\u0438\u0439 \u0441 \u043a\u043e\u043b\u043b\u0430\u0433\u0435\u043d\u043e\u043c, \u0441 \u043c\u0443\u0446\u0438\u043d\u043e\u043c \u0443\u043b\u0438\u0442\u043a\u0438 ENOUGH Gold Snail Moisture Foundation SPF30, \u0442\u043e\u043d 21 / \u0431\u0430\u0437\u0430 \u043f\u043e\u0434 \u043c\u0430\u043a\u0438\u044f\u0436",
+          "sku": 997183800,
+          "quantity": 1,
+          "mandatory_mark": [
+            ""
+          ],
+          "currency_code": "RUB"
+        }
+      ],
+      "addressee": null,
+      "barcodes": null,
+      "analytics_data": null,
+      "financial_data": null,
+      "is_express": false,
+      "requirements": {
+        "products_requiring_gtd": [],
+        "products_requiring_country": [],
+        "products_requiring_mandatory_mark": [],
+        "products_requiring_rnpt": [],
+        "products_requiring_jw_uin": []
+      },
+      "parent_posting_number": "",
+      "available_actions": [],
+      "multi_box_qty": 1,
+      "is_multibox": false,
+      "substatus": "posting_on_way_to_city",
+      "prr_option": ""
+    },
+    {
+      "posting_number": "59879577-0022-1",
+      "order_id": 23178404249,
+      "order_number": "59879577-0022",
+      "status": "delivering",
+      "delivery_method": {
+        "id": 1020000723158000,
+        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
+        "warehouse_id": 1020000723158000,
+        "warehouse": "Fillru",
+        "tpl_provider_id": 24,
+        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
+      },
+      "tracking_number": "",
+      "tpl_integration_type": "ozon",
+      "in_process_at": "2024-03-29T13:33:20Z",
+      "shipment_date": "2024-03-30T07:00:00Z",
+      "delivering_date": "2024-03-30T13:58:58Z",
+      "cancellation": {
+        "cancel_reason_id": 0,
+        "cancel_reason": "",
+        "cancellation_type": "",
+        "cancelled_after_ship": false,
+        "affect_cancellation_rating": false,
+        "cancellation_initiator": ""
+      },
+      "customer": null,
+      "products": [
+        {
+          "price": "1148.0000",
+          "offer_id": "1ELIZAVECCA\u041c\u0430\u0441\u043a\u0430\u0413\u043b\u0438\u043d\u04301ELIZAVECCA\u041c\u0430\u0441\u043a\u0430\u0413\u043b\u0438\u043d\u0430/2",
+          "name": "\u041c\u0430\u0441\u043a\u0430 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u043e\u0447\u0438\u0449\u0430\u044e\u0449\u0430\u044f ELIZAVECCA, \u0433\u043b\u0438\u043d\u044f\u043d\u043e-\u043f\u0443\u0437\u044b\u0440\u044c\u043a\u043e\u0432\u0430\u044f \u043c\u0430\u0441\u043a\u0430 Milky Piggy Carbonated Bubble Clay Mask, 100 \u043c\u043b.",
+          "sku": 910268218,
+          "quantity": 1,
+          "mandatory_mark": [
+            ""
+          ],
+          "currency_code": "RUB"
+        }
+      ],
+      "addressee": null,
+      "barcodes": null,
+      "analytics_data": null,
+      "financial_data": null,
+      "is_express": false,
+      "requirements": {
+        "products_requiring_gtd": [],
+        "products_requiring_country": [],
+        "products_requiring_mandatory_mark": [],
+        "products_requiring_rnpt": [],
+        "products_requiring_jw_uin": []
+      },
+      "parent_posting_number": "",
+      "available_actions": [],
+      "multi_box_qty": 1,
+      "is_multibox": false,
+      "substatus": "posting_on_way_to_city",
+      "prr_option": ""
+    },
+    {
+      "posting_number": "47311602-0109-2",
+      "order_id": 23131852802,
+      "order_number": "47311602-0109",
+      "status": "delivering",
+      "delivery_method": {
+        "id": 1020000723158000,
+        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
+        "warehouse_id": 1020000723158000,
+        "warehouse": "Fillru",
+        "tpl_provider_id": 24,
+        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
+      },
+      "tracking_number": "",
+      "tpl_integration_type": "ozon",
+      "in_process_at": "2024-03-29T15:08:28Z",
+      "shipment_date": "2024-03-30T07:00:00Z",
+      "delivering_date": "2024-03-30T13:58:30Z",
+      "cancellation": {
+        "cancel_reason_id": 0,
+        "cancel_reason": "",
+        "cancellation_type": "",
+        "cancelled_after_ship": false,
+        "affect_cancellation_rating": false,
+        "cancellation_initiator": ""
+      },
+      "customer": null,
+      "products": [
+        {
+          "price": "1148.0000",
+          "offer_id": "1ELIZAVECCA\u041c\u0430\u0441\u043a\u0430\u0413\u043b\u0438\u043d\u04301ELIZAVECCA\u041c\u0430\u0441\u043a\u0430\u0413\u043b\u0438\u043d\u0430/2",
+          "name": "\u041c\u0430\u0441\u043a\u0430 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u043e\u0447\u0438\u0449\u0430\u044e\u0449\u0430\u044f ELIZAVECCA, \u0433\u043b\u0438\u043d\u044f\u043d\u043e-\u043f\u0443\u0437\u044b\u0440\u044c\u043a\u043e\u0432\u0430\u044f \u043c\u0430\u0441\u043a\u0430 Milky Piggy Carbonated Bubble Clay Mask, 100 \u043c\u043b.",
+          "sku": 910268218,
+          "quantity": 1,
+          "mandatory_mark": [
+            ""
+          ],
+          "currency_code": "RUB"
+        }
+      ],
+      "addressee": null,
+      "barcodes": null,
+      "analytics_data": null,
+      "financial_data": null,
+      "is_express": false,
+      "requirements": {
+        "products_requiring_gtd": [],
+        "products_requiring_country": [],
+        "products_requiring_mandatory_mark": [],
+        "products_requiring_rnpt": [],
+        "products_requiring_jw_uin": []
+      },
+      "parent_posting_number": "",
+      "available_actions": [],
+      "multi_box_qty": 1,
+      "is_multibox": false,
+      "substatus": "posting_on_way_to_city",
+      "prr_option": ""
+    },
+    {
+      "posting_number": "35931774-0217-4",
+      "order_id": 23026141662,
+      "order_number": "35931774-0217",
+      "status": "delivering",
+      "delivery_method": {
+        "id": 1020000723158000,
+        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
+        "warehouse_id": 1020000723158000,
+        "warehouse": "Fillru",
+        "tpl_provider_id": 24,
+        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
+      },
+      "tracking_number": "",
+      "tpl_integration_type": "ozon",
+      "in_process_at": "2024-03-29T15:47:24Z",
+      "shipment_date": "2024-03-30T07:00:00Z",
+      "delivering_date": "2024-03-30T13:59:02Z",
+      "cancellation": {
+        "cancel_reason_id": 0,
+        "cancel_reason": "",
+        "cancellation_type": "",
+        "cancelled_after_ship": false,
+        "affect_cancellation_rating": false,
+        "cancellation_initiator": ""
+      },
+      "customer": null,
+      "products": [
+        {
+          "price": "790.0000",
+          "offer_id": "3in1 Whitening21",
+          "name": "ENOUGH \u0422\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0440\u0435\u043c \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0441 \u043a\u043e\u043b\u043b\u0430\u0433\u0435\u043d\u043e\u043c, \u0441 \u043d\u0438\u0430\u0446\u0438\u043d\u0430\u043c\u0438\u0434\u043e\u043c Collagen 3in1 Whitening Moisture Foundation SPF15, \u0442\u043e\u043d 21",
+          "sku": 979461843,
+          "quantity": 1,
+          "mandatory_mark": [
+            ""
+          ],
+          "currency_code": "RUB"
+        }
+      ],
+      "addressee": null,
+      "barcodes": null,
+      "analytics_data": null,
+      "financial_data": null,
+      "is_express": false,
+      "requirements": {
+        "products_requiring_gtd": [],
+        "products_requiring_country": [],
+        "products_requiring_mandatory_mark": [],
+        "products_requiring_rnpt": [],
+        "products_requiring_jw_uin": []
+      },
+      "parent_posting_number": "",
+      "available_actions": [],
+      "multi_box_qty": 1,
+      "is_multibox": false,
+      "substatus": "posting_on_way_to_city",
+      "prr_option": ""
+    },
+    {
+      "posting_number": "19950710-0173-1",
+      "order_id": 23222793190,
+      "order_number": "19950710-0173",
+      "status": "delivering",
+      "delivery_method": {
+        "id": 1020000723158000,
+        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
+        "warehouse_id": 1020000723158000,
+        "warehouse": "Fillru",
+        "tpl_provider_id": 24,
+        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
+      },
+      "tracking_number": "",
+      "tpl_integration_type": "ozon",
+      "in_process_at": "2024-03-29T17:40:15Z",
+      "shipment_date": "2024-03-30T07:00:00Z",
+      "delivering_date": "2024-03-30T13:59:00Z",
+      "cancellation": {
+        "cancel_reason_id": 0,
+        "cancel_reason": "",
+        "cancellation_type": "",
+        "cancelled_after_ship": false,
+        "affect_cancellation_rating": false,
+        "cancellation_initiator": ""
+      },
+      "customer": null,
+      "products": [
+        {
+          "price": "833.0000",
+          "offer_id": "1ELIZAVECCAToner\u041f\u0438\u043b\u0438\u043d\u04331ELIZAVECCAToner\u041f\u0438\u043b\u0438\u043d\u0433/2",
+          "name": "\u0422\u043e\u043d\u0435\u0440 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 Elizavecca, \u043a\u043e\u0440\u0435\u0439\u0441\u043a\u0438\u0439 \u0442\u043e\u043d\u0438\u043a \u0441 \u0444\u0440\u0443\u043a\u0442\u043e\u0432\u044b\u043c\u0438 \u043a\u0438\u0441\u043b\u043e\u0442\u0430\u043c\u0438 Hell-Pore Clean Up Aha Fruit Toner, 200 \u043c\u043b",
+          "sku": 910459861,
+          "quantity": 1,
+          "mandatory_mark": [
+            ""
+          ],
+          "currency_code": "RUB"
+        }
+      ],
+      "addressee": null,
+      "barcodes": null,
+      "analytics_data": null,
+      "financial_data": null,
+      "is_express": false,
+      "requirements": {
+        "products_requiring_gtd": [],
+        "products_requiring_country": [],
+        "products_requiring_mandatory_mark": [],
+        "products_requiring_rnpt": [],
+        "products_requiring_jw_uin": []
+      },
+      "parent_posting_number": "",
+      "available_actions": [],
+      "multi_box_qty": 1,
+      "is_multibox": false,
+      "substatus": "posting_on_way_to_city",
+      "prr_option": ""
+    },
+    {
+      "posting_number": "51287919-0058-2",
+      "order_id": 22683895999,
+      "order_number": "51287919-0058",
+      "status": "delivering",
+      "delivery_method": {
+        "id": 1020000723158000,
+        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
+        "warehouse_id": 1020000723158000,
+        "warehouse": "Fillru",
+        "tpl_provider_id": 24,
+        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
+      },
+      "tracking_number": "",
+      "tpl_integration_type": "ozon",
+      "in_process_at": "2024-03-29T18:59:42Z",
+      "shipment_date": "2024-03-30T07:00:00Z",
+      "delivering_date": "2024-03-30T13:59:01Z",
+      "cancellation": {
+        "cancel_reason_id": 0,
+        "cancel_reason": "",
+        "cancellation_type": "",
+        "cancelled_after_ship": false,
+        "affect_cancellation_rating": false,
+        "cancellation_initiator": ""
+      },
+      "customer": null,
+      "products": [
+        {
+          "price": "833.0000",
+          "offer_id": "1ELIZAVECCAToner\u041f\u0438\u043b\u0438\u043d\u04331ELIZAVECCAToner\u041f\u0438\u043b\u0438\u043d\u0433/2",
+          "name": "\u0422\u043e\u043d\u0435\u0440 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 Elizavecca, \u043a\u043e\u0440\u0435\u0439\u0441\u043a\u0438\u0439 \u0442\u043e\u043d\u0438\u043a \u0441 \u0444\u0440\u0443\u043a\u0442\u043e\u0432\u044b\u043c\u0438 \u043a\u0438\u0441\u043b\u043e\u0442\u0430\u043c\u0438 Hell-Pore Clean Up Aha Fruit Toner, 200 \u043c\u043b",
+          "sku": 910459861,
+          "quantity": 1,
+          "mandatory_mark": [
+            ""
+          ],
+          "currency_code": "RUB"
+        }
+      ],
+      "addressee": null,
+      "barcodes": null,
+      "analytics_data": null,
+      "financial_data": null,
+      "is_express": false,
+      "requirements": {
+        "products_requiring_gtd": [],
+        "products_requiring_country": [],
+        "products_requiring_mandatory_mark": [],
+        "products_requiring_rnpt": [],
+        "products_requiring_jw_uin": []
+      },
+      "parent_posting_number": "",
+      "available_actions": [],
+      "multi_box_qty": 1,
+      "is_multibox": false,
+      "substatus": "posting_on_way_to_city",
+      "prr_option": ""
+    },
+    {
+      "posting_number": "06821334-0103-1",
+      "order_id": 23072255590,
+      "order_number": "06821334-0103",
+      "status": "awaiting_packaging",
+      "delivery_method": {
+        "id": 1020000723158000,
+        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
+        "warehouse_id": 1020000723158000,
+        "warehouse": "Fillru",
+        "tpl_provider_id": 24,
+        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
+      },
+      "tracking_number": "",
+      "tpl_integration_type": "ozon",
+      "in_process_at": "2024-03-30T06:18:34Z",
+      "shipment_date": "2024-03-31T07:00:00Z",
       "delivering_date": null,
       "cancellation": {
         "cancel_reason_id": 0,
@@ -442,10 +501,10 @@
       "customer": null,
       "products": [
         {
-          "price": "643.0000",
-          "offer_id": "ENOUGHCollagenmoistureENOUGHCollagenmoisture",
-          "name": "\u0423\u0432\u043b\u0430\u0436\u043d\u044f\u044e\u0449\u0438\u0439 \u043a\u0440\u0435\u043c \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0441 \u043a\u043e\u043b\u043b\u0430\u0433\u0435\u043d\u043e\u043c Enough, \u0430\u043d\u0442\u0438\u0432\u043e\u0437\u0440\u0430\u0441\u0442\u043d\u043e\u0439 \u043a\u0440\u0435\u043c \u043b\u0438\u0444\u0442\u0438\u043d\u0433-\u044d\u0444\u0444\u0435\u043a\u0442 Collagen Moisture Essential Cream, 50 \u0433",
-          "sku": 641865461,
+          "price": "833.0000",
+          "offer_id": "1ELIZAVECCAToner\u041f\u0438\u043b\u0438\u043d\u04331ELIZAVECCAToner\u041f\u0438\u043b\u0438\u043d\u0433/2",
+          "name": "\u0422\u043e\u043d\u0435\u0440 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 Elizavecca, \u043a\u043e\u0440\u0435\u0439\u0441\u043a\u0438\u0439 \u0442\u043e\u043d\u0438\u043a \u0441 \u0444\u0440\u0443\u043a\u0442\u043e\u0432\u044b\u043c\u0438 \u043a\u0438\u0441\u043b\u043e\u0442\u0430\u043c\u0438 Hell-Pore Clean Up Aha Fruit Toner, 200 \u043c\u043b",
+          "sku": 910459861,
           "quantity": 1,
           "mandatory_mark": [
             ""
@@ -467,32 +526,34 @@
       },
       "parent_posting_number": "",
       "available_actions": [
-        "awaiting_delivery",
-        "cancel"
+        "cancel",
+        "product_cancel",
+        "ship",
+        "ship_async"
       ],
       "multi_box_qty": 1,
       "is_multibox": false,
-      "substatus": "posting_not_in_sort_center",
+      "substatus": "posting_created",
       "prr_option": ""
     },
     {
-      "posting_number": "83851531-0010-1",
-      "order_id": 22962636411,
-      "order_number": "83851531-0010",
-      "status": "delivering",
+      "posting_number": "40949349-0014-1",
+      "order_id": 23320045733,
+      "order_number": "40949349-0014",
+      "status": "awaiting_packaging",
       "delivery_method": {
-        "id": 1020000731811000,
+        "id": 1020000723158000,
         "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
-        "warehouse_id": 1020000731811000,
+        "warehouse_id": 1020000723158000,
         "warehouse": "Fillru",
         "tpl_provider_id": 24,
         "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
       },
       "tracking_number": "",
       "tpl_integration_type": "ozon",
-      "in_process_at": "2024-03-29T18:47:03Z",
-      "shipment_date": "2024-03-30T10:00:00Z",
-      "delivering_date": "2024-03-30T13:58:24Z",
+      "in_process_at": "2024-03-30T07:40:47Z",
+      "shipment_date": "2024-03-31T07:00:00Z",
+      "delivering_date": null,
       "cancellation": {
         "cancel_reason_id": 0,
         "cancel_reason": "",
@@ -504,10 +565,10 @@
       "customer": null,
       "products": [
         {
-          "price": "1100.0000",
-          "offer_id": "PROTEINPERFUMESILKBALM180ML",
-          "name": "MASIL \u0411\u0430\u043b\u044c\u0437\u0430\u043c \u0434\u043b\u044f \u0432\u043e\u043b\u043e\u0441 \u0438 \u043a\u043e\u0436\u0438 \u0433\u043e\u043b\u043e\u0432\u044b \u043f\u0430\u0440\u0444\u044e\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0441 \u043f\u0440\u043e\u0442\u0435\u0438\u043d\u0430\u043c\u0438 9 Protein Perfume Silk Balm, 180 \u043c\u043b",
-          "sku": 791572871,
+          "price": "833.0000",
+          "offer_id": "1ELIZAVECCAToner\u041f\u0438\u043b\u0438\u043d\u04331ELIZAVECCAToner\u041f\u0438\u043b\u0438\u043d\u0433/2",
+          "name": "\u0422\u043e\u043d\u0435\u0440 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 Elizavecca, \u043a\u043e\u0440\u0435\u0439\u0441\u043a\u0438\u0439 \u0442\u043e\u043d\u0438\u043a \u0441 \u0444\u0440\u0443\u043a\u0442\u043e\u0432\u044b\u043c\u0438 \u043a\u0438\u0441\u043b\u043e\u0442\u0430\u043c\u0438 Hell-Pore Clean Up Aha Fruit Toner, 200 \u043c\u043b",
+          "sku": 910459861,
           "quantity": 1,
           "mandatory_mark": [
             ""
@@ -528,29 +589,34 @@
         "products_requiring_jw_uin": []
       },
       "parent_posting_number": "",
-      "available_actions": [],
+      "available_actions": [
+        "cancel",
+        "product_cancel",
+        "ship",
+        "ship_async"
+      ],
       "multi_box_qty": 1,
       "is_multibox": false,
-      "substatus": "posting_on_way_to_city",
+      "substatus": "posting_created",
       "prr_option": ""
     },
     {
-      "posting_number": "45780167-0166-1",
-      "order_id": 22956893271,
-      "order_number": "45780167-0166",
-      "status": "not_accepted",
+      "posting_number": "47328515-0336-3",
+      "order_id": 23227343331,
+      "order_number": "47328515-0336",
+      "status": "awaiting_packaging",
       "delivery_method": {
-        "id": 1020000731811000,
+        "id": 1020000723158000,
         "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
-        "warehouse_id": 1020000731811000,
+        "warehouse_id": 1020000723158000,
         "warehouse": "Fillru",
         "tpl_provider_id": 24,
         "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
       },
       "tracking_number": "",
       "tpl_integration_type": "ozon",
-      "in_process_at": "2024-03-29T19:33:52Z",
-      "shipment_date": "2024-03-30T10:00:00Z",
+      "in_process_at": "2024-03-30T08:29:25Z",
+      "shipment_date": "2024-03-31T07:00:00Z",
       "delivering_date": null,
       "cancellation": {
         "cancel_reason_id": 0,
@@ -564,9 +630,9 @@
       "products": [
         {
           "price": "875.0000",
-          "offer_id": "EnoughRichGoldDoubleWearRadianceFoundatio/n21\u0442\u043e\u043d",
-          "name": "Enough \u0422\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0440\u0435\u043c Rich Gold Double Wear Radiance Foundation, SPF 50, 100 \u043c\u043b/100 \u0433, \u043e\u0442\u0442\u0435\u043d\u043e\u043a: 21",
-          "sku": 1292430157,
+          "offer_id": "\u0422\u043e\u043d\u043a\u0440\u0435\u043cENOUGH\u0441\u0443\u043b\u0438\u0442\u043a\u043e\u043921\u0442\u043e\u043d",
+          "name": "\u0422\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0440\u0435\u043c \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0423\u0432\u043b\u0430\u0436\u043d\u044f\u044e\u0449\u0438\u0439 \u0441 \u043a\u043e\u043b\u043b\u0430\u0433\u0435\u043d\u043e\u043c, \u0441 \u043c\u0443\u0446\u0438\u043d\u043e\u043c \u0443\u043b\u0438\u0442\u043a\u0438 ENOUGH Gold Snail Moisture Foundation SPF30, \u0442\u043e\u043d 21 / \u0431\u0430\u0437\u0430 \u043f\u043e\u0434 \u043c\u0430\u043a\u0438\u044f\u0436",
+          "sku": 997178619,
           "quantity": 1,
           "mandatory_mark": [
             ""
@@ -588,32 +654,34 @@
       },
       "parent_posting_number": "",
       "available_actions": [
-        "awaiting_delivery",
-        "cancel"
+        "cancel",
+        "product_cancel",
+        "ship",
+        "ship_async"
       ],
       "multi_box_qty": 1,
       "is_multibox": false,
-      "substatus": "posting_not_in_sort_center",
+      "substatus": "posting_created",
       "prr_option": ""
     },
     {
-      "posting_number": "0108791630-0055-1",
-      "order_id": 22750431870,
-      "order_number": "0108791630-0055",
-      "status": "delivering",
+      "posting_number": "52233293-0304-4",
+      "order_id": 22741661101,
+      "order_number": "52233293-0304",
+      "status": "awaiting_packaging",
       "delivery_method": {
-        "id": 1020000731811000,
+        "id": 1020000723158000,
         "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
-        "warehouse_id": 1020000731811000,
+        "warehouse_id": 1020000723158000,
         "warehouse": "Fillru",
         "tpl_provider_id": 24,
         "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
       },
       "tracking_number": "",
       "tpl_integration_type": "ozon",
-      "in_process_at": "2024-03-29T19:39:29Z",
-      "shipment_date": "2024-03-30T10:00:00Z",
-      "delivering_date": "2024-03-30T13:58:32Z",
+      "in_process_at": "2024-03-30T08:32:23Z",
+      "shipment_date": "2024-03-31T07:00:00Z",
+      "delivering_date": null,
       "cancellation": {
         "cancel_reason_id": 0,
         "cancel_reason": "",
@@ -625,10 +693,21 @@
       "customer": null,
       "products": [
         {
-          "price": "972.0000",
-          "offer_id": "CollagenTwoWayCake21",
-          "name": "Enough \u041a\u043e\u0440\u0435\u0439\u0441\u043a\u0430\u044f \u043c\u0430\u0442\u0438\u0440\u0443\u044e\u0449\u0430\u044f \u043c\u0438\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u0430\u044f \u043f\u0443\u0434\u0440\u0430 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0441\u043e \u0441\u043c\u0435\u043d\u043d\u044b\u043c \u0431\u043b\u043e\u043a\u043e\u043c Hydro Moisture Two Way Cake, SPF 25, \u0442\u043e\u043d 21, 13 \u0433\u0440",
-          "sku": 642734873,
+          "price": "833.0000",
+          "offer_id": "1ELIZAVECCAToner\u041f\u0438\u043b\u0438\u043d\u04331ELIZAVECCAToner\u041f\u0438\u043b\u0438\u043d\u0433/2",
+          "name": "\u0422\u043e\u043d\u0435\u0440 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 Elizavecca, \u043a\u043e\u0440\u0435\u0439\u0441\u043a\u0438\u0439 \u0442\u043e\u043d\u0438\u043a \u0441 \u0444\u0440\u0443\u043a\u0442\u043e\u0432\u044b\u043c\u0438 \u043a\u0438\u0441\u043b\u043e\u0442\u0430\u043c\u0438 Hell-Pore Clean Up Aha Fruit Toner, 200 \u043c\u043b",
+          "sku": 910459861,
+          "quantity": 1,
+          "mandatory_mark": [
+            ""
+          ],
+          "currency_code": "RUB"
+        },
+        {
+          "price": "1140.0000",
+          "offer_id": "1Etud200\u043c\u043b\u0421\u0438\u043d\u0438\u04391Etud200\u043c\u043b\u0421\u0438\u043d\u0438\u0439/2",
+          "name": "Etude \u041e\u0447\u0438\u0449\u0430\u044e\u0449\u0438\u0439 \u0441\u043a\u0440\u0430\u0431 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0441 \u0441\u043e\u0434\u043e\u0439 \u0432 \u0442\u0443\u0431\u0435 Baking Powder Crunch Pore Scrub 200 \u043c\u043b / \u043f\u0438\u043b\u0438\u043d\u0433",
+          "sku": 1060243784,
           "quantity": 1,
           "mandatory_mark": [
             ""
@@ -649,30 +728,35 @@
         "products_requiring_jw_uin": []
       },
       "parent_posting_number": "",
-      "available_actions": [],
+      "available_actions": [
+        "cancel",
+        "product_cancel",
+        "ship",
+        "ship_async"
+      ],
       "multi_box_qty": 1,
       "is_multibox": false,
-      "substatus": "posting_on_way_to_city",
+      "substatus": "posting_created",
       "prr_option": ""
     },
     {
-      "posting_number": "88006675-0014-3",
-      "order_id": 22959970019,
-      "order_number": "88006675-0014",
-      "status": "delivering",
+      "posting_number": "44440306-0092-2",
+      "order_id": 22813556898,
+      "order_number": "44440306-0092",
+      "status": "awaiting_packaging",
       "delivery_method": {
-        "id": 1020000731811000,
+        "id": 1020000723158000,
         "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
-        "warehouse_id": 1020000731811000,
+        "warehouse_id": 1020000723158000,
         "warehouse": "Fillru",
         "tpl_provider_id": 24,
         "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
       },
       "tracking_number": "",
       "tpl_integration_type": "ozon",
-      "in_process_at": "2024-03-30T06:26:02Z",
-      "shipment_date": "2024-03-30T10:00:00Z",
-      "delivering_date": "2024-03-30T13:58:57Z",
+      "in_process_at": "2024-03-30T08:43:10Z",
+      "shipment_date": "2024-03-31T07:00:00Z",
+      "delivering_date": null,
       "cancellation": {
         "cancel_reason_id": 0,
         "cancel_reason": "",
@@ -684,13 +768,12 @@
       "customer": null,
       "products": [
         {
-          "price": "942.0000",
-          "offer_id": "CollagenTwoWayCake13",
-          "name": "Enough \u041a\u043e\u0440\u0435\u0439\u0441\u043a\u0430\u044f \u043c\u0430\u0442\u0438\u0440\u0443\u044e\u0449\u0430\u044f \u043c\u0438\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u0430\u044f \u043f\u0443\u0434\u0440\u0430 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0441\u043e \u0441\u043c\u0435\u043d\u043d\u044b\u043c \u0431\u043b\u043e\u043a\u043e\u043c Hydro Moisture Two Way Cake, SPF 25, \u0442\u043e\u043d 13, 13 \u0433\u0440",
-          "sku": 643302153,
-          "quantity": 2,
+          "price": "1086.0000",
+          "offer_id": "PROTEINPERFUMESILKBALM180ML",
+          "name": "Masil \u041d\u0435\u0441\u043c\u044b\u0432\u0430\u0435\u043c\u044b\u0439 \u043a\u043e\u043d\u0446\u0435\u043d\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0431\u0430\u043b\u044c\u0437\u0430\u043c-\u0441\u044b\u0432\u043e\u0440\u043e\u0442\u043a\u0430 \u0434\u043b\u044f \u043f\u043e\u0432\u0440\u0435\u0436\u0434\u0435\u043d\u043d\u044b\u0445 \u0432\u043e\u043b\u043e\u0441, \u0441 \u043f\u0440\u043e\u0442\u0435\u0438\u043d\u0430\u043c\u0438 9 Protein Perfume Silk Balm 180 \u043c\u043b",
+          "sku": 812549033,
+          "quantity": 1,
           "mandatory_mark": [
-            "",
             ""
           ],
           "currency_code": "RUB"
@@ -709,29 +792,482 @@
         "products_requiring_jw_uin": []
       },
       "parent_posting_number": "",
-      "available_actions": [],
+      "available_actions": [
+        "cancel",
+        "product_cancel",
+        "ship",
+        "ship_async"
+      ],
       "multi_box_qty": 1,
       "is_multibox": false,
-      "substatus": "posting_on_way_to_city",
+      "substatus": "posting_created",
       "prr_option": ""
     },
     {
-      "posting_number": "15288776-0272-1",
-      "order_id": 23796492504,
-      "order_number": "15288776-0272",
+      "posting_number": "73052855-0083-1",
+      "order_id": 22998334791,
+      "order_number": "73052855-0083",
       "status": "awaiting_packaging",
       "delivery_method": {
-        "id": 1020000731811000,
+        "id": 1020000723158000,
         "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
-        "warehouse_id": 1020000731811000,
+        "warehouse_id": 1020000723158000,
         "warehouse": "Fillru",
         "tpl_provider_id": 24,
         "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
       },
       "tracking_number": "",
       "tpl_integration_type": "ozon",
-      "in_process_at": "2024-03-30T12:11:59Z",
-      "shipment_date": "2024-03-31T10:00:00Z",
+      "in_process_at": "2024-03-30T09:12:41Z",
+      "shipment_date": "2024-03-31T07:00:00Z",
+      "delivering_date": null,
+      "cancellation": {
+        "cancel_reason_id": 0,
+        "cancel_reason": "",
+        "cancellation_type": "",
+        "cancelled_after_ship": false,
+        "affect_cancellation_rating": false,
+        "cancellation_initiator": ""
+      },
+      "customer": null,
+      "products": [
+        {
+          "price": "833.0000",
+          "offer_id": "1ELIZAVECCAToner\u041f\u0438\u043b\u0438\u043d\u04331ELIZAVECCAToner\u041f\u0438\u043b\u0438\u043d\u0433/2",
+          "name": "\u0422\u043e\u043d\u0435\u0440 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 Elizavecca, \u043a\u043e\u0440\u0435\u0439\u0441\u043a\u0438\u0439 \u0442\u043e\u043d\u0438\u043a \u0441 \u0444\u0440\u0443\u043a\u0442\u043e\u0432\u044b\u043c\u0438 \u043a\u0438\u0441\u043b\u043e\u0442\u0430\u043c\u0438 Hell-Pore Clean Up Aha Fruit Toner, 200 \u043c\u043b",
+          "sku": 910459861,
+          "quantity": 1,
+          "mandatory_mark": [
+            ""
+          ],
+          "currency_code": "RUB"
+        }
+      ],
+      "addressee": null,
+      "barcodes": null,
+      "analytics_data": null,
+      "financial_data": null,
+      "is_express": false,
+      "requirements": {
+        "products_requiring_gtd": [],
+        "products_requiring_country": [],
+        "products_requiring_mandatory_mark": [],
+        "products_requiring_rnpt": [],
+        "products_requiring_jw_uin": []
+      },
+      "parent_posting_number": "",
+      "available_actions": [
+        "cancel",
+        "product_cancel",
+        "ship",
+        "ship_async"
+      ],
+      "multi_box_qty": 1,
+      "is_multibox": false,
+      "substatus": "posting_created",
+      "prr_option": ""
+    },
+    {
+      "posting_number": "0106305326-0844-6",
+      "order_id": 23175675934,
+      "order_number": "0106305326-0844",
+      "status": "awaiting_packaging",
+      "delivery_method": {
+        "id": 1020000723158000,
+        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
+        "warehouse_id": 1020000723158000,
+        "warehouse": "Fillru",
+        "tpl_provider_id": 24,
+        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
+      },
+      "tracking_number": "",
+      "tpl_integration_type": "ozon",
+      "in_process_at": "2024-03-30T09:42:12Z",
+      "shipment_date": "2024-03-31T07:00:00Z",
+      "delivering_date": null,
+      "cancellation": {
+        "cancel_reason_id": 0,
+        "cancel_reason": "",
+        "cancellation_type": "",
+        "cancelled_after_ship": false,
+        "affect_cancellation_rating": false,
+        "cancellation_initiator": ""
+      },
+      "customer": null,
+      "products": [
+        {
+          "price": "833.0000",
+          "offer_id": "1ELIZAVECCAToner\u041f\u0438\u043b\u0438\u043d\u04331ELIZAVECCAToner\u041f\u0438\u043b\u0438\u043d\u0433/2",
+          "name": "\u0422\u043e\u043d\u0435\u0440 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 Elizavecca, \u043a\u043e\u0440\u0435\u0439\u0441\u043a\u0438\u0439 \u0442\u043e\u043d\u0438\u043a \u0441 \u0444\u0440\u0443\u043a\u0442\u043e\u0432\u044b\u043c\u0438 \u043a\u0438\u0441\u043b\u043e\u0442\u0430\u043c\u0438 Hell-Pore Clean Up Aha Fruit Toner, 200 \u043c\u043b",
+          "sku": 910459861,
+          "quantity": 1,
+          "mandatory_mark": [
+            ""
+          ],
+          "currency_code": "RUB"
+        }
+      ],
+      "addressee": null,
+      "barcodes": null,
+      "analytics_data": null,
+      "financial_data": null,
+      "is_express": false,
+      "requirements": {
+        "products_requiring_gtd": [],
+        "products_requiring_country": [],
+        "products_requiring_mandatory_mark": [],
+        "products_requiring_rnpt": [],
+        "products_requiring_jw_uin": []
+      },
+      "parent_posting_number": "",
+      "available_actions": [
+        "cancel",
+        "product_cancel",
+        "ship",
+        "ship_async"
+      ],
+      "multi_box_qty": 1,
+      "is_multibox": false,
+      "substatus": "posting_created",
+      "prr_option": ""
+    },
+    {
+      "posting_number": "31512958-0449-6",
+      "order_id": 22990296526,
+      "order_number": "31512958-0449",
+      "status": "awaiting_packaging",
+      "delivery_method": {
+        "id": 1020000723158000,
+        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
+        "warehouse_id": 1020000723158000,
+        "warehouse": "Fillru",
+        "tpl_provider_id": 24,
+        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
+      },
+      "tracking_number": "",
+      "tpl_integration_type": "ozon",
+      "in_process_at": "2024-03-30T11:11:48Z",
+      "shipment_date": "2024-03-31T07:00:00Z",
+      "delivering_date": null,
+      "cancellation": {
+        "cancel_reason_id": 0,
+        "cancel_reason": "",
+        "cancellation_type": "",
+        "cancelled_after_ship": false,
+        "affect_cancellation_rating": false,
+        "cancellation_initiator": ""
+      },
+      "customer": null,
+      "products": [
+        {
+          "price": "1152.0000",
+          "offer_id": "PROTEINPERFUMESILKBALM180ML",
+          "name": "Masil \u041d\u0435\u0441\u043c\u044b\u0432\u0430\u0435\u043c\u044b\u0439 \u043a\u043e\u043d\u0446\u0435\u043d\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0431\u0430\u043b\u044c\u0437\u0430\u043c-\u0441\u044b\u0432\u043e\u0440\u043e\u0442\u043a\u0430 \u0434\u043b\u044f \u043f\u043e\u0432\u0440\u0435\u0436\u0434\u0435\u043d\u043d\u044b\u0445 \u0432\u043e\u043b\u043e\u0441, \u0441 \u043f\u0440\u043e\u0442\u0435\u0438\u043d\u0430\u043c\u0438 9 Protein Perfume Silk Balm 180 \u043c\u043b",
+          "sku": 812549033,
+          "quantity": 1,
+          "mandatory_mark": [
+            ""
+          ],
+          "currency_code": "RUB"
+        }
+      ],
+      "addressee": null,
+      "barcodes": null,
+      "analytics_data": null,
+      "financial_data": null,
+      "is_express": false,
+      "requirements": {
+        "products_requiring_gtd": [],
+        "products_requiring_country": [],
+        "products_requiring_mandatory_mark": [],
+        "products_requiring_rnpt": [],
+        "products_requiring_jw_uin": []
+      },
+      "parent_posting_number": "",
+      "available_actions": [
+        "cancel",
+        "product_cancel",
+        "ship",
+        "ship_async"
+      ],
+      "multi_box_qty": 1,
+      "is_multibox": false,
+      "substatus": "posting_created",
+      "prr_option": ""
+    },
+    {
+      "posting_number": "61166531-0195-1",
+      "order_id": 22887455059,
+      "order_number": "61166531-0195",
+      "status": "awaiting_packaging",
+      "delivery_method": {
+        "id": 1020000723158000,
+        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
+        "warehouse_id": 1020000723158000,
+        "warehouse": "Fillru",
+        "tpl_provider_id": 24,
+        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
+      },
+      "tracking_number": "",
+      "tpl_integration_type": "ozon",
+      "in_process_at": "2024-03-30T20:34:05Z",
+      "shipment_date": "2024-03-31T07:00:00Z",
+      "delivering_date": null,
+      "cancellation": {
+        "cancel_reason_id": 0,
+        "cancel_reason": "",
+        "cancellation_type": "",
+        "cancelled_after_ship": false,
+        "affect_cancellation_rating": false,
+        "cancellation_initiator": ""
+      },
+      "customer": null,
+      "products": [
+        {
+          "price": "1148.0000",
+          "offer_id": "1ELIZAVECCA\u041c\u0430\u0441\u043a\u0430\u0413\u043b\u0438\u043d\u04301ELIZAVECCA\u041c\u0430\u0441\u043a\u0430\u0413\u043b\u0438\u043d\u0430/2",
+          "name": "\u041c\u0430\u0441\u043a\u0430 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u043e\u0447\u0438\u0449\u0430\u044e\u0449\u0430\u044f ELIZAVECCA, \u0433\u043b\u0438\u043d\u044f\u043d\u043e-\u043f\u0443\u0437\u044b\u0440\u044c\u043a\u043e\u0432\u0430\u044f \u043c\u0430\u0441\u043a\u0430 Milky Piggy Carbonated Bubble Clay Mask, 100 \u043c\u043b.",
+          "sku": 910268218,
+          "quantity": 1,
+          "mandatory_mark": [
+            ""
+          ],
+          "currency_code": "RUB"
+        }
+      ],
+      "addressee": null,
+      "barcodes": null,
+      "analytics_data": null,
+      "financial_data": null,
+      "is_express": false,
+      "requirements": {
+        "products_requiring_gtd": [],
+        "products_requiring_country": [],
+        "products_requiring_mandatory_mark": [],
+        "products_requiring_rnpt": [],
+        "products_requiring_jw_uin": []
+      },
+      "parent_posting_number": "",
+      "available_actions": [
+        "cancel",
+        "product_cancel",
+        "ship",
+        "ship_async"
+      ],
+      "multi_box_qty": 1,
+      "is_multibox": false,
+      "substatus": "posting_created",
+      "prr_option": ""
+    },
+    {
+      "posting_number": "25475494-0452-3",
+      "order_id": 22884776566,
+      "order_number": "25475494-0452",
+      "status": "awaiting_packaging",
+      "delivery_method": {
+        "id": 1020000723158000,
+        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
+        "warehouse_id": 1020000723158000,
+        "warehouse": "Fillru",
+        "tpl_provider_id": 24,
+        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
+      },
+      "tracking_number": "",
+      "tpl_integration_type": "ozon",
+      "in_process_at": "2024-03-30T20:44:31Z",
+      "shipment_date": "2024-03-31T07:00:00Z",
+      "delivering_date": null,
+      "cancellation": {
+        "cancel_reason_id": 0,
+        "cancel_reason": "",
+        "cancellation_type": "",
+        "cancelled_after_ship": false,
+        "affect_cancellation_rating": false,
+        "cancellation_initiator": ""
+      },
+      "customer": null,
+      "products": [
+        {
+          "price": "780.0000",
+          "offer_id": "AquaHyaluronicAcidWaterDrop",
+          "name": "ELIZAVECCA \u041a\u0440\u0435\u043c \u0443\u0432\u043b\u0430\u0436\u043d\u044f\u044e\u0449\u0438\u0439 \u043a\u043e\u0440\u0435\u0439\u0441\u043a\u0438\u0439 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0413\u0418\u0410\u041b\u0423\u0420\u041e\u041d\u041e\u0412\u0410\u042f \u041a\u0418\u0421\u041b\u041e\u0422\u0410 Aqua Hyaluronic Acid Water Drop, \u0434\u043b\u044f \u043d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u043e\u0439 \u0438 \u0441\u0443\u0445\u043e\u0439 \u043a\u043e\u0436\u0438, \u0434\u043d\u0435\u0432\u043d\u043e\u0439 \u0438 \u0432\u0435\u0447\u0435\u0440\u043d\u0438\u0439 \u0443\u0445\u043e\u0434, \u041a\u043e\u0440\u0435\u044f - 50 \u043c\u043b",
+          "sku": 1468975543,
+          "quantity": 1,
+          "mandatory_mark": [
+            ""
+          ],
+          "currency_code": "RUB"
+        }
+      ],
+      "addressee": null,
+      "barcodes": null,
+      "analytics_data": null,
+      "financial_data": null,
+      "is_express": false,
+      "requirements": {
+        "products_requiring_gtd": [],
+        "products_requiring_country": [],
+        "products_requiring_mandatory_mark": [],
+        "products_requiring_rnpt": [],
+        "products_requiring_jw_uin": []
+      },
+      "parent_posting_number": "",
+      "available_actions": [
+        "cancel",
+        "product_cancel",
+        "ship",
+        "ship_async"
+      ],
+      "multi_box_qty": 1,
+      "is_multibox": false,
+      "substatus": "posting_created",
+      "prr_option": ""
+    },
+    {
+      "posting_number": "33120720-0098-1",
+      "order_id": 22973060464,
+      "order_number": "33120720-0098",
+      "status": "awaiting_packaging",
+      "delivery_method": {
+        "id": 1020000723158000,
+        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
+        "warehouse_id": 1020000723158000,
+        "warehouse": "Fillru",
+        "tpl_provider_id": 24,
+        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
+      },
+      "tracking_number": "",
+      "tpl_integration_type": "ozon",
+      "in_process_at": "2024-03-31T02:44:35Z",
+      "shipment_date": "2024-03-31T07:00:00Z",
+      "delivering_date": null,
+      "cancellation": {
+        "cancel_reason_id": 0,
+        "cancel_reason": "",
+        "cancellation_type": "",
+        "cancelled_after_ship": false,
+        "affect_cancellation_rating": false,
+        "cancellation_initiator": ""
+      },
+      "customer": null,
+      "products": [
+        {
+          "price": "780.0000",
+          "offer_id": "AquaHyaluronicAcidWaterDrop",
+          "name": "ELIZAVECCA \u041a\u0440\u0435\u043c \u0443\u0432\u043b\u0430\u0436\u043d\u044f\u044e\u0449\u0438\u0439 \u043a\u043e\u0440\u0435\u0439\u0441\u043a\u0438\u0439 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0413\u0418\u0410\u041b\u0423\u0420\u041e\u041d\u041e\u0412\u0410\u042f \u041a\u0418\u0421\u041b\u041e\u0422\u0410 Aqua Hyaluronic Acid Water Drop, \u0434\u043b\u044f \u043d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u043e\u0439 \u0438 \u0441\u0443\u0445\u043e\u0439 \u043a\u043e\u0436\u0438, \u0434\u043d\u0435\u0432\u043d\u043e\u0439 \u0438 \u0432\u0435\u0447\u0435\u0440\u043d\u0438\u0439 \u0443\u0445\u043e\u0434, \u041a\u043e\u0440\u0435\u044f - 50 \u043c\u043b",
+          "sku": 1468975543,
+          "quantity": 1,
+          "mandatory_mark": [
+            ""
+          ],
+          "currency_code": "RUB"
+        }
+      ],
+      "addressee": null,
+      "barcodes": null,
+      "analytics_data": null,
+      "financial_data": null,
+      "is_express": false,
+      "requirements": {
+        "products_requiring_gtd": [],
+        "products_requiring_country": [],
+        "products_requiring_mandatory_mark": [],
+        "products_requiring_rnpt": [],
+        "products_requiring_jw_uin": []
+      },
+      "parent_posting_number": "",
+      "available_actions": [
+        "cancel",
+        "product_cancel",
+        "ship",
+        "ship_async"
+      ],
+      "multi_box_qty": 1,
+      "is_multibox": false,
+      "substatus": "posting_created",
+      "prr_option": ""
+    },
+    {
+      "posting_number": "17478533-0347-1",
+      "order_id": 23193994997,
+      "order_number": "17478533-0347",
+      "status": "awaiting_packaging",
+      "delivery_method": {
+        "id": 1020000723158000,
+        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
+        "warehouse_id": 1020000723158000,
+        "warehouse": "Fillru",
+        "tpl_provider_id": 24,
+        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
+      },
+      "tracking_number": "",
+      "tpl_integration_type": "ozon",
+      "in_process_at": "2024-03-31T04:48:12Z",
+      "shipment_date": "2024-03-31T07:00:00Z",
+      "delivering_date": null,
+      "cancellation": {
+        "cancel_reason_id": 0,
+        "cancel_reason": "",
+        "cancellation_type": "",
+        "cancelled_after_ship": false,
+        "affect_cancellation_rating": false,
+        "cancellation_initiator": ""
+      },
+      "customer": null,
+      "products": [
+        {
+          "price": "780.0000",
+          "offer_id": "AquaHyaluronicAcidWaterDrop",
+          "name": "ELIZAVECCA \u041a\u0440\u0435\u043c \u0443\u0432\u043b\u0430\u0436\u043d\u044f\u044e\u0449\u0438\u0439 \u043a\u043e\u0440\u0435\u0439\u0441\u043a\u0438\u0439 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0413\u0418\u0410\u041b\u0423\u0420\u041e\u041d\u041e\u0412\u0410\u042f \u041a\u0418\u0421\u041b\u041e\u0422\u0410 Aqua Hyaluronic Acid Water Drop, \u0434\u043b\u044f \u043d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u043e\u0439 \u0438 \u0441\u0443\u0445\u043e\u0439 \u043a\u043e\u0436\u0438, \u0434\u043d\u0435\u0432\u043d\u043e\u0439 \u0438 \u0432\u0435\u0447\u0435\u0440\u043d\u0438\u0439 \u0443\u0445\u043e\u0434, \u041a\u043e\u0440\u0435\u044f - 50 \u043c\u043b",
+          "sku": 1468975543,
+          "quantity": 1,
+          "mandatory_mark": [
+            ""
+          ],
+          "currency_code": "RUB"
+        }
+      ],
+      "addressee": null,
+      "barcodes": null,
+      "analytics_data": null,
+      "financial_data": null,
+      "is_express": false,
+      "requirements": {
+        "products_requiring_gtd": [],
+        "products_requiring_country": [],
+        "products_requiring_mandatory_mark": [],
+        "products_requiring_rnpt": [],
+        "products_requiring_jw_uin": []
+      },
+      "parent_posting_number": "",
+      "available_actions": [
+        "cancel",
+        "product_cancel",
+        "ship",
+        "ship_async"
+      ],
+      "multi_box_qty": 1,
+      "is_multibox": false,
+      "substatus": "posting_created",
+      "prr_option": ""
+    },
+    {
+      "posting_number": "40725879-0067-2",
+      "order_id": 23014133447,
+      "order_number": "40725879-0067",
+      "status": "awaiting_packaging",
+      "delivery_method": {
+        "id": 1020000723158000,
+        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
+        "warehouse_id": 1020000723158000,
+        "warehouse": "Fillru",
+        "tpl_provider_id": 24,
+        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
+      },
+      "tracking_number": "",
+      "tpl_integration_type": "ozon",
+      "in_process_at": "2024-03-31T06:00:18Z",
+      "shipment_date": "2024-04-01T07:00:00Z",
       "delivering_date": null,
       "cancellation": {
         "cancel_reason_id": 0,
@@ -745,137 +1281,9 @@
       "products": [
         {
           "price": "1140.0000",
-          "offer_id": "1Etud200\u043c\u043b\u0421\u0438\u043d\u0438\u04391Etud200\u043c\u043b\u0421\u0438\u043d\u0438\u0439",
-          "name": "Etude House \u041e\u0447\u0438\u0449\u0430\u044e\u0449\u0438\u0439 \u0441\u043a\u0440\u0430\u0431 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0441 \u0441\u043e\u0434\u043e\u0439 \u0432 \u0442\u0443\u0431\u0435 Baking Powder Crunch Pore Scrub 200 \u043c\u043b / \u043f\u0438\u043b\u0438\u043d\u0433",
-          "sku": 642876378,
-          "quantity": 1,
-          "mandatory_mark": [
-            ""
-          ],
-          "currency_code": "RUB"
-        }
-      ],
-      "addressee": null,
-      "barcodes": null,
-      "analytics_data": null,
-      "financial_data": null,
-      "is_express": false,
-      "requirements": {
-        "products_requiring_gtd": [],
-        "products_requiring_country": [],
-        "products_requiring_mandatory_mark": [],
-        "products_requiring_rnpt": [],
-        "products_requiring_jw_uin": []
-      },
-      "parent_posting_number": "",
-      "available_actions": [
-        "cancel",
-        "product_cancel",
-        "ship",
-        "ship_async"
-      ],
-      "multi_box_qty": 1,
-      "is_multibox": false,
-      "substatus": "posting_created",
-      "prr_option": ""
-    },
-    {
-      "posting_number": "49503050-0285-1",
-      "order_id": 23162686986,
-      "order_number": "49503050-0285",
-      "status": "awaiting_packaging",
-      "delivery_method": {
-        "id": 1020000731811000,
-        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
-        "warehouse_id": 1020000731811000,
-        "warehouse": "Fillru",
-        "tpl_provider_id": 24,
-        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
-      },
-      "tracking_number": "",
-      "tpl_integration_type": "ozon",
-      "in_process_at": "2024-03-30T12:31:34Z",
-      "shipment_date": "2024-03-31T10:00:00Z",
-      "delivering_date": null,
-      "cancellation": {
-        "cancel_reason_id": 0,
-        "cancel_reason": "",
-        "cancellation_type": "",
-        "cancelled_after_ship": false,
-        "affect_cancellation_rating": false,
-        "cancellation_initiator": ""
-      },
-      "customer": null,
-      "products": [
-        {
-          "price": "735.0000",
-          "offer_id": "1Enough13\u0422\u043e\u043d1Enough13\u0422\u043e\u043d",
-          "name": "\u0422\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0440\u0435\u043c \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0443\u0432\u043b\u0430\u0436\u043d\u044f\u044e\u0449\u0438\u0439 \u0441 \u043a\u043e\u043b\u043b\u0430\u0433\u0435\u043d\u043e\u043c ENOUGH Collagen Moisture Foundation SPF 15, \u0442\u043e\u043d 13",
-          "sku": 642156175,
-          "quantity": 1,
-          "mandatory_mark": [
-            ""
-          ],
-          "currency_code": "RUB"
-        }
-      ],
-      "addressee": null,
-      "barcodes": null,
-      "analytics_data": null,
-      "financial_data": null,
-      "is_express": false,
-      "requirements": {
-        "products_requiring_gtd": [],
-        "products_requiring_country": [],
-        "products_requiring_mandatory_mark": [],
-        "products_requiring_rnpt": [],
-        "products_requiring_jw_uin": []
-      },
-      "parent_posting_number": "",
-      "available_actions": [
-        "cancel",
-        "product_cancel",
-        "ship",
-        "ship_async"
-      ],
-      "multi_box_qty": 1,
-      "is_multibox": false,
-      "substatus": "posting_created",
-      "prr_option": ""
-    },
-    {
-      "posting_number": "03864056-0286-2",
-      "order_id": 23023445624,
-      "order_number": "03864056-0286",
-      "status": "awaiting_packaging",
-      "delivery_method": {
-        "id": 1020000731811000,
-        "name": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e, \u041c\u043e\u0441\u043a\u0432\u0430",
-        "warehouse_id": 1020000731811000,
-        "warehouse": "Fillru",
-        "tpl_provider_id": 24,
-        "tpl_provider": "\u0414\u043e\u0441\u0442\u0430\u0432\u043a\u0430 Ozon"
-      },
-      "tracking_number": "",
-      "tpl_integration_type": "ozon",
-      "in_process_at": "2024-03-30T14:03:53Z",
-      "shipment_date": "2024-03-31T10:00:00Z",
-      "delivering_date": null,
-      "cancellation": {
-        "cancel_reason_id": 0,
-        "cancel_reason": "",
-        "cancellation_type": "",
-        "cancelled_after_ship": false,
-        "affect_cancellation_rating": false,
-        "cancellation_initiator": ""
-      },
-      "customer": null,
-      "products": [
-        {
-          "price": "651.0000",
-          "offer_id": "1Enough21\u0422\u043e\u043d1Enough21\u0422\u043e\u043d21",
-          "name": "\u0422\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0440\u0435\u043c \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0443\u0432\u043b\u0430\u0436\u043d\u044f\u044e\u0449\u0438\u0439 \u0441 \u043a\u043e\u043b\u043b\u0430\u0433\u0435\u043d\u043e\u043c ENOUGH Collagen Moisture Foundation SPF 15, \u0442\u043e\u043d 21 / \u0431\u0430\u0437\u0430 \u043f\u043e\u0434 \u043c\u0430\u043a\u0438\u044f\u0436",
-          "sku": 641881724,
+          "offer_id": "1Etud200\u043c\u043b\u0421\u0438\u043d\u0438\u04391Etud200\u043c\u043b\u0421\u0438\u043d\u0438\u0439/2",
+          "name": "Etude \u041e\u0447\u0438\u0449\u0430\u044e\u0449\u0438\u0439 \u0441\u043a\u0440\u0430\u0431 \u0434\u043b\u044f \u043b\u0438\u0446\u0430 \u0441 \u0441\u043e\u0434\u043e\u0439 \u0432 \u0442\u0443\u0431\u0435 Baking Powder Crunch Pore Scrub 200 \u043c\u043b / \u043f\u0438\u043b\u0438\u043d\u0433",
+          "sku": 1060243784,
           "quantity": 1,
           "mandatory_mark": [
             ""
@@ -908,5 +1316,5 @@
       "prr_option": ""
     }
   ],
-  "count": 15
+  "count": 21
 }
