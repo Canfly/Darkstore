@@ -176,6 +176,6 @@ def attach_pdfs_to_shipment(shipment_id, files):
 def generate_mini_pdf(code, text, name):
     marketplace_code = 'OZN' + code
     marketplace_code = barcode.codex.Code128(marketplace_code)
-    marketplace_code = marketplace_code.save('svg/OZN' + code, {'module_height': 15, 'font_size': 5},
-                                             text='OZN' + code + '\n' + text)
-    cairosvg.svg2pdf(url=f'svg/OZN{code}.svg', write_to=f'minipdfs/OZN{code}.pdf', output_width=40, output_height=30)
+    marketplace_code = marketplace_code.save('svg/OZN' + code, {'module_height': 15, 'font_size': 5,'text_distance':3},
+                                             text='OZN' + code)
+    cairosvg.svg2pdf(url=f'svg/OZN{code}.svg', write_to=f'minipdfs/OZN{code}.pdf', output_width=151, output_height=114)
