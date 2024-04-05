@@ -22,9 +22,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-y_p4no0k0fqox0b0#l3#xvh$h@n)p4klo13ns))%9kw4x76sr4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['beta.app.fillru.ru']
 
 # Application definition
 
@@ -114,7 +114,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'
 
 TIME_ZONE = 'UTC'
 
@@ -126,7 +126,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_ROOT = BASE_DIR / 'staticfiles/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static'),
 ]
@@ -152,3 +152,8 @@ CELERY_BEAT_SCHEDULE = {
 
 LOGIN_REDIRECT_URL = "/shipments"
 LOGOUT_REDIRECT_URL = "/login"
+
+CSRF_TRUSTED_ORIGINS = [
+         'https://beta.app.fillru.ru',
+]
+

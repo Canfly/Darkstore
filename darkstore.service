@@ -1,0 +1,12 @@
+[Unit]
+Description=Canfly Darkstore Razgon
+After=network.target
+
+[Service]
+User=tk
+Group=tk
+WorkingDirectory=/home/tk/Dark
+ExecStart=/usr/bin/python manage.py runserver 127.0.0.1:8000
+
+[Install]
+WantedBy=multi-user.target
