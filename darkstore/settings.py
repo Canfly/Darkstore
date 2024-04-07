@@ -22,9 +22,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-y_p4no0k0fqox0b0#l3#xvh$h@n)p4klo13ns))%9kw4x76sr4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['beta.app.fillru.ru']
+ALLOWED_HOSTS = ['beta.app.fillru.ru','127.0.0.1']
 
 # Application definition
 
@@ -141,12 +141,12 @@ from datetime import datetime
 
 CELERY_BEAT_SCHEDULE = {
     'sync_products_shedule': {
-        'task': 'packaging.tasks.sync_products',
-        'schedule': 3600
+        'task': 'packaging.tasks.call_sync_products',
+        'schedule': crontab(minute=0,hour='*/1'),
     },
     'sync_stocks_shedule': {
-        'task': 'packaging.tasks.update_stocks',
-        'schedule': 3600
+        'task': 'packaging.tasks.call_update_stocks',
+        'schedule': crontab(minute=0,hour='*/1'),
     },
 }
 
