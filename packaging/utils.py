@@ -17,21 +17,23 @@ def get_access_token():
 
 def add_shipment_to_payload(payload, shipment):
     payload["moment"] = str(shipment.shipment_date.replace(tzinfo=None))
-    for product in shipment.products.all():
+    amts = list(map(int, shipment.products_amounts.split('\n')))
+    products = shipment.products.all()
+    for i in range(len(products)):
         product_payload = {
-            "quantity": 1,
+            "quantity": amts[i],
             "price": 0,
             "assortment": {
                 "meta": {
-                    "href": f"https://api.moysklad.ru/api/remap/1.2/entity/product/{product.moysklad_id}",
+                    "href": f"https://api.moysklad.ru/api/remap/1.2/entity/product/{products[i].moysklad_id}",
                     "metadataHref": "https://api.moysklad.ru/api/remap/1.2/entity/product/metadata",
                     "type": "product",
                     "mediaType": "application/json",
-                    "uuidHref": f"https://online.moysklad.ru/app/#product/edit?id={product.moysklad_id}"}}}
+                    "uuidHref": f"https://online.moysklad.ru/app/#product/edit?id={products[i].moysklad_id}"}}}
         in_payload = False
         for iter_product in payload["positions"]:
             if product_payload["assortment"] == iter_product["assortment"]:
-                iter_product["quantity"] += 1
+                iter_product["quantity"] += amts[i]
                 in_payload = True
                 break
         if not in_payload:
@@ -131,6 +133,7 @@ def add_shipment_from_api(user, data):
     products = Product.objects.filter(owner=user)
     shipment.seller = user
     shipment.save()
+    shipment.products_amounts = ''
     shipment.products_codes128 = ''
     shipment.products_skus = ''
     for shipment_product in data['products']:
@@ -140,6 +143,7 @@ def add_shipment_from_api(user, data):
                     shipment.products.add(db_product)
                     shipment.products_codes128 += article.code + '\n'
                     shipment.products_skus += str(shipment_product["sku"]) + '\n'
+                    shipment.products_amounts += str(shipment_product["quantity"]) + '\n'
                     generate_mini_pdf(str(shipment_product["sku"]), shipment_product['offer_id'],
                                       shipment_product['offer_id'])
                     break

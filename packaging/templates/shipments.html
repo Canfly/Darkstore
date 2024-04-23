@@ -10,6 +10,7 @@
                     <th>Номер отгрузки</th>
                     <th>Товары</th>
                     <th>Артикулы</th>
+                    <th>Количества</th>
                     <th>Продавец</th>
                     <th>Дата отгрузки</th>
                     <th>Статус</th>
@@ -25,6 +26,7 @@
                     </td>
                     {% endfor %}
                     <td>{{shipment.products_codes128}}</td>
+                    <td>{{shipment.products_amounts}}</td>
                     <td>{{ shipment.seller.user.first_name }} {{shipment.seller.user.last_name}}</td>
                     <td>{{ shipment.shipment_date }}</td>
                     <td> {{shipment.status}}</td>

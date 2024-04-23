@@ -58,6 +58,7 @@ class Shipment(models.Model):
     minipdf = models.CharField(max_length=255, blank=True, null=True)
     comment = models.TextField(blank=True, null=True)
     products_codes128 = models.TextField()
+    products_amounts = models.TextField(blank=True,null=True)
     products_skus = models.TextField(blank=True,null=True)
 
     def __str__(self):

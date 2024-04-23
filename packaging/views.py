@@ -194,7 +194,7 @@ def update_shipments(request):
 
 def shipments(request):
     user = CustomUser.objects.filter(user=request.user).first()
-    shipments = Shipment.objects.filter(seller=user).order_by('shipment_date')
+    shipments = Shipment.objects.filter(seller=user, shipment_date__date=datetime.now().date()).order_by('shipment_date')
     return render(request, 'shipments.html', {'shipments': shipments})
 
 
