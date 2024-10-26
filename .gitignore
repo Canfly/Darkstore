@@ -5,6 +5,7 @@ env/
 *.pyc
 # Локальные настройки
 .env
+.dark
 # База данных
 db.sqlite3
 # Медиафайлы
@@ -95,3 +96,5 @@ lib/python3.*/site-packages/
 *.7z
 # Файлы скомпилированных пакетов
 *.zipx
+db.sqlite3
+db.sqlite3

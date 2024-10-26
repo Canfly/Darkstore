@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-y_p4no0k0fqox0b0#l3#xvh$h@n)p4klo13ns))%9kw4x76sr4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['beta.app.fillru.ru','127.0.0.1']
+ALLOWED_HOSTS = ['darkstore.canfly.org', '127.0.0.1']
 
 # Application definition
 
@@ -95,20 +95,7 @@ DATABASES = {
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
-AUTH_PASSWORD_VALIDATORS = [
-    {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
-    },
-]
+AUTH_PASSWORD_VALIDATORS = []
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
